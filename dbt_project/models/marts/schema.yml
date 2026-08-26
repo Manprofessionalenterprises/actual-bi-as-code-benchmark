@@ -1,0 +1,77 @@
+version: 2
+
+models:
+  - name: fct_placements
+    description: "Table de faits synthétisant l'ensemble des placements et heures travaillées des intérimaires"
+    columns:
+      - name: mission_id
+        description: "Identifiant unique de la mission"
+      - name: intitule_mission
+        description: "Intitulé du poste"
+      - name: statut
+        description: "Statut de la mission (Terminée, En cours, Annulée)"
+      - name: nom_agence
+        description: "Nom de l'agence d'intérim"
+      - name: agence_region
+        description: "Région géographique de l'agence"
+      - name: client_nom
+        description: "Nom de l'entreprise cliente"
+      - name: client_secteur
+        description: "Secteur d'activité du client"
+      - name: candidat_nom_complet
+        description: "Nom et prénom de l'intérimaire"
+      - name: candidat_metier
+        description: "Métier du candidat"
+      - name: chiffre_affaires
+        description: "Montant total facturé pour la mission (€)"
+        meta:
+          metrics:
+            total_chiffre_affaires:
+              type: sum
+              label: "Chiffre d'Affaires Total (€)"
+              format: "eur"
+            ca_moyen_par_mission:
+              type: average
+              label: "CA Moyen par Mission (€)"
+              format: "eur"
+      - name: marge_brute
+        description: "Marge brute réalisée sur la mission (€)"
+        meta:
+          metrics:
+            total_marge_brute:
+              type: sum
+              label: "Marge Brute Totale (€)"
+              format: "eur"
+      - name: heures_effectuees
+        description: "Nombre d'heures travaillées"
+        meta:
+          metrics:
+            total_heures:
+              type: sum
+              label: "Total Heures Effectuées"
+      - name: mission_id
+        meta:
+          metrics:
+            nombre_placements:
+              type: count_distinct
+              label: "Nombre de Placements"
+
+  - name: dim_agences
+    description: "Dimension des agences du réseau"
+    columns:
+      - name: agence_id
+        description: "Identifiant agence"
+      - name: nom_agence
+        description: "Nom de l'agence"
+      - name: region
+        description: "Région"
+
+  - name: dim_clients
+    description: "Dimension des clients de l'entreprise"
+    columns:
+      - name: client_id
+        description: "Identifiant client"
+      - name: nom_entreprise
+        description: "Nom du client"
+      - name: secteur_activite
+        description: "Secteur d'activité"
