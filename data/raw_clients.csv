@@ -1,0 +1,81 @@
+client_id,nom_entreprise,secteur,ville
+CLI-100,Groupe Data-100,Industrie,Grand Est
+CLI-101,Groupe Sante-101,Finance & Services,Occitanie
+CLI-102,Groupe Logix-102,BTP & Construction,Grand Est
+CLI-103,Groupe Sante-103,Industrie,Centre-Val de Loire
+CLI-104,Groupe Sante-104,Santé / Biomed,Bretagne
+CLI-105,Groupe Industrie-105,Santé / Biomed,Occitanie
+CLI-106,Groupe Logix-106,Finance & Services,Pays de la Loire
+CLI-107,Groupe Logix-107,Logistique / Transport,Pays de la Loire
+CLI-108,Groupe Logix-108,BTP & Construction,Occitanie
+CLI-109,Groupe Sante-109,Santé / Biomed,Occitanie
+CLI-110,Groupe Data-110,Santé / Biomed,Hauts-de-France
+CLI-111,Groupe Logix-111,Finance & Services,Île-de-France
+CLI-112,Groupe Build-112,BTP & Construction,Auvergne-Rhône-Alpes
+CLI-113,Groupe Sante-113,Industrie,Pays de la Loire
+CLI-114,Groupe Industrie-114,Industrie,Nouvelle-Aquitaine
+CLI-115,Groupe Data-115,Tech & Data,Pays de la Loire
+CLI-116,Groupe Build-116,Tech & Data,Pays de la Loire
+CLI-117,Groupe Build-117,Industrie,Pays de la Loire
+CLI-118,Groupe Industrie-118,Industrie,Île-de-France
+CLI-119,Groupe Data-119,Industrie,Île-de-France
+CLI-120,Groupe Sante-120,Tech & Data,Centre-Val de Loire
+CLI-121,Groupe Tech-121,Tech & Data,Nouvelle-Aquitaine
+CLI-122,Groupe Data-122,BTP & Construction,Pays de la Loire
+CLI-123,Groupe Industrie-123,Logistique / Transport,Pays de la Loire
+CLI-124,Groupe Build-124,BTP & Construction,Bourgogne-Franche-Comté
+CLI-125,Groupe Sante-125,Finance & Services,Île-de-France
+CLI-126,Groupe Data-126,BTP & Construction,Auvergne-Rhône-Alpes
+CLI-127,Groupe Tech-127,Finance & Services,Occitanie
+CLI-128,Groupe Tech-128,Logistique / Transport,PACA
+CLI-129,Groupe Logix-129,Industrie,Pays de la Loire
+CLI-130,Groupe Logix-130,Tech & Data,PACA
+CLI-131,Groupe Industrie-131,Industrie,Pays de la Loire
+CLI-132,Groupe Data-132,BTP & Construction,PACA
+CLI-133,Groupe Data-133,BTP & Construction,Nouvelle-Aquitaine
+CLI-134,Groupe Build-134,Santé / Biomed,Occitanie
+CLI-135,Groupe Build-135,Industrie,Île-de-France
+CLI-136,Groupe Build-136,Santé / Biomed,PACA
+CLI-137,Groupe Logix-137,Industrie,Centre-Val de Loire
+CLI-138,Groupe Data-138,Finance & Services,PACA
+CLI-139,Groupe Data-139,Logistique / Transport,PACA
+CLI-140,Groupe Tech-140,BTP & Construction,PACA
+CLI-141,Groupe Logix-141,Tech & Data,Pays de la Loire
+CLI-142,Groupe Sante-142,Industrie,Bretagne
+CLI-143,Groupe Logix-143,Tech & Data,PACA
+CLI-144,Groupe Sante-144,BTP & Construction,PACA
+CLI-145,Groupe Tech-145,Tech & Data,Auvergne-Rhône-Alpes
+CLI-146,Groupe Industrie-146,Industrie,Occitanie
+CLI-147,Groupe Data-147,Tech & Data,Pays de la Loire
+CLI-148,Groupe Tech-148,Logistique / Transport,Bourgogne-Franche-Comté
+CLI-149,Groupe Data-149,Santé / Biomed,Auvergne-Rhône-Alpes
+CLI-150,Groupe Build-150,Santé / Biomed,Bourgogne-Franche-Comté
+CLI-151,Groupe Industrie-151,BTP & Construction,Occitanie
+CLI-152,Groupe Industrie-152,Tech & Data,Hauts-de-France
+CLI-153,Groupe Tech-153,BTP & Construction,Occitanie
+CLI-154,Groupe Industrie-154,Santé / Biomed,Bretagne
+CLI-155,Groupe Sante-155,Tech & Data,Pays de la Loire
+CLI-156,Groupe Industrie-156,Finance & Services,Occitanie
+CLI-157,Groupe Data-157,Santé / Biomed,Hauts-de-France
+CLI-158,Groupe Data-158,BTP & Construction,Bretagne
+CLI-159,Groupe Data-159,Logistique / Transport,Occitanie
+CLI-160,Groupe Data-160,BTP & Construction,Pays de la Loire
+CLI-161,Groupe Sante-161,Industrie,PACA
+CLI-162,Groupe Logix-162,Tech & Data,Bretagne
+CLI-163,Groupe Build-163,Santé / Biomed,Grand Est
+CLI-164,Groupe Tech-164,Tech & Data,Auvergne-Rhône-Alpes
+CLI-165,Groupe Data-165,Industrie,Hauts-de-France
+CLI-166,Groupe Industrie-166,Logistique / Transport,PACA
+CLI-167,Groupe Data-167,Industrie,PACA
+CLI-168,Groupe Industrie-168,Tech & Data,Occitanie
+CLI-169,Groupe Build-169,Industrie,Pays de la Loire
+CLI-170,Groupe Build-170,Finance & Services,Île-de-France
+CLI-171,Groupe Build-171,Industrie,Pays de la Loire
+CLI-172,Groupe Industrie-172,BTP & Construction,PACA
+CLI-173,Groupe Data-173,Tech & Data,Occitanie
+CLI-174,Groupe Build-174,Industrie,Nouvelle-Aquitaine
+CLI-175,Groupe Sante-175,Industrie,Nouvelle-Aquitaine
+CLI-176,Groupe Industrie-176,Tech & Data,Bretagne
+CLI-177,Groupe Industrie-177,Santé / Biomed,Bretagne
+CLI-178,Groupe Data-178,Santé / Biomed,Auvergne-Rhône-Alpes
+CLI-179,Groupe Industrie-179,BTP & Construction,Bourgogne-Franche-Comté

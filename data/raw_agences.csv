@@ -1,0 +1,23 @@
+agence_id,nom_agence,region,directeur,objectifs_ca_annuel
+AG-01,Actual Talent Laval (Siège),Pays de la Loire,Sophie Martin,2500000
+AG-02,Actual Talent Paris Haussmann,Île-de-France,Alexandre Dubois,4200000
+AG-03,Actual Talent Lyon Part-Dieu,Auvergne-Rhône-Alpes,Thomas Bernard,3500000
+AG-04,Actual Talent Nantes centre,Pays de la Loire,Julie Petit,2800000
+AG-05,Actual Talent Bordeaux Quinconces,Nouvelle-Aquitaine,Nicolas Moreau,2900000
+AG-06,Actual Talent Marseille Prado,PACA,Camille Laurent,3100000
+AG-07,Actual Talent Lille Europe,Hauts-de-France,Maxime Lefebvre,2700000
+AG-08,Actual Talent Toulouse Capitole,Occitanie,Laura Michel,3000000
+AG-09,Actual Talent Rennes Gare,Bretagne,Antoine Garcia,2600000
+AG-10,Actual Talent Strasbourg centre,Grand Est,Elodie David,2400000
+AG-11,Actual Talent Nice Promenade,PACA,Julien Bertrand,2200000
+AG-12,Actual Talent Montpellier Comédie,Occitanie,Sarah Roux,2300000
+AG-13,Actual Talent Grenoble Bastille,Auvergne-Rhône-Alpes,Romain Vincent,2100000
+AG-14,Actual Talent Rouen Cathédrale,Normandie,Claire Fournier,1900000
+AG-15,Actual Talent Reims centre,Grand Est,Guillaume Morel,1800000
+AG-16,Actual Talent Toulon Port,PACA,Marine Girard,1700000
+AG-17,Actual Talent Angers Ralliement,Pays de la Loire,Benjamin André,2000000
+AG-18,Actual Talent Brest Liberté,Bretagne,Mathilde Mercier,1600000
+AG-19,Actual Talent Dijon Darcy,Bourgogne-Franche-Comté,Lucas Dupont,1750000
+AG-20,Actual Talent Nîmes Arènes,Occitanie,Audrey Lambert,1500000
+AG-21,Actual Talent Clermont Jaude,Auvergne-Rhône-Alpes,Hugo Bonnet,1650000
+AG-22,Actual Talent Tours Plumereau,Centre-Val de Loire,Manon François,1850000

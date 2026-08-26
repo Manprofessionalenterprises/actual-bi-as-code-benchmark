@@ -1,0 +1,14 @@
+actual_bi_as_code_benchmark:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: SLPMQMD-DX08347
+      user: LICALLMAN110
+      password: testSnowflake2026*
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: BENCHMARK_DB
+      schema: ANALYTICS
+      threads: 4
+      client_session_keep_alive: False

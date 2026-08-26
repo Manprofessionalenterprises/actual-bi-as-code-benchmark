@@ -1,0 +1,501 @@
+candidat_id,nom_prenom,metier_principal,statut,experience_annees
+CAND-1000,Candidat 1,Analytics Engineer,En mission,2
+CAND-1001,Candidat 2,Chef de Projet IA,En entretien,2
+CAND-1002,Candidat 3,Ingénieur Qualité,En mission,10
+CAND-1003,Candidat 4,Consultant BI as Code,En mission,14
+CAND-1004,Candidat 5,Chef de Projet IA,En entretien,12
+CAND-1005,Candidat 6,Analytics Engineer,Disponible,9
+CAND-1006,Candidat 7,Consultant BI as Code,En mission,11
+CAND-1007,Candidat 8,Chef de Projet IA,Disponible,10
+CAND-1008,Candidat 9,Ingénieur Qualité,En mission,8
+CAND-1009,Candidat 10,Chef de Projet IA,En mission,4
+CAND-1010,Candidat 11,Ingénieur Qualité,En mission,4
+CAND-1011,Candidat 12,Analytics Engineer,En mission,3
+CAND-1012,Candidat 13,Ingénieur Qualité,En mission,6
+CAND-1013,Candidat 14,Consultant BI as Code,En mission,13
+CAND-1014,Candidat 15,Analytics Engineer,En entretien,13
+CAND-1015,Candidat 16,Consultant BI as Code,En entretien,4
+CAND-1016,Candidat 17,Consultant PowerBI / Tableau,Disponible,15
+CAND-1017,Candidat 18,Data Engineer,En mission,7
+CAND-1018,Candidat 19,Ingénieur Qualité,En mission,3
+CAND-1019,Candidat 20,Data Engineer,Disponible,13
+CAND-1020,Candidat 21,Data Engineer,Disponible,4
+CAND-1021,Candidat 22,Ingénieur Qualité,En mission,6
+CAND-1022,Candidat 23,Analytics Engineer,En entretien,13
+CAND-1023,Candidat 24,Consultant PowerBI / Tableau,Disponible,12
+CAND-1024,Candidat 25,Consultant BI as Code,En entretien,12
+CAND-1025,Candidat 26,Chef de Projet IA,Disponible,2
+CAND-1026,Candidat 27,Consultant BI as Code,Disponible,14
+CAND-1027,Candidat 28,Chef de Projet IA,En mission,2
+CAND-1028,Candidat 29,Consultant BI as Code,En entretien,11
+CAND-1029,Candidat 30,Ingénieur Qualité,Disponible,10
+CAND-1030,Candidat 31,Consultant PowerBI / Tableau,En mission,8
+CAND-1031,Candidat 32,Chef de Projet IA,En mission,2
+CAND-1032,Candidat 33,Directeur Transition,En mission,16
+CAND-1033,Candidat 34,Analytics Engineer,Disponible,13
+CAND-1034,Candidat 35,Consultant BI as Code,En entretien,15
+CAND-1035,Candidat 36,Consultant BI as Code,En mission,17
+CAND-1036,Candidat 37,Chef de Projet IA,En mission,9
+CAND-1037,Candidat 38,Analytics Engineer,En mission,4
+CAND-1038,Candidat 39,Analytics Engineer,En entretien,9
+CAND-1039,Candidat 40,Ingénieur Qualité,Disponible,16
+CAND-1040,Candidat 41,Directeur Transition,Disponible,6
+CAND-1041,Candidat 42,Ingénieur Qualité,En mission,2
+CAND-1042,Candidat 43,Ingénieur Qualité,En mission,8
+CAND-1043,Candidat 44,Ingénieur Qualité,En mission,6
+CAND-1044,Candidat 45,Ingénieur Qualité,En mission,7
+CAND-1045,Candidat 46,Ingénieur Qualité,Disponible,17
+CAND-1046,Candidat 47,Consultant PowerBI / Tableau,Disponible,7
+CAND-1047,Candidat 48,Analytics Engineer,En entretien,9
+CAND-1048,Candidat 49,Ingénieur Qualité,En entretien,10
+CAND-1049,Candidat 50,Analytics Engineer,En mission,3
+CAND-1050,Candidat 51,Analytics Engineer,Disponible,10
+CAND-1051,Candidat 52,Data Engineer,En entretien,13
+CAND-1052,Candidat 53,Consultant PowerBI / Tableau,Disponible,16
+CAND-1053,Candidat 54,Ingénieur Qualité,En mission,12
+CAND-1054,Candidat 55,Consultant BI as Code,En mission,11
+CAND-1055,Candidat 56,Chef de Projet IA,En mission,10
+CAND-1056,Candidat 57,Directeur Transition,En entretien,14
+CAND-1057,Candidat 58,Consultant BI as Code,Disponible,11
+CAND-1058,Candidat 59,Consultant PowerBI / Tableau,En mission,16
+CAND-1059,Candidat 60,Chef de Projet IA,Disponible,17
+CAND-1060,Candidat 61,Consultant PowerBI / Tableau,Disponible,11
+CAND-1061,Candidat 62,Analytics Engineer,En mission,17
+CAND-1062,Candidat 63,Chef de Projet IA,En mission,8
+CAND-1063,Candidat 64,Analytics Engineer,Disponible,2
+CAND-1064,Candidat 65,Consultant BI as Code,En mission,8
+CAND-1065,Candidat 66,Consultant BI as Code,Disponible,11
+CAND-1066,Candidat 67,Chef de Projet IA,En mission,6
+CAND-1067,Candidat 68,Chef de Projet IA,Disponible,7
+CAND-1068,Candidat 69,Ingénieur Qualité,En mission,11
+CAND-1069,Candidat 70,Consultant PowerBI / Tableau,En mission,8
+CAND-1070,Candidat 71,Ingénieur Qualité,Disponible,15
+CAND-1071,Candidat 72,Consultant PowerBI / Tableau,En mission,16
+CAND-1072,Candidat 73,Ingénieur Qualité,En mission,6
+CAND-1073,Candidat 74,Analytics Engineer,En mission,8
+CAND-1074,Candidat 75,Chef de Projet IA,Disponible,10
+CAND-1075,Candidat 76,Consultant BI as Code,Disponible,4
+CAND-1076,Candidat 77,Consultant PowerBI / Tableau,Disponible,17
+CAND-1077,Candidat 78,Consultant PowerBI / Tableau,En mission,9
+CAND-1078,Candidat 79,Consultant BI as Code,En mission,3
+CAND-1079,Candidat 80,Ingénieur Qualité,En mission,12
+CAND-1080,Candidat 81,Consultant PowerBI / Tableau,En mission,8
+CAND-1081,Candidat 82,Directeur Transition,En mission,14
+CAND-1082,Candidat 83,Analytics Engineer,En mission,3
+CAND-1083,Candidat 84,Chef de Projet IA,En mission,16
+CAND-1084,Candidat 85,Consultant BI as Code,En entretien,15
+CAND-1085,Candidat 86,Chef de Projet IA,En mission,5
+CAND-1086,Candidat 87,Directeur Transition,En mission,8
+CAND-1087,Candidat 88,Consultant PowerBI / Tableau,Disponible,4
+CAND-1088,Candidat 89,Consultant PowerBI / Tableau,En mission,3
+CAND-1089,Candidat 90,Directeur Transition,Disponible,12
+CAND-1090,Candidat 91,Consultant BI as Code,Disponible,11
+CAND-1091,Candidat 92,Analytics Engineer,En entretien,8
+CAND-1092,Candidat 93,Data Engineer,En mission,2
+CAND-1093,Candidat 94,Consultant BI as Code,En entretien,15
+CAND-1094,Candidat 95,Data Engineer,En mission,16
+CAND-1095,Candidat 96,Directeur Transition,En mission,9
+CAND-1096,Candidat 97,Ingénieur Qualité,En mission,4
+CAND-1097,Candidat 98,Data Engineer,En entretien,13
+CAND-1098,Candidat 99,Analytics Engineer,En mission,13
+CAND-1099,Candidat 100,Ingénieur Qualité,En mission,14
+CAND-1100,Candidat 101,Data Engineer,Disponible,3
+CAND-1101,Candidat 102,Directeur Transition,En mission,4
+CAND-1102,Candidat 103,Ingénieur Qualité,En mission,6
+CAND-1103,Candidat 104,Directeur Transition,En mission,12
+CAND-1104,Candidat 105,Data Engineer,En mission,9
+CAND-1105,Candidat 106,Directeur Transition,En mission,11
+CAND-1106,Candidat 107,Analytics Engineer,En mission,8
+CAND-1107,Candidat 108,Data Engineer,Disponible,8
+CAND-1108,Candidat 109,Data Engineer,En mission,13
+CAND-1109,Candidat 110,Data Engineer,En mission,8
+CAND-1110,Candidat 111,Consultant BI as Code,Disponible,16
+CAND-1111,Candidat 112,Consultant BI as Code,En mission,9
+CAND-1112,Candidat 113,Consultant BI as Code,Disponible,2
+CAND-1113,Candidat 114,Analytics Engineer,En mission,5
+CAND-1114,Candidat 115,Ingénieur Qualité,En mission,14
+CAND-1115,Candidat 116,Directeur Transition,En mission,7
+CAND-1116,Candidat 117,Consultant PowerBI / Tableau,En mission,10
+CAND-1117,Candidat 118,Data Engineer,En mission,14
+CAND-1118,Candidat 119,Directeur Transition,En mission,3
+CAND-1119,Candidat 120,Data Engineer,En mission,2
+CAND-1120,Candidat 121,Analytics Engineer,En mission,17
+CAND-1121,Candidat 122,Data Engineer,En mission,14
+CAND-1122,Candidat 123,Consultant BI as Code,En mission,11
+CAND-1123,Candidat 124,Consultant PowerBI / Tableau,En mission,13
+CAND-1124,Candidat 125,Chef de Projet IA,En mission,15
+CAND-1125,Candidat 126,Data Engineer,Disponible,3
+CAND-1126,Candidat 127,Directeur Transition,En mission,8
+CAND-1127,Candidat 128,Consultant BI as Code,Disponible,4
+CAND-1128,Candidat 129,Chef de Projet IA,Disponible,11
+CAND-1129,Candidat 130,Consultant PowerBI / Tableau,En mission,3
+CAND-1130,Candidat 131,Chef de Projet IA,Disponible,15
+CAND-1131,Candidat 132,Consultant BI as Code,En entretien,12
+CAND-1132,Candidat 133,Ingénieur Qualité,En mission,8
+CAND-1133,Candidat 134,Ingénieur Qualité,En mission,14
+CAND-1134,Candidat 135,Chef de Projet IA,Disponible,14
+CAND-1135,Candidat 136,Analytics Engineer,Disponible,3
+CAND-1136,Candidat 137,Directeur Transition,En mission,17
+CAND-1137,Candidat 138,Directeur Transition,En mission,17
+CAND-1138,Candidat 139,Chef de Projet IA,En mission,4
+CAND-1139,Candidat 140,Data Engineer,En mission,12
+CAND-1140,Candidat 141,Data Engineer,Disponible,8
+CAND-1141,Candidat 142,Directeur Transition,En mission,15
+CAND-1142,Candidat 143,Directeur Transition,En mission,5
+CAND-1143,Candidat 144,Ingénieur Qualité,Disponible,14
+CAND-1144,Candidat 145,Analytics Engineer,En mission,15
+CAND-1145,Candidat 146,Consultant BI as Code,En mission,2
+CAND-1146,Candidat 147,Data Engineer,Disponible,14
+CAND-1147,Candidat 148,Directeur Transition,Disponible,15
+CAND-1148,Candidat 149,Ingénieur Qualité,En mission,6
+CAND-1149,Candidat 150,Consultant PowerBI / Tableau,En mission,13
+CAND-1150,Candidat 151,Ingénieur Qualité,En mission,10
+CAND-1151,Candidat 152,Data Engineer,En mission,17
+CAND-1152,Candidat 153,Data Engineer,En mission,9
+CAND-1153,Candidat 154,Ingénieur Qualité,En mission,13
+CAND-1154,Candidat 155,Consultant BI as Code,En mission,16
+CAND-1155,Candidat 156,Chef de Projet IA,En mission,10
+CAND-1156,Candidat 157,Data Engineer,En mission,11
+CAND-1157,Candidat 158,Ingénieur Qualité,En mission,15
+CAND-1158,Candidat 159,Directeur Transition,En mission,10
+CAND-1159,Candidat 160,Ingénieur Qualité,En mission,16
+CAND-1160,Candidat 161,Analytics Engineer,En mission,8
+CAND-1161,Candidat 162,Chef de Projet IA,Disponible,5
+CAND-1162,Candidat 163,Consultant PowerBI / Tableau,En mission,6
+CAND-1163,Candidat 164,Consultant BI as Code,Disponible,2
+CAND-1164,Candidat 165,Consultant PowerBI / Tableau,Disponible,15
+CAND-1165,Candidat 166,Chef de Projet IA,En mission,2
+CAND-1166,Candidat 167,Chef de Projet IA,En mission,4
+CAND-1167,Candidat 168,Chef de Projet IA,En mission,14
+CAND-1168,Candidat 169,Consultant PowerBI / Tableau,En mission,15
+CAND-1169,Candidat 170,Directeur Transition,Disponible,9
+CAND-1170,Candidat 171,Chef de Projet IA,En mission,15
+CAND-1171,Candidat 172,Ingénieur Qualité,En mission,3
+CAND-1172,Candidat 173,Consultant PowerBI / Tableau,En mission,5
+CAND-1173,Candidat 174,Chef de Projet IA,En mission,3
+CAND-1174,Candidat 175,Ingénieur Qualité,Disponible,15
+CAND-1175,Candidat 176,Directeur Transition,En mission,6
+CAND-1176,Candidat 177,Analytics Engineer,En mission,10
+CAND-1177,Candidat 178,Directeur Transition,En entretien,17
+CAND-1178,Candidat 179,Chef de Projet IA,Disponible,2
+CAND-1179,Candidat 180,Consultant PowerBI / Tableau,En mission,6
+CAND-1180,Candidat 181,Data Engineer,En mission,15
+CAND-1181,Candidat 182,Chef de Projet IA,En mission,16
+CAND-1182,Candidat 183,Data Engineer,En mission,10
+CAND-1183,Candidat 184,Ingénieur Qualité,En mission,16
+CAND-1184,Candidat 185,Analytics Engineer,En mission,2
+CAND-1185,Candidat 186,Consultant BI as Code,En mission,10
+CAND-1186,Candidat 187,Directeur Transition,En mission,9
+CAND-1187,Candidat 188,Analytics Engineer,Disponible,5
+CAND-1188,Candidat 189,Chef de Projet IA,En mission,13
+CAND-1189,Candidat 190,Data Engineer,En mission,12
+CAND-1190,Candidat 191,Directeur Transition,En mission,11
+CAND-1191,Candidat 192,Data Engineer,En entretien,6
+CAND-1192,Candidat 193,Consultant PowerBI / Tableau,En mission,14
+CAND-1193,Candidat 194,Data Engineer,En mission,6
+CAND-1194,Candidat 195,Consultant PowerBI / Tableau,En entretien,12
+CAND-1195,Candidat 196,Ingénieur Qualité,Disponible,13
+CAND-1196,Candidat 197,Directeur Transition,Disponible,7
+CAND-1197,Candidat 198,Directeur Transition,En mission,8
+CAND-1198,Candidat 199,Consultant BI as Code,En mission,9
+CAND-1199,Candidat 200,Chef de Projet IA,Disponible,16
+CAND-1200,Candidat 201,Consultant PowerBI / Tableau,En entretien,15
+CAND-1201,Candidat 202,Consultant BI as Code,En mission,9
+CAND-1202,Candidat 203,Data Engineer,En mission,12
+CAND-1203,Candidat 204,Data Engineer,En mission,15
+CAND-1204,Candidat 205,Consultant BI as Code,Disponible,14
+CAND-1205,Candidat 206,Directeur Transition,En mission,3
+CAND-1206,Candidat 207,Data Engineer,En mission,10
+CAND-1207,Candidat 208,Ingénieur Qualité,En mission,8
+CAND-1208,Candidat 209,Ingénieur Qualité,En mission,5
+CAND-1209,Candidat 210,Consultant BI as Code,En mission,5
+CAND-1210,Candidat 211,Consultant PowerBI / Tableau,En mission,12
+CAND-1211,Candidat 212,Consultant PowerBI / Tableau,Disponible,9
+CAND-1212,Candidat 213,Consultant BI as Code,En mission,5
+CAND-1213,Candidat 214,Consultant PowerBI / Tableau,En mission,14
+CAND-1214,Candidat 215,Directeur Transition,En mission,16
+CAND-1215,Candidat 216,Directeur Transition,En mission,7
+CAND-1216,Candidat 217,Consultant PowerBI / Tableau,En mission,6
+CAND-1217,Candidat 218,Ingénieur Qualité,En mission,4
+CAND-1218,Candidat 219,Consultant PowerBI / Tableau,En mission,14
+CAND-1219,Candidat 220,Directeur Transition,En mission,15
+CAND-1220,Candidat 221,Analytics Engineer,En mission,11
+CAND-1221,Candidat 222,Chef de Projet IA,En entretien,12
+CAND-1222,Candidat 223,Data Engineer,En mission,3
+CAND-1223,Candidat 224,Analytics Engineer,Disponible,10
+CAND-1224,Candidat 225,Consultant PowerBI / Tableau,En mission,11
+CAND-1225,Candidat 226,Ingénieur Qualité,Disponible,10
+CAND-1226,Candidat 227,Consultant BI as Code,Disponible,2
+CAND-1227,Candidat 228,Consultant PowerBI / Tableau,En mission,11
+CAND-1228,Candidat 229,Ingénieur Qualité,En mission,4
+CAND-1229,Candidat 230,Chef de Projet IA,En mission,9
+CAND-1230,Candidat 231,Consultant PowerBI / Tableau,En mission,7
+CAND-1231,Candidat 232,Directeur Transition,En entretien,6
+CAND-1232,Candidat 233,Consultant BI as Code,Disponible,6
+CAND-1233,Candidat 234,Ingénieur Qualité,En entretien,7
+CAND-1234,Candidat 235,Ingénieur Qualité,En mission,16
+CAND-1235,Candidat 236,Ingénieur Qualité,Disponible,8
+CAND-1236,Candidat 237,Chef de Projet IA,En entretien,2
+CAND-1237,Candidat 238,Consultant PowerBI / Tableau,En mission,10
+CAND-1238,Candidat 239,Chef de Projet IA,En mission,4
+CAND-1239,Candidat 240,Data Engineer,Disponible,5
+CAND-1240,Candidat 241,Data Engineer,En mission,11
+CAND-1241,Candidat 242,Consultant PowerBI / Tableau,Disponible,2
+CAND-1242,Candidat 243,Directeur Transition,En mission,14
+CAND-1243,Candidat 244,Chef de Projet IA,Disponible,12
+CAND-1244,Candidat 245,Consultant BI as Code,En mission,11
+CAND-1245,Candidat 246,Ingénieur Qualité,En mission,4
+CAND-1246,Candidat 247,Ingénieur Qualité,En mission,3
+CAND-1247,Candidat 248,Consultant PowerBI / Tableau,Disponible,3
+CAND-1248,Candidat 249,Directeur Transition,Disponible,15
+CAND-1249,Candidat 250,Data Engineer,En mission,2
+CAND-1250,Candidat 251,Data Engineer,En mission,9
+CAND-1251,Candidat 252,Ingénieur Qualité,Disponible,4
+CAND-1252,Candidat 253,Consultant PowerBI / Tableau,En mission,17
+CAND-1253,Candidat 254,Chef de Projet IA,Disponible,4
+CAND-1254,Candidat 255,Data Engineer,En mission,7
+CAND-1255,Candidat 256,Chef de Projet IA,En mission,14
+CAND-1256,Candidat 257,Directeur Transition,En mission,9
+CAND-1257,Candidat 258,Data Engineer,En mission,14
+CAND-1258,Candidat 259,Data Engineer,Disponible,16
+CAND-1259,Candidat 260,Analytics Engineer,En mission,10
+CAND-1260,Candidat 261,Data Engineer,En mission,10
+CAND-1261,Candidat 262,Consultant BI as Code,Disponible,5
+CAND-1262,Candidat 263,Consultant PowerBI / Tableau,En mission,15
+CAND-1263,Candidat 264,Consultant PowerBI / Tableau,En mission,6
+CAND-1264,Candidat 265,Chef de Projet IA,En entretien,3
+CAND-1265,Candidat 266,Directeur Transition,Disponible,12
+CAND-1266,Candidat 267,Data Engineer,En mission,10
+CAND-1267,Candidat 268,Consultant BI as Code,En entretien,9
+CAND-1268,Candidat 269,Chef de Projet IA,Disponible,4
+CAND-1269,Candidat 270,Analytics Engineer,En mission,12
+CAND-1270,Candidat 271,Chef de Projet IA,En mission,13
+CAND-1271,Candidat 272,Chef de Projet IA,Disponible,14
+CAND-1272,Candidat 273,Data Engineer,Disponible,10
+CAND-1273,Candidat 274,Analytics Engineer,En mission,4
+CAND-1274,Candidat 275,Chef de Projet IA,Disponible,10
+CAND-1275,Candidat 276,Consultant BI as Code,Disponible,3
+CAND-1276,Candidat 277,Consultant BI as Code,En mission,13
+CAND-1277,Candidat 278,Consultant PowerBI / Tableau,En mission,11
+CAND-1278,Candidat 279,Analytics Engineer,En mission,10
+CAND-1279,Candidat 280,Analytics Engineer,Disponible,16
+CAND-1280,Candidat 281,Consultant PowerBI / Tableau,En mission,9
+CAND-1281,Candidat 282,Chef de Projet IA,En mission,10
+CAND-1282,Candidat 283,Analytics Engineer,Disponible,6
+CAND-1283,Candidat 284,Consultant BI as Code,Disponible,12
+CAND-1284,Candidat 285,Consultant BI as Code,En mission,12
+CAND-1285,Candidat 286,Data Engineer,Disponible,3
+CAND-1286,Candidat 287,Analytics Engineer,En mission,9
+CAND-1287,Candidat 288,Chef de Projet IA,Disponible,13
+CAND-1288,Candidat 289,Consultant PowerBI / Tableau,En mission,16
+CAND-1289,Candidat 290,Consultant PowerBI / Tableau,En mission,7
+CAND-1290,Candidat 291,Chef de Projet IA,Disponible,9
+CAND-1291,Candidat 292,Directeur Transition,En mission,12
+CAND-1292,Candidat 293,Ingénieur Qualité,En mission,6
+CAND-1293,Candidat 294,Data Engineer,Disponible,17
+CAND-1294,Candidat 295,Consultant PowerBI / Tableau,Disponible,11
+CAND-1295,Candidat 296,Analytics Engineer,Disponible,3
+CAND-1296,Candidat 297,Data Engineer,Disponible,7
+CAND-1297,Candidat 298,Analytics Engineer,En mission,6
+CAND-1298,Candidat 299,Directeur Transition,En mission,13
+CAND-1299,Candidat 300,Consultant BI as Code,En mission,17
+CAND-1300,Candidat 301,Data Engineer,En mission,14
+CAND-1301,Candidat 302,Consultant PowerBI / Tableau,En entretien,13
+CAND-1302,Candidat 303,Data Engineer,En mission,6
+CAND-1303,Candidat 304,Data Engineer,En mission,14
+CAND-1304,Candidat 305,Data Engineer,En mission,2
+CAND-1305,Candidat 306,Ingénieur Qualité,En entretien,3
+CAND-1306,Candidat 307,Data Engineer,En mission,9
+CAND-1307,Candidat 308,Analytics Engineer,En mission,14
+CAND-1308,Candidat 309,Consultant BI as Code,En mission,17
+CAND-1309,Candidat 310,Directeur Transition,Disponible,15
+CAND-1310,Candidat 311,Chef de Projet IA,En mission,14
+CAND-1311,Candidat 312,Data Engineer,Disponible,4
+CAND-1312,Candidat 313,Consultant PowerBI / Tableau,En entretien,11
+CAND-1313,Candidat 314,Data Engineer,En mission,4
+CAND-1314,Candidat 315,Consultant PowerBI / Tableau,Disponible,9
+CAND-1315,Candidat 316,Analytics Engineer,En entretien,9
+CAND-1316,Candidat 317,Consultant PowerBI / Tableau,Disponible,3
+CAND-1317,Candidat 318,Chef de Projet IA,En mission,9
+CAND-1318,Candidat 319,Consultant BI as Code,En mission,12
+CAND-1319,Candidat 320,Consultant PowerBI / Tableau,Disponible,14
+CAND-1320,Candidat 321,Consultant PowerBI / Tableau,En mission,14
+CAND-1321,Candidat 322,Consultant BI as Code,Disponible,2
+CAND-1322,Candidat 323,Chef de Projet IA,En entretien,7
+CAND-1323,Candidat 324,Data Engineer,En entretien,9
+CAND-1324,Candidat 325,Consultant PowerBI / Tableau,En mission,4
+CAND-1325,Candidat 326,Consultant BI as Code,En mission,17
+CAND-1326,Candidat 327,Analytics Engineer,En entretien,9
+CAND-1327,Candidat 328,Consultant BI as Code,Disponible,13
+CAND-1328,Candidat 329,Analytics Engineer,En mission,2
+CAND-1329,Candidat 330,Chef de Projet IA,En entretien,12
+CAND-1330,Candidat 331,Data Engineer,Disponible,12
+CAND-1331,Candidat 332,Consultant BI as Code,En mission,17
+CAND-1332,Candidat 333,Directeur Transition,En mission,10
+CAND-1333,Candidat 334,Directeur Transition,En mission,14
+CAND-1334,Candidat 335,Ingénieur Qualité,En mission,12
+CAND-1335,Candidat 336,Consultant PowerBI / Tableau,En mission,14
+CAND-1336,Candidat 337,Chef de Projet IA,Disponible,10
+CAND-1337,Candidat 338,Consultant BI as Code,En mission,6
+CAND-1338,Candidat 339,Directeur Transition,En mission,11
+CAND-1339,Candidat 340,Consultant PowerBI / Tableau,En mission,5
+CAND-1340,Candidat 341,Directeur Transition,En mission,16
+CAND-1341,Candidat 342,Consultant BI as Code,En entretien,12
+CAND-1342,Candidat 343,Analytics Engineer,En mission,7
+CAND-1343,Candidat 344,Consultant BI as Code,En mission,13
+CAND-1344,Candidat 345,Ingénieur Qualité,Disponible,8
+CAND-1345,Candidat 346,Consultant BI as Code,En mission,6
+CAND-1346,Candidat 347,Consultant BI as Code,En mission,12
+CAND-1347,Candidat 348,Ingénieur Qualité,En mission,14
+CAND-1348,Candidat 349,Chef de Projet IA,En mission,11
+CAND-1349,Candidat 350,Consultant BI as Code,En mission,10
+CAND-1350,Candidat 351,Ingénieur Qualité,En mission,4
+CAND-1351,Candidat 352,Consultant PowerBI / Tableau,En mission,16
+CAND-1352,Candidat 353,Analytics Engineer,En entretien,8
+CAND-1353,Candidat 354,Analytics Engineer,En mission,11
+CAND-1354,Candidat 355,Consultant BI as Code,En mission,11
+CAND-1355,Candidat 356,Chef de Projet IA,Disponible,17
+CAND-1356,Candidat 357,Chef de Projet IA,En mission,12
+CAND-1357,Candidat 358,Consultant PowerBI / Tableau,Disponible,6
+CAND-1358,Candidat 359,Consultant BI as Code,En mission,15
+CAND-1359,Candidat 360,Analytics Engineer,En entretien,8
+CAND-1360,Candidat 361,Chef de Projet IA,En mission,16
+CAND-1361,Candidat 362,Consultant BI as Code,En mission,3
+CAND-1362,Candidat 363,Directeur Transition,En mission,5
+CAND-1363,Candidat 364,Chef de Projet IA,En entretien,3
+CAND-1364,Candidat 365,Ingénieur Qualité,En mission,15
+CAND-1365,Candidat 366,Directeur Transition,En mission,14
+CAND-1366,Candidat 367,Chef de Projet IA,En mission,14
+CAND-1367,Candidat 368,Analytics Engineer,Disponible,13
+CAND-1368,Candidat 369,Data Engineer,En mission,8
+CAND-1369,Candidat 370,Directeur Transition,Disponible,3
+CAND-1370,Candidat 371,Consultant PowerBI / Tableau,En mission,17
+CAND-1371,Candidat 372,Consultant PowerBI / Tableau,En mission,14
+CAND-1372,Candidat 373,Analytics Engineer,En mission,15
+CAND-1373,Candidat 374,Chef de Projet IA,En mission,12
+CAND-1374,Candidat 375,Consultant BI as Code,En mission,2
+CAND-1375,Candidat 376,Chef de Projet IA,En mission,10
+CAND-1376,Candidat 377,Analytics Engineer,Disponible,2
+CAND-1377,Candidat 378,Consultant PowerBI / Tableau,En mission,9
+CAND-1378,Candidat 379,Chef de Projet IA,En mission,16
+CAND-1379,Candidat 380,Consultant PowerBI / Tableau,En mission,3
+CAND-1380,Candidat 381,Directeur Transition,En mission,13
+CAND-1381,Candidat 382,Consultant BI as Code,En mission,17
+CAND-1382,Candidat 383,Directeur Transition,En mission,9
+CAND-1383,Candidat 384,Consultant PowerBI / Tableau,En mission,14
+CAND-1384,Candidat 385,Consultant PowerBI / Tableau,Disponible,4
+CAND-1385,Candidat 386,Data Engineer,En entretien,17
+CAND-1386,Candidat 387,Data Engineer,En mission,7
+CAND-1387,Candidat 388,Directeur Transition,En mission,4
+CAND-1388,Candidat 389,Ingénieur Qualité,Disponible,15
+CAND-1389,Candidat 390,Directeur Transition,En mission,8
+CAND-1390,Candidat 391,Data Engineer,En mission,11
+CAND-1391,Candidat 392,Consultant PowerBI / Tableau,En mission,10
+CAND-1392,Candidat 393,Analytics Engineer,Disponible,17
+CAND-1393,Candidat 394,Directeur Transition,Disponible,3
+CAND-1394,Candidat 395,Consultant PowerBI / Tableau,En mission,16
+CAND-1395,Candidat 396,Analytics Engineer,En mission,13
+CAND-1396,Candidat 397,Analytics Engineer,En mission,13
+CAND-1397,Candidat 398,Data Engineer,Disponible,16
+CAND-1398,Candidat 399,Directeur Transition,En mission,15
+CAND-1399,Candidat 400,Chef de Projet IA,En mission,6
+CAND-1400,Candidat 401,Consultant BI as Code,Disponible,14
+CAND-1401,Candidat 402,Data Engineer,En mission,7
+CAND-1402,Candidat 403,Data Engineer,Disponible,5
+CAND-1403,Candidat 404,Chef de Projet IA,En mission,5
+CAND-1404,Candidat 405,Consultant BI as Code,En mission,17
+CAND-1405,Candidat 406,Consultant PowerBI / Tableau,En mission,5
+CAND-1406,Candidat 407,Ingénieur Qualité,Disponible,3
+CAND-1407,Candidat 408,Directeur Transition,Disponible,5
+CAND-1408,Candidat 409,Ingénieur Qualité,Disponible,12
+CAND-1409,Candidat 410,Consultant PowerBI / Tableau,En mission,17
+CAND-1410,Candidat 411,Data Engineer,Disponible,2
+CAND-1411,Candidat 412,Consultant BI as Code,En mission,13
+CAND-1412,Candidat 413,Data Engineer,En mission,7
+CAND-1413,Candidat 414,Analytics Engineer,Disponible,2
+CAND-1414,Candidat 415,Data Engineer,En mission,11
+CAND-1415,Candidat 416,Data Engineer,En mission,7
+CAND-1416,Candidat 417,Consultant PowerBI / Tableau,En mission,2
+CAND-1417,Candidat 418,Consultant PowerBI / Tableau,En mission,7
+CAND-1418,Candidat 419,Consultant PowerBI / Tableau,En mission,11
+CAND-1419,Candidat 420,Ingénieur Qualité,En mission,9
+CAND-1420,Candidat 421,Analytics Engineer,En mission,12
+CAND-1421,Candidat 422,Consultant PowerBI / Tableau,Disponible,3
+CAND-1422,Candidat 423,Consultant BI as Code,Disponible,3
+CAND-1423,Candidat 424,Ingénieur Qualité,En mission,15
+CAND-1424,Candidat 425,Chef de Projet IA,En mission,17
+CAND-1425,Candidat 426,Consultant BI as Code,En mission,16
+CAND-1426,Candidat 427,Directeur Transition,En mission,14
+CAND-1427,Candidat 428,Directeur Transition,En mission,13
+CAND-1428,Candidat 429,Consultant BI as Code,Disponible,5
+CAND-1429,Candidat 430,Consultant PowerBI / Tableau,En mission,12
+CAND-1430,Candidat 431,Chef de Projet IA,En mission,4
+CAND-1431,Candidat 432,Chef de Projet IA,En mission,5
+CAND-1432,Candidat 433,Ingénieur Qualité,En mission,14
+CAND-1433,Candidat 434,Chef de Projet IA,En entretien,13
+CAND-1434,Candidat 435,Directeur Transition,Disponible,8
+CAND-1435,Candidat 436,Analytics Engineer,En mission,14
+CAND-1436,Candidat 437,Consultant PowerBI / Tableau,Disponible,12
+CAND-1437,Candidat 438,Chef de Projet IA,En mission,2
+CAND-1438,Candidat 439,Ingénieur Qualité,Disponible,7
+CAND-1439,Candidat 440,Directeur Transition,Disponible,16
+CAND-1440,Candidat 441,Analytics Engineer,En mission,16
+CAND-1441,Candidat 442,Data Engineer,En mission,17
+CAND-1442,Candidat 443,Data Engineer,En mission,4
+CAND-1443,Candidat 444,Analytics Engineer,En mission,12
+CAND-1444,Candidat 445,Directeur Transition,Disponible,11
+CAND-1445,Candidat 446,Ingénieur Qualité,En mission,8
+CAND-1446,Candidat 447,Analytics Engineer,En mission,11
+CAND-1447,Candidat 448,Consultant PowerBI / Tableau,Disponible,3
+CAND-1448,Candidat 449,Consultant PowerBI / Tableau,En entretien,15
+CAND-1449,Candidat 450,Data Engineer,En mission,3
+CAND-1450,Candidat 451,Chef de Projet IA,En mission,14
+CAND-1451,Candidat 452,Ingénieur Qualité,En mission,5
+CAND-1452,Candidat 453,Data Engineer,En mission,2
+CAND-1453,Candidat 454,Chef de Projet IA,En entretien,4
+CAND-1454,Candidat 455,Chef de Projet IA,En mission,14
+CAND-1455,Candidat 456,Consultant PowerBI / Tableau,En mission,10
+CAND-1456,Candidat 457,Directeur Transition,En mission,8
+CAND-1457,Candidat 458,Consultant BI as Code,En mission,16
+CAND-1458,Candidat 459,Directeur Transition,Disponible,8
+CAND-1459,Candidat 460,Consultant BI as Code,Disponible,14
+CAND-1460,Candidat 461,Analytics Engineer,En mission,14
+CAND-1461,Candidat 462,Consultant PowerBI / Tableau,En mission,12
+CAND-1462,Candidat 463,Chef de Projet IA,En mission,5
+CAND-1463,Candidat 464,Ingénieur Qualité,En entretien,17
+CAND-1464,Candidat 465,Consultant BI as Code,Disponible,3
+CAND-1465,Candidat 466,Directeur Transition,En mission,16
+CAND-1466,Candidat 467,Chef de Projet IA,Disponible,15
+CAND-1467,Candidat 468,Consultant BI as Code,Disponible,5
+CAND-1468,Candidat 469,Consultant BI as Code,En mission,7
+CAND-1469,Candidat 470,Consultant BI as Code,En entretien,12
+CAND-1470,Candidat 471,Ingénieur Qualité,En mission,12
+CAND-1471,Candidat 472,Consultant PowerBI / Tableau,En mission,4
+CAND-1472,Candidat 473,Ingénieur Qualité,En mission,2
+CAND-1473,Candidat 474,Data Engineer,En mission,15
+CAND-1474,Candidat 475,Chef de Projet IA,En mission,13
+CAND-1475,Candidat 476,Consultant PowerBI / Tableau,Disponible,9
+CAND-1476,Candidat 477,Consultant PowerBI / Tableau,En mission,13
+CAND-1477,Candidat 478,Consultant PowerBI / Tableau,Disponible,14
+CAND-1478,Candidat 479,Directeur Transition,En mission,6
+CAND-1479,Candidat 480,Consultant PowerBI / Tableau,En mission,16
+CAND-1480,Candidat 481,Ingénieur Qualité,En mission,17
+CAND-1481,Candidat 482,Consultant PowerBI / Tableau,En mission,6
+CAND-1482,Candidat 483,Analytics Engineer,Disponible,12
+CAND-1483,Candidat 484,Chef de Projet IA,En mission,5
+CAND-1484,Candidat 485,Consultant PowerBI / Tableau,En mission,7
+CAND-1485,Candidat 486,Chef de Projet IA,En mission,4
+CAND-1486,Candidat 487,Analytics Engineer,Disponible,10
+CAND-1487,Candidat 488,Analytics Engineer,En entretien,6
+CAND-1488,Candidat 489,Chef de Projet IA,Disponible,4
+CAND-1489,Candidat 490,Consultant BI as Code,En mission,12
+CAND-1490,Candidat 491,Data Engineer,En mission,2
+CAND-1491,Candidat 492,Directeur Transition,En mission,11
+CAND-1492,Candidat 493,Consultant BI as Code,En mission,13
+CAND-1493,Candidat 494,Consultant BI as Code,En mission,7
+CAND-1494,Candidat 495,Ingénieur Qualité,En mission,16
+CAND-1495,Candidat 496,Directeur Transition,En mission,3
+CAND-1496,Candidat 497,Directeur Transition,En mission,14
+CAND-1497,Candidat 498,Consultant BI as Code,Disponible,4
+CAND-1498,Candidat 499,Consultant PowerBI / Tableau,En mission,17
+CAND-1499,Candidat 500,Ingénieur Qualité,En mission,2

@@ -1,0 +1,1201 @@
+opportunity_id,agence_id,nom_compte_prospect,date_creation,etape_pipeline,valeur_estimee_ca,probabilite_pct
+OPP-1000,AG-02,Prospect Industrie-1,2025-08-18,Proposition Envoyée,30000.0,25
+OPP-1001,AG-09,Prospect Industrie-2,2026-06-16,Négociation,30000.0,25
+OPP-1002,AG-01,Prospect Services-3,2024-11-26,Lead Qualifié,30000.0,50
+OPP-1003,AG-01,Prospect Services-4,2024-09-30,Proposition Envoyée,15000.0,50
+OPP-1004,AG-13,Prospect Industrie-5,2025-11-26,Négociation,30000.0,50
+OPP-1005,AG-14,Prospect Services-6,2026-07-27,Perdue,30000.0,0
+OPP-1006,AG-14,Prospect Services-7,2026-06-19,Gagnée (Signée),15000.0,100
+OPP-1007,AG-18,Prospect Services-8,2025-06-24,Lead Qualifié,150000.0,25
+OPP-1008,AG-02,Prospect Tech-9,2024-09-21,Proposition Envoyée,15000.0,75
+OPP-1009,AG-15,Prospect Tech-10,2025-11-07,Proposition Envoyée,150000.0,50
+OPP-1010,AG-22,Prospect Tech-11,2024-01-02,Gagnée (Signée),75000.0,100
+OPP-1011,AG-22,Prospect Tech-12,2025-11-20,Lead Qualifié,75000.0,50
+OPP-1012,AG-08,Prospect Tech-13,2024-04-04,Lead Qualifié,30000.0,50
+OPP-1013,AG-09,Prospect Industrie-14,2024-04-30,Lead Qualifié,75000.0,75
+OPP-1014,AG-04,Prospect Industrie-15,2024-12-05,Négociation,30000.0,75
+OPP-1015,AG-03,Prospect Services-16,2026-01-22,Proposition Envoyée,30000.0,50
+OPP-1016,AG-19,Prospect Tech-17,2026-01-31,Proposition Envoyée,150000.0,50
+OPP-1017,AG-03,Prospect Tech-18,2024-01-01,Lead Qualifié,30000.0,50
+OPP-1018,AG-04,Prospect Tech-19,2025-02-27,Gagnée (Signée),15000.0,100
+OPP-1019,AG-04,Prospect Tech-20,2026-02-01,Lead Qualifié,15000.0,75
+OPP-1020,AG-13,Prospect Tech-21,2024-04-01,Perdue,30000.0,0
+OPP-1021,AG-17,Prospect Industrie-22,2025-12-16,Proposition Envoyée,75000.0,25
+OPP-1022,AG-08,Prospect Industrie-23,2026-02-06,Gagnée (Signée),75000.0,100
+OPP-1023,AG-18,Prospect Services-24,2025-09-16,Négociation,150000.0,25
+OPP-1024,AG-08,Prospect Tech-25,2025-06-01,Gagnée (Signée),15000.0,100
+OPP-1025,AG-03,Prospect Tech-26,2024-05-03,Proposition Envoyée,150000.0,75
+OPP-1026,AG-07,Prospect Services-27,2025-05-02,Perdue,75000.0,0
+OPP-1027,AG-22,Prospect Industrie-28,2024-08-24,Négociation,30000.0,25
+OPP-1028,AG-07,Prospect Services-29,2026-03-08,Gagnée (Signée),15000.0,100
+OPP-1029,AG-13,Prospect Industrie-30,2024-12-31,Perdue,300000.0,0
+OPP-1030,AG-05,Prospect Tech-31,2026-01-28,Gagnée (Signée),150000.0,100
+OPP-1031,AG-02,Prospect Services-32,2026-06-30,Proposition Envoyée,30000.0,50
+OPP-1032,AG-13,Prospect Services-33,2025-10-16,Proposition Envoyée,75000.0,75
+OPP-1033,AG-18,Prospect Services-34,2025-06-13,Perdue,30000.0,0
+OPP-1034,AG-01,Prospect Tech-35,2024-09-12,Négociation,15000.0,75
+OPP-1035,AG-10,Prospect Industrie-36,2026-07-26,Perdue,30000.0,0
+OPP-1036,AG-09,Prospect Tech-37,2025-02-17,Gagnée (Signée),30000.0,100
+OPP-1037,AG-17,Prospect Industrie-38,2024-07-16,Gagnée (Signée),75000.0,100
+OPP-1038,AG-03,Prospect Tech-39,2024-12-27,Négociation,75000.0,50
+OPP-1039,AG-08,Prospect Tech-40,2026-06-10,Gagnée (Signée),30000.0,100
+OPP-1040,AG-09,Prospect Tech-41,2024-06-26,Gagnée (Signée),15000.0,100
+OPP-1041,AG-16,Prospect Industrie-42,2025-04-21,Gagnée (Signée),15000.0,100
+OPP-1042,AG-18,Prospect Industrie-43,2025-10-12,Proposition Envoyée,150000.0,50
+OPP-1043,AG-16,Prospect Tech-44,2024-04-04,Gagnée (Signée),15000.0,100
+OPP-1044,AG-02,Prospect Tech-45,2024-12-18,Perdue,15000.0,0
+OPP-1045,AG-19,Prospect Industrie-46,2026-02-07,Gagnée (Signée),150000.0,100
+OPP-1046,AG-04,Prospect Tech-47,2024-07-16,Proposition Envoyée,30000.0,50
+OPP-1047,AG-04,Prospect Industrie-48,2026-03-11,Gagnée (Signée),150000.0,100
+OPP-1048,AG-16,Prospect Tech-49,2026-03-04,Lead Qualifié,75000.0,50
+OPP-1049,AG-11,Prospect Industrie-50,2025-11-12,Lead Qualifié,75000.0,25
+OPP-1050,AG-05,Prospect Services-51,2025-04-16,Négociation,30000.0,75
+OPP-1051,AG-05,Prospect Tech-52,2026-04-28,Négociation,30000.0,25
+OPP-1052,AG-09,Prospect Services-53,2025-03-19,Lead Qualifié,75000.0,75
+OPP-1053,AG-04,Prospect Tech-54,2024-11-15,Gagnée (Signée),15000.0,100
+OPP-1054,AG-19,Prospect Services-55,2024-05-30,Gagnée (Signée),75000.0,100
+OPP-1055,AG-02,Prospect Industrie-56,2024-06-17,Perdue,30000.0,0
+OPP-1056,AG-18,Prospect Tech-57,2024-05-22,Lead Qualifié,300000.0,75
+OPP-1057,AG-20,Prospect Services-58,2025-02-03,Proposition Envoyée,75000.0,50
+OPP-1058,AG-16,Prospect Tech-59,2025-06-28,Négociation,30000.0,25
+OPP-1059,AG-01,Prospect Industrie-60,2025-04-17,Négociation,30000.0,50
+OPP-1060,AG-08,Prospect Industrie-61,2026-03-15,Proposition Envoyée,30000.0,50
+OPP-1061,AG-04,Prospect Tech-62,2024-11-26,Négociation,15000.0,75
+OPP-1062,AG-16,Prospect Tech-63,2024-11-13,Négociation,150000.0,50
+OPP-1063,AG-09,Prospect Tech-64,2024-07-27,Gagnée (Signée),75000.0,100
+OPP-1064,AG-07,Prospect Industrie-65,2025-03-26,Lead Qualifié,30000.0,75
+OPP-1065,AG-09,Prospect Tech-66,2025-10-20,Perdue,15000.0,0
+OPP-1066,AG-02,Prospect Industrie-67,2024-05-23,Proposition Envoyée,15000.0,75
+OPP-1067,AG-22,Prospect Tech-68,2024-08-01,Lead Qualifié,300000.0,50
+OPP-1068,AG-12,Prospect Industrie-69,2025-03-01,Lead Qualifié,300000.0,75
+OPP-1069,AG-18,Prospect Tech-70,2026-03-30,Gagnée (Signée),300000.0,100
+OPP-1070,AG-13,Prospect Tech-71,2025-03-20,Négociation,75000.0,25
+OPP-1071,AG-16,Prospect Tech-72,2026-05-08,Gagnée (Signée),30000.0,100
+OPP-1072,AG-22,Prospect Industrie-73,2026-01-02,Gagnée (Signée),15000.0,100
+OPP-1073,AG-14,Prospect Services-74,2025-02-08,Lead Qualifié,75000.0,25
+OPP-1074,AG-16,Prospect Tech-75,2024-11-13,Négociation,30000.0,75
+OPP-1075,AG-07,Prospect Services-76,2025-06-17,Lead Qualifié,300000.0,25
+OPP-1076,AG-18,Prospect Tech-77,2024-11-21,Proposition Envoyée,150000.0,50
+OPP-1077,AG-04,Prospect Industrie-78,2025-11-23,Proposition Envoyée,15000.0,50
+OPP-1078,AG-18,Prospect Services-79,2026-05-17,Proposition Envoyée,30000.0,50
+OPP-1079,AG-11,Prospect Tech-80,2024-08-31,Perdue,75000.0,0
+OPP-1080,AG-10,Prospect Industrie-81,2025-09-12,Lead Qualifié,15000.0,75
+OPP-1081,AG-08,Prospect Tech-82,2025-08-20,Lead Qualifié,75000.0,25
+OPP-1082,AG-12,Prospect Industrie-83,2025-07-24,Lead Qualifié,30000.0,75
+OPP-1083,AG-11,Prospect Tech-84,2026-02-16,Gagnée (Signée),300000.0,100
+OPP-1084,AG-05,Prospect Services-85,2025-10-01,Proposition Envoyée,30000.0,75
+OPP-1085,AG-19,Prospect Industrie-86,2024-02-28,Proposition Envoyée,15000.0,50
+OPP-1086,AG-03,Prospect Industrie-87,2026-01-24,Lead Qualifié,30000.0,25
+OPP-1087,AG-01,Prospect Tech-88,2025-03-25,Lead Qualifié,30000.0,75
+OPP-1088,AG-16,Prospect Tech-89,2025-04-02,Gagnée (Signée),75000.0,100
+OPP-1089,AG-18,Prospect Services-90,2024-07-27,Gagnée (Signée),15000.0,100
+OPP-1090,AG-17,Prospect Services-91,2024-10-17,Négociation,15000.0,25
+OPP-1091,AG-13,Prospect Tech-92,2026-04-03,Lead Qualifié,75000.0,25
+OPP-1092,AG-21,Prospect Tech-93,2024-06-15,Perdue,300000.0,0
+OPP-1093,AG-13,Prospect Tech-94,2026-06-07,Gagnée (Signée),30000.0,100
+OPP-1094,AG-18,Prospect Tech-95,2026-03-01,Négociation,30000.0,50
+OPP-1095,AG-18,Prospect Industrie-96,2025-06-05,Proposition Envoyée,30000.0,50
+OPP-1096,AG-08,Prospect Services-97,2025-01-25,Gagnée (Signée),300000.0,100
+OPP-1097,AG-09,Prospect Services-98,2024-08-10,Proposition Envoyée,30000.0,75
+OPP-1098,AG-12,Prospect Industrie-99,2025-03-06,Gagnée (Signée),15000.0,100
+OPP-1099,AG-08,Prospect Tech-100,2024-06-03,Gagnée (Signée),300000.0,100
+OPP-1100,AG-18,Prospect Industrie-101,2026-06-04,Gagnée (Signée),15000.0,100
+OPP-1101,AG-13,Prospect Tech-102,2024-04-04,Lead Qualifié,15000.0,25
+OPP-1102,AG-13,Prospect Industrie-103,2024-04-20,Négociation,30000.0,50
+OPP-1103,AG-14,Prospect Tech-104,2025-08-04,Lead Qualifié,75000.0,75
+OPP-1104,AG-11,Prospect Services-105,2024-03-15,Négociation,15000.0,50
+OPP-1105,AG-20,Prospect Services-106,2026-03-13,Gagnée (Signée),15000.0,100
+OPP-1106,AG-10,Prospect Industrie-107,2025-09-30,Proposition Envoyée,300000.0,25
+OPP-1107,AG-06,Prospect Services-108,2025-11-25,Lead Qualifié,75000.0,25
+OPP-1108,AG-13,Prospect Tech-109,2026-03-06,Proposition Envoyée,15000.0,50
+OPP-1109,AG-05,Prospect Industrie-110,2024-10-08,Proposition Envoyée,75000.0,50
+OPP-1110,AG-06,Prospect Tech-111,2025-04-16,Négociation,30000.0,75
+OPP-1111,AG-21,Prospect Tech-112,2024-04-23,Lead Qualifié,150000.0,25
+OPP-1112,AG-06,Prospect Industrie-113,2025-11-15,Proposition Envoyée,75000.0,75
+OPP-1113,AG-06,Prospect Tech-114,2025-06-29,Lead Qualifié,150000.0,50
+OPP-1114,AG-16,Prospect Tech-115,2024-01-05,Proposition Envoyée,30000.0,50
+OPP-1115,AG-12,Prospect Services-116,2025-07-08,Perdue,150000.0,0
+OPP-1116,AG-22,Prospect Industrie-117,2024-09-17,Gagnée (Signée),150000.0,100
+OPP-1117,AG-03,Prospect Services-118,2024-01-02,Négociation,15000.0,75
+OPP-1118,AG-14,Prospect Services-119,2025-12-03,Gagnée (Signée),150000.0,100
+OPP-1119,AG-04,Prospect Tech-120,2026-03-01,Négociation,75000.0,75
+OPP-1120,AG-08,Prospect Services-121,2026-05-25,Négociation,15000.0,25
+OPP-1121,AG-01,Prospect Services-122,2024-02-17,Négociation,15000.0,25
+OPP-1122,AG-10,Prospect Tech-123,2024-10-29,Gagnée (Signée),15000.0,100
+OPP-1123,AG-20,Prospect Industrie-124,2024-06-04,Perdue,150000.0,0
+OPP-1124,AG-16,Prospect Tech-125,2026-04-10,Gagnée (Signée),150000.0,100
+OPP-1125,AG-09,Prospect Industrie-126,2025-01-21,Lead Qualifié,30000.0,50
+OPP-1126,AG-02,Prospect Services-127,2025-08-10,Perdue,15000.0,0
+OPP-1127,AG-13,Prospect Tech-128,2025-05-27,Négociation,75000.0,50
+OPP-1128,AG-07,Prospect Industrie-129,2026-04-10,Gagnée (Signée),75000.0,100
+OPP-1129,AG-14,Prospect Industrie-130,2025-04-24,Lead Qualifié,15000.0,50
+OPP-1130,AG-10,Prospect Services-131,2025-02-08,Proposition Envoyée,150000.0,50
+OPP-1131,AG-03,Prospect Industrie-132,2024-11-26,Perdue,30000.0,0
+OPP-1132,AG-04,Prospect Services-133,2025-07-13,Gagnée (Signée),150000.0,100
+OPP-1133,AG-20,Prospect Industrie-134,2024-05-16,Négociation,30000.0,50
+OPP-1134,AG-04,Prospect Services-135,2024-07-25,Gagnée (Signée),15000.0,100
+OPP-1135,AG-14,Prospect Services-136,2025-01-05,Négociation,30000.0,25
+OPP-1136,AG-14,Prospect Industrie-137,2024-04-04,Proposition Envoyée,15000.0,75
+OPP-1137,AG-16,Prospect Services-138,2024-11-10,Lead Qualifié,30000.0,50
+OPP-1138,AG-16,Prospect Services-139,2025-03-30,Proposition Envoyée,15000.0,50
+OPP-1139,AG-03,Prospect Tech-140,2025-05-16,Négociation,30000.0,75
+OPP-1140,AG-19,Prospect Services-141,2024-11-27,Lead Qualifié,150000.0,75
+OPP-1141,AG-13,Prospect Industrie-142,2025-07-22,Gagnée (Signée),30000.0,100
+OPP-1142,AG-21,Prospect Tech-143,2024-08-17,Lead Qualifié,15000.0,25
+OPP-1143,AG-10,Prospect Services-144,2024-10-07,Lead Qualifié,15000.0,75
+OPP-1144,AG-07,Prospect Industrie-145,2026-06-15,Proposition Envoyée,15000.0,75
+OPP-1145,AG-06,Prospect Tech-146,2025-04-27,Gagnée (Signée),15000.0,100
+OPP-1146,AG-08,Prospect Tech-147,2026-01-05,Lead Qualifié,15000.0,25
+OPP-1147,AG-20,Prospect Tech-148,2025-03-12,Négociation,15000.0,25
+OPP-1148,AG-18,Prospect Services-149,2024-04-06,Perdue,300000.0,0
+OPP-1149,AG-11,Prospect Services-150,2024-03-12,Négociation,300000.0,50
+OPP-1150,AG-07,Prospect Tech-151,2025-05-31,Gagnée (Signée),30000.0,100
+OPP-1151,AG-22,Prospect Services-152,2024-06-04,Proposition Envoyée,15000.0,25
+OPP-1152,AG-21,Prospect Tech-153,2024-02-25,Lead Qualifié,75000.0,75
+OPP-1153,AG-05,Prospect Services-154,2025-09-17,Négociation,30000.0,75
+OPP-1154,AG-10,Prospect Services-155,2024-06-06,Lead Qualifié,30000.0,75
+OPP-1155,AG-07,Prospect Services-156,2025-08-30,Lead Qualifié,15000.0,75
+OPP-1156,AG-03,Prospect Services-157,2024-03-03,Proposition Envoyée,30000.0,25
+OPP-1157,AG-19,Prospect Tech-158,2024-02-07,Lead Qualifié,150000.0,25
+OPP-1158,AG-14,Prospect Tech-159,2025-12-25,Gagnée (Signée),15000.0,100
+OPP-1159,AG-20,Prospect Tech-160,2025-12-25,Lead Qualifié,15000.0,25
+OPP-1160,AG-20,Prospect Services-161,2024-10-07,Lead Qualifié,300000.0,75
+OPP-1161,AG-11,Prospect Tech-162,2026-06-15,Lead Qualifié,75000.0,25
+OPP-1162,AG-14,Prospect Industrie-163,2026-07-15,Proposition Envoyée,75000.0,75
+OPP-1163,AG-01,Prospect Services-164,2025-02-01,Proposition Envoyée,75000.0,25
+OPP-1164,AG-01,Prospect Services-165,2024-01-14,Lead Qualifié,15000.0,75
+OPP-1165,AG-20,Prospect Tech-166,2025-10-12,Proposition Envoyée,150000.0,25
+OPP-1166,AG-22,Prospect Industrie-167,2025-02-04,Lead Qualifié,150000.0,25
+OPP-1167,AG-22,Prospect Services-168,2024-02-06,Proposition Envoyée,30000.0,50
+OPP-1168,AG-10,Prospect Tech-169,2024-07-18,Lead Qualifié,30000.0,50
+OPP-1169,AG-16,Prospect Industrie-170,2026-01-06,Lead Qualifié,30000.0,50
+OPP-1170,AG-17,Prospect Tech-171,2024-10-04,Lead Qualifié,30000.0,75
+OPP-1171,AG-21,Prospect Industrie-172,2024-08-12,Négociation,150000.0,50
+OPP-1172,AG-17,Prospect Industrie-173,2025-03-07,Perdue,15000.0,0
+OPP-1173,AG-12,Prospect Services-174,2026-03-30,Gagnée (Signée),30000.0,100
+OPP-1174,AG-17,Prospect Tech-175,2024-08-20,Gagnée (Signée),15000.0,100
+OPP-1175,AG-06,Prospect Services-176,2024-05-30,Négociation,30000.0,75
+OPP-1176,AG-20,Prospect Industrie-177,2024-04-26,Négociation,30000.0,25
+OPP-1177,AG-08,Prospect Industrie-178,2024-01-16,Lead Qualifié,75000.0,25
+OPP-1178,AG-06,Prospect Industrie-179,2025-04-27,Lead Qualifié,15000.0,25
+OPP-1179,AG-05,Prospect Tech-180,2025-10-21,Lead Qualifié,15000.0,75
+OPP-1180,AG-04,Prospect Tech-181,2025-05-02,Lead Qualifié,300000.0,50
+OPP-1181,AG-19,Prospect Tech-182,2024-09-12,Perdue,30000.0,0
+OPP-1182,AG-11,Prospect Industrie-183,2026-07-21,Perdue,75000.0,0
+OPP-1183,AG-11,Prospect Services-184,2025-10-17,Gagnée (Signée),75000.0,100
+OPP-1184,AG-11,Prospect Services-185,2025-01-16,Négociation,30000.0,50
+OPP-1185,AG-22,Prospect Services-186,2025-01-01,Lead Qualifié,15000.0,75
+OPP-1186,AG-04,Prospect Services-187,2026-05-12,Lead Qualifié,30000.0,75
+OPP-1187,AG-03,Prospect Industrie-188,2026-01-22,Proposition Envoyée,15000.0,50
+OPP-1188,AG-12,Prospect Industrie-189,2026-04-17,Perdue,300000.0,0
+OPP-1189,AG-01,Prospect Industrie-190,2025-10-08,Gagnée (Signée),15000.0,100
+OPP-1190,AG-14,Prospect Tech-191,2025-11-14,Proposition Envoyée,150000.0,75
+OPP-1191,AG-17,Prospect Services-192,2026-01-08,Gagnée (Signée),15000.0,100
+OPP-1192,AG-20,Prospect Services-193,2025-10-18,Proposition Envoyée,15000.0,75
+OPP-1193,AG-21,Prospect Industrie-194,2026-03-08,Perdue,75000.0,0
+OPP-1194,AG-10,Prospect Tech-195,2026-01-12,Proposition Envoyée,30000.0,50
+OPP-1195,AG-22,Prospect Services-196,2025-09-17,Négociation,15000.0,75
+OPP-1196,AG-19,Prospect Tech-197,2026-02-18,Lead Qualifié,150000.0,25
+OPP-1197,AG-16,Prospect Industrie-198,2024-11-27,Lead Qualifié,75000.0,50
+OPP-1198,AG-05,Prospect Industrie-199,2025-07-22,Lead Qualifié,30000.0,75
+OPP-1199,AG-16,Prospect Services-200,2024-03-05,Négociation,150000.0,25
+OPP-1200,AG-11,Prospect Industrie-201,2024-07-22,Lead Qualifié,300000.0,50
+OPP-1201,AG-03,Prospect Tech-202,2026-03-17,Gagnée (Signée),15000.0,100
+OPP-1202,AG-06,Prospect Tech-203,2025-02-11,Perdue,30000.0,0
+OPP-1203,AG-03,Prospect Services-204,2025-02-12,Gagnée (Signée),30000.0,100
+OPP-1204,AG-14,Prospect Industrie-205,2024-07-28,Gagnée (Signée),150000.0,100
+OPP-1205,AG-19,Prospect Tech-206,2025-03-02,Négociation,15000.0,50
+OPP-1206,AG-08,Prospect Tech-207,2026-06-10,Gagnée (Signée),75000.0,100
+OPP-1207,AG-01,Prospect Services-208,2026-04-12,Lead Qualifié,75000.0,25
+OPP-1208,AG-19,Prospect Industrie-209,2024-12-27,Perdue,30000.0,0
+OPP-1209,AG-05,Prospect Industrie-210,2025-04-01,Négociation,30000.0,75
+OPP-1210,AG-08,Prospect Services-211,2024-03-13,Négociation,15000.0,50
+OPP-1211,AG-08,Prospect Tech-212,2024-01-26,Perdue,150000.0,0
+OPP-1212,AG-04,Prospect Industrie-213,2024-10-28,Négociation,15000.0,50
+OPP-1213,AG-20,Prospect Tech-214,2026-06-13,Lead Qualifié,30000.0,75
+OPP-1214,AG-01,Prospect Tech-215,2025-10-05,Lead Qualifié,150000.0,25
+OPP-1215,AG-15,Prospect Industrie-216,2026-05-07,Négociation,75000.0,50
+OPP-1216,AG-07,Prospect Services-217,2025-05-29,Négociation,15000.0,50
+OPP-1217,AG-14,Prospect Services-218,2025-06-22,Négociation,30000.0,75
+OPP-1218,AG-04,Prospect Tech-219,2024-04-25,Proposition Envoyée,15000.0,25
+OPP-1219,AG-22,Prospect Industrie-220,2024-01-17,Proposition Envoyée,150000.0,75
+OPP-1220,AG-09,Prospect Tech-221,2024-08-07,Proposition Envoyée,15000.0,75
+OPP-1221,AG-02,Prospect Tech-222,2024-12-24,Gagnée (Signée),15000.0,100
+OPP-1222,AG-18,Prospect Tech-223,2026-07-26,Lead Qualifié,75000.0,50
+OPP-1223,AG-17,Prospect Services-224,2025-03-11,Proposition Envoyée,300000.0,25
+OPP-1224,AG-21,Prospect Industrie-225,2026-07-17,Négociation,75000.0,50
+OPP-1225,AG-16,Prospect Tech-226,2025-11-25,Gagnée (Signée),30000.0,100
+OPP-1226,AG-14,Prospect Industrie-227,2025-05-13,Négociation,75000.0,75
+OPP-1227,AG-08,Prospect Industrie-228,2025-07-10,Gagnée (Signée),75000.0,100
+OPP-1228,AG-13,Prospect Industrie-229,2024-06-18,Proposition Envoyée,150000.0,50
+OPP-1229,AG-18,Prospect Industrie-230,2024-09-11,Proposition Envoyée,75000.0,25
+OPP-1230,AG-22,Prospect Services-231,2024-09-26,Perdue,75000.0,0
+OPP-1231,AG-11,Prospect Industrie-232,2025-07-06,Lead Qualifié,300000.0,25
+OPP-1232,AG-11,Prospect Tech-233,2025-11-08,Lead Qualifié,150000.0,25
+OPP-1233,AG-21,Prospect Industrie-234,2026-07-03,Gagnée (Signée),30000.0,100
+OPP-1234,AG-22,Prospect Tech-235,2026-06-30,Négociation,30000.0,50
+OPP-1235,AG-08,Prospect Industrie-236,2024-06-18,Négociation,300000.0,25
+OPP-1236,AG-01,Prospect Tech-237,2025-05-22,Négociation,15000.0,25
+OPP-1237,AG-05,Prospect Industrie-238,2025-07-10,Négociation,15000.0,25
+OPP-1238,AG-05,Prospect Services-239,2024-12-27,Gagnée (Signée),30000.0,100
+OPP-1239,AG-05,Prospect Industrie-240,2024-06-07,Lead Qualifié,150000.0,75
+OPP-1240,AG-18,Prospect Services-241,2025-12-30,Négociation,30000.0,50
+OPP-1241,AG-09,Prospect Services-242,2024-08-25,Lead Qualifié,30000.0,25
+OPP-1242,AG-05,Prospect Industrie-243,2025-03-19,Négociation,30000.0,50
+OPP-1243,AG-19,Prospect Tech-244,2025-12-12,Lead Qualifié,300000.0,25
+OPP-1244,AG-09,Prospect Industrie-245,2024-06-15,Proposition Envoyée,75000.0,50
+OPP-1245,AG-13,Prospect Services-246,2024-11-19,Lead Qualifié,150000.0,75
+OPP-1246,AG-03,Prospect Tech-247,2024-12-29,Négociation,15000.0,75
+OPP-1247,AG-06,Prospect Tech-248,2024-06-20,Négociation,15000.0,25
+OPP-1248,AG-10,Prospect Tech-249,2026-04-14,Lead Qualifié,30000.0,25
+OPP-1249,AG-16,Prospect Services-250,2024-02-24,Proposition Envoyée,75000.0,25
+OPP-1250,AG-07,Prospect Services-251,2024-03-29,Proposition Envoyée,150000.0,25
+OPP-1251,AG-01,Prospect Tech-252,2025-09-16,Proposition Envoyée,30000.0,50
+OPP-1252,AG-16,Prospect Industrie-253,2025-04-30,Lead Qualifié,75000.0,75
+OPP-1253,AG-07,Prospect Industrie-254,2026-04-23,Proposition Envoyée,75000.0,50
+OPP-1254,AG-20,Prospect Services-255,2025-03-31,Proposition Envoyée,75000.0,75
+OPP-1255,AG-18,Prospect Services-256,2024-06-06,Proposition Envoyée,30000.0,75
+OPP-1256,AG-10,Prospect Industrie-257,2025-06-23,Négociation,15000.0,25
+OPP-1257,AG-22,Prospect Services-258,2025-12-30,Lead Qualifié,300000.0,75
+OPP-1258,AG-09,Prospect Tech-259,2024-01-15,Proposition Envoyée,150000.0,75
+OPP-1259,AG-06,Prospect Services-260,2026-07-30,Proposition Envoyée,30000.0,50
+OPP-1260,AG-14,Prospect Services-261,2025-03-27,Négociation,15000.0,50
+OPP-1261,AG-09,Prospect Services-262,2025-08-23,Négociation,30000.0,25
+OPP-1262,AG-06,Prospect Services-263,2026-03-17,Lead Qualifié,30000.0,25
+OPP-1263,AG-12,Prospect Industrie-264,2024-08-17,Perdue,75000.0,0
+OPP-1264,AG-22,Prospect Services-265,2026-03-10,Lead Qualifié,30000.0,50
+OPP-1265,AG-22,Prospect Tech-266,2024-02-20,Proposition Envoyée,15000.0,25
+OPP-1266,AG-07,Prospect Tech-267,2025-04-19,Gagnée (Signée),15000.0,100
+OPP-1267,AG-22,Prospect Industrie-268,2025-05-02,Proposition Envoyée,300000.0,75
+OPP-1268,AG-11,Prospect Services-269,2025-10-26,Lead Qualifié,15000.0,25
+OPP-1269,AG-05,Prospect Services-270,2024-09-19,Perdue,150000.0,0
+OPP-1270,AG-09,Prospect Industrie-271,2024-07-22,Gagnée (Signée),30000.0,100
+OPP-1271,AG-14,Prospect Industrie-272,2025-07-29,Perdue,15000.0,0
+OPP-1272,AG-17,Prospect Industrie-273,2024-06-19,Négociation,75000.0,25
+OPP-1273,AG-14,Prospect Tech-274,2026-08-01,Proposition Envoyée,30000.0,50
+OPP-1274,AG-14,Prospect Industrie-275,2025-02-12,Proposition Envoyée,15000.0,75
+OPP-1275,AG-09,Prospect Tech-276,2024-08-03,Gagnée (Signée),75000.0,100
+OPP-1276,AG-04,Prospect Services-277,2024-12-22,Lead Qualifié,75000.0,50
+OPP-1277,AG-17,Prospect Services-278,2026-07-08,Proposition Envoyée,30000.0,50
+OPP-1278,AG-15,Prospect Tech-279,2024-04-17,Négociation,30000.0,75
+OPP-1279,AG-17,Prospect Tech-280,2025-03-14,Lead Qualifié,30000.0,25
+OPP-1280,AG-20,Prospect Tech-281,2024-03-25,Négociation,30000.0,75
+OPP-1281,AG-06,Prospect Services-282,2024-07-25,Perdue,30000.0,0
+OPP-1282,AG-05,Prospect Tech-283,2024-09-06,Négociation,15000.0,75
+OPP-1283,AG-22,Prospect Tech-284,2025-11-24,Proposition Envoyée,30000.0,25
+OPP-1284,AG-13,Prospect Tech-285,2026-02-15,Lead Qualifié,15000.0,75
+OPP-1285,AG-06,Prospect Industrie-286,2024-01-07,Perdue,15000.0,0
+OPP-1286,AG-20,Prospect Tech-287,2025-06-13,Négociation,30000.0,25
+OPP-1287,AG-14,Prospect Services-288,2025-07-04,Proposition Envoyée,75000.0,50
+OPP-1288,AG-12,Prospect Tech-289,2025-02-08,Gagnée (Signée),15000.0,100
+OPP-1289,AG-08,Prospect Services-290,2024-05-01,Négociation,75000.0,50
+OPP-1290,AG-03,Prospect Industrie-291,2024-10-14,Négociation,15000.0,75
+OPP-1291,AG-18,Prospect Industrie-292,2024-09-27,Lead Qualifié,30000.0,50
+OPP-1292,AG-02,Prospect Tech-293,2024-06-30,Négociation,300000.0,25
+OPP-1293,AG-15,Prospect Industrie-294,2025-06-04,Gagnée (Signée),30000.0,100
+OPP-1294,AG-22,Prospect Services-295,2024-04-07,Gagnée (Signée),15000.0,100
+OPP-1295,AG-15,Prospect Tech-296,2026-05-24,Proposition Envoyée,30000.0,25
+OPP-1296,AG-18,Prospect Tech-297,2026-05-14,Lead Qualifié,150000.0,25
+OPP-1297,AG-08,Prospect Industrie-298,2026-03-23,Négociation,30000.0,75
+OPP-1298,AG-12,Prospect Tech-299,2024-11-24,Gagnée (Signée),30000.0,100
+OPP-1299,AG-11,Prospect Industrie-300,2026-04-24,Gagnée (Signée),30000.0,100
+OPP-1300,AG-12,Prospect Industrie-301,2024-08-31,Gagnée (Signée),15000.0,100
+OPP-1301,AG-15,Prospect Tech-302,2024-06-04,Perdue,300000.0,0
+OPP-1302,AG-22,Prospect Services-303,2025-09-29,Proposition Envoyée,30000.0,50
+OPP-1303,AG-09,Prospect Services-304,2026-07-22,Proposition Envoyée,150000.0,25
+OPP-1304,AG-06,Prospect Industrie-305,2024-02-01,Proposition Envoyée,300000.0,25
+OPP-1305,AG-05,Prospect Industrie-306,2025-08-13,Négociation,75000.0,25
+OPP-1306,AG-01,Prospect Industrie-307,2025-01-24,Gagnée (Signée),15000.0,100
+OPP-1307,AG-06,Prospect Tech-308,2025-07-14,Gagnée (Signée),15000.0,100
+OPP-1308,AG-09,Prospect Industrie-309,2025-03-30,Gagnée (Signée),30000.0,100
+OPP-1309,AG-07,Prospect Services-310,2026-07-30,Négociation,15000.0,25
+OPP-1310,AG-04,Prospect Industrie-311,2026-06-09,Proposition Envoyée,15000.0,75
+OPP-1311,AG-15,Prospect Tech-312,2024-08-27,Proposition Envoyée,15000.0,25
+OPP-1312,AG-19,Prospect Services-313,2024-05-29,Lead Qualifié,15000.0,25
+OPP-1313,AG-02,Prospect Services-314,2026-06-21,Proposition Envoyée,300000.0,75
+OPP-1314,AG-11,Prospect Tech-315,2025-03-15,Gagnée (Signée),75000.0,100
+OPP-1315,AG-12,Prospect Industrie-316,2024-03-19,Lead Qualifié,30000.0,50
+OPP-1316,AG-18,Prospect Tech-317,2025-09-13,Négociation,30000.0,50
+OPP-1317,AG-09,Prospect Tech-318,2024-07-27,Proposition Envoyée,30000.0,50
+OPP-1318,AG-06,Prospect Tech-319,2024-12-08,Perdue,30000.0,0
+OPP-1319,AG-19,Prospect Services-320,2024-09-22,Lead Qualifié,75000.0,75
+OPP-1320,AG-01,Prospect Services-321,2024-09-07,Proposition Envoyée,75000.0,50
+OPP-1321,AG-04,Prospect Services-322,2025-11-20,Lead Qualifié,30000.0,25
+OPP-1322,AG-17,Prospect Services-323,2026-03-07,Gagnée (Signée),150000.0,100
+OPP-1323,AG-10,Prospect Industrie-324,2025-11-22,Proposition Envoyée,15000.0,50
+OPP-1324,AG-19,Prospect Services-325,2025-09-13,Gagnée (Signée),150000.0,100
+OPP-1325,AG-01,Prospect Services-326,2024-08-25,Proposition Envoyée,30000.0,75
+OPP-1326,AG-08,Prospect Tech-327,2025-03-28,Proposition Envoyée,30000.0,25
+OPP-1327,AG-21,Prospect Services-328,2024-07-17,Proposition Envoyée,30000.0,75
+OPP-1328,AG-01,Prospect Tech-329,2024-04-16,Perdue,15000.0,0
+OPP-1329,AG-15,Prospect Tech-330,2026-04-16,Proposition Envoyée,300000.0,25
+OPP-1330,AG-16,Prospect Services-331,2026-01-01,Lead Qualifié,30000.0,75
+OPP-1331,AG-05,Prospect Industrie-332,2024-01-25,Proposition Envoyée,30000.0,25
+OPP-1332,AG-01,Prospect Industrie-333,2025-05-01,Lead Qualifié,30000.0,25
+OPP-1333,AG-15,Prospect Services-334,2025-02-10,Perdue,150000.0,0
+OPP-1334,AG-04,Prospect Industrie-335,2026-02-28,Négociation,15000.0,50
+OPP-1335,AG-12,Prospect Industrie-336,2024-06-18,Lead Qualifié,150000.0,50
+OPP-1336,AG-18,Prospect Industrie-337,2025-06-30,Négociation,15000.0,25
+OPP-1337,AG-17,Prospect Tech-338,2026-06-05,Gagnée (Signée),15000.0,100
+OPP-1338,AG-14,Prospect Tech-339,2025-11-19,Lead Qualifié,150000.0,50
+OPP-1339,AG-19,Prospect Industrie-340,2025-10-09,Négociation,75000.0,75
+OPP-1340,AG-01,Prospect Tech-341,2024-04-19,Proposition Envoyée,15000.0,25
+OPP-1341,AG-15,Prospect Services-342,2025-11-18,Gagnée (Signée),30000.0,100
+OPP-1342,AG-16,Prospect Tech-343,2024-07-08,Proposition Envoyée,30000.0,75
+OPP-1343,AG-11,Prospect Tech-344,2025-01-23,Proposition Envoyée,30000.0,25
+OPP-1344,AG-11,Prospect Tech-345,2025-12-11,Lead Qualifié,30000.0,25
+OPP-1345,AG-07,Prospect Industrie-346,2024-07-25,Lead Qualifié,15000.0,25
+OPP-1346,AG-19,Prospect Services-347,2024-11-13,Perdue,30000.0,0
+OPP-1347,AG-17,Prospect Industrie-348,2026-05-12,Proposition Envoyée,15000.0,75
+OPP-1348,AG-03,Prospect Services-349,2025-07-26,Proposition Envoyée,75000.0,50
+OPP-1349,AG-19,Prospect Industrie-350,2026-05-08,Négociation,15000.0,75
+OPP-1350,AG-15,Prospect Services-351,2024-10-25,Perdue,30000.0,0
+OPP-1351,AG-12,Prospect Industrie-352,2025-06-11,Lead Qualifié,30000.0,25
+OPP-1352,AG-18,Prospect Services-353,2026-06-14,Proposition Envoyée,15000.0,50
+OPP-1353,AG-05,Prospect Industrie-354,2026-03-06,Proposition Envoyée,15000.0,25
+OPP-1354,AG-19,Prospect Services-355,2024-10-26,Perdue,15000.0,0
+OPP-1355,AG-06,Prospect Services-356,2024-02-03,Perdue,30000.0,0
+OPP-1356,AG-20,Prospect Tech-357,2024-10-30,Lead Qualifié,150000.0,75
+OPP-1357,AG-21,Prospect Services-358,2026-06-20,Négociation,30000.0,75
+OPP-1358,AG-02,Prospect Services-359,2024-11-05,Proposition Envoyée,150000.0,25
+OPP-1359,AG-18,Prospect Tech-360,2025-11-25,Négociation,300000.0,25
+OPP-1360,AG-10,Prospect Industrie-361,2025-07-22,Négociation,300000.0,75
+OPP-1361,AG-06,Prospect Services-362,2024-06-08,Négociation,15000.0,25
+OPP-1362,AG-16,Prospect Services-363,2025-11-23,Gagnée (Signée),30000.0,100
+OPP-1363,AG-03,Prospect Services-364,2024-04-28,Gagnée (Signée),30000.0,100
+OPP-1364,AG-11,Prospect Services-365,2025-03-30,Perdue,30000.0,0
+OPP-1365,AG-22,Prospect Tech-366,2024-12-18,Lead Qualifié,30000.0,75
+OPP-1366,AG-18,Prospect Tech-367,2024-10-13,Gagnée (Signée),15000.0,100
+OPP-1367,AG-04,Prospect Industrie-368,2024-08-15,Gagnée (Signée),150000.0,100
+OPP-1368,AG-16,Prospect Tech-369,2024-06-09,Lead Qualifié,300000.0,75
+OPP-1369,AG-13,Prospect Industrie-370,2024-09-14,Perdue,300000.0,0
+OPP-1370,AG-15,Prospect Industrie-371,2025-04-01,Proposition Envoyée,75000.0,75
+OPP-1371,AG-11,Prospect Industrie-372,2026-07-13,Lead Qualifié,15000.0,75
+OPP-1372,AG-22,Prospect Tech-373,2025-06-02,Proposition Envoyée,75000.0,75
+OPP-1373,AG-16,Prospect Tech-374,2026-06-25,Proposition Envoyée,150000.0,50
+OPP-1374,AG-16,Prospect Industrie-375,2024-07-22,Gagnée (Signée),150000.0,100
+OPP-1375,AG-18,Prospect Industrie-376,2024-02-25,Proposition Envoyée,30000.0,25
+OPP-1376,AG-09,Prospect Tech-377,2024-05-29,Négociation,15000.0,25
+OPP-1377,AG-12,Prospect Services-378,2025-02-13,Gagnée (Signée),300000.0,100
+OPP-1378,AG-06,Prospect Tech-379,2024-01-27,Proposition Envoyée,150000.0,75
+OPP-1379,AG-17,Prospect Services-380,2024-05-07,Proposition Envoyée,150000.0,25
+OPP-1380,AG-06,Prospect Services-381,2025-11-03,Négociation,75000.0,25
+OPP-1381,AG-06,Prospect Tech-382,2024-02-03,Négociation,15000.0,50
+OPP-1382,AG-09,Prospect Industrie-383,2025-10-17,Lead Qualifié,150000.0,75
+OPP-1383,AG-08,Prospect Tech-384,2024-09-30,Perdue,15000.0,0
+OPP-1384,AG-08,Prospect Tech-385,2026-02-22,Proposition Envoyée,30000.0,25
+OPP-1385,AG-21,Prospect Industrie-386,2025-05-05,Proposition Envoyée,75000.0,50
+OPP-1386,AG-20,Prospect Services-387,2025-04-18,Gagnée (Signée),75000.0,100
+OPP-1387,AG-22,Prospect Industrie-388,2024-01-06,Négociation,30000.0,25
+OPP-1388,AG-17,Prospect Services-389,2024-12-02,Gagnée (Signée),75000.0,100
+OPP-1389,AG-16,Prospect Industrie-390,2025-04-12,Proposition Envoyée,15000.0,75
+OPP-1390,AG-18,Prospect Industrie-391,2024-07-27,Lead Qualifié,15000.0,75
+OPP-1391,AG-21,Prospect Industrie-392,2026-05-26,Proposition Envoyée,30000.0,50
+OPP-1392,AG-03,Prospect Tech-393,2026-06-19,Gagnée (Signée),15000.0,100
+OPP-1393,AG-15,Prospect Services-394,2024-04-18,Gagnée (Signée),15000.0,100
+OPP-1394,AG-18,Prospect Industrie-395,2024-01-31,Négociation,75000.0,50
+OPP-1395,AG-10,Prospect Services-396,2025-10-20,Proposition Envoyée,15000.0,75
+OPP-1396,AG-13,Prospect Industrie-397,2025-05-30,Perdue,75000.0,0
+OPP-1397,AG-22,Prospect Industrie-398,2025-07-21,Proposition Envoyée,150000.0,25
+OPP-1398,AG-11,Prospect Services-399,2024-10-26,Gagnée (Signée),30000.0,100
+OPP-1399,AG-06,Prospect Tech-400,2025-05-23,Gagnée (Signée),30000.0,100
+OPP-1400,AG-02,Prospect Services-401,2026-03-10,Perdue,75000.0,0
+OPP-1401,AG-21,Prospect Industrie-402,2024-10-28,Perdue,15000.0,0
+OPP-1402,AG-22,Prospect Tech-403,2024-01-20,Négociation,75000.0,50
+OPP-1403,AG-18,Prospect Industrie-404,2025-05-14,Négociation,30000.0,25
+OPP-1404,AG-16,Prospect Industrie-405,2024-06-16,Lead Qualifié,150000.0,25
+OPP-1405,AG-21,Prospect Services-406,2024-08-25,Lead Qualifié,15000.0,75
+OPP-1406,AG-22,Prospect Services-407,2025-07-30,Gagnée (Signée),30000.0,100
+OPP-1407,AG-15,Prospect Services-408,2024-12-05,Négociation,15000.0,25
+OPP-1408,AG-06,Prospect Services-409,2025-02-04,Proposition Envoyée,75000.0,25
+OPP-1409,AG-02,Prospect Industrie-410,2026-07-27,Gagnée (Signée),300000.0,100
+OPP-1410,AG-13,Prospect Tech-411,2025-02-19,Négociation,300000.0,75
+OPP-1411,AG-15,Prospect Tech-412,2026-02-26,Négociation,15000.0,50
+OPP-1412,AG-12,Prospect Industrie-413,2024-10-30,Gagnée (Signée),30000.0,100
+OPP-1413,AG-05,Prospect Industrie-414,2024-06-27,Perdue,15000.0,0
+OPP-1414,AG-17,Prospect Industrie-415,2026-02-18,Perdue,75000.0,0
+OPP-1415,AG-08,Prospect Tech-416,2024-01-17,Lead Qualifié,15000.0,50
+OPP-1416,AG-16,Prospect Industrie-417,2024-01-05,Négociation,30000.0,50
+OPP-1417,AG-16,Prospect Services-418,2025-09-29,Lead Qualifié,30000.0,50
+OPP-1418,AG-09,Prospect Services-419,2024-06-07,Gagnée (Signée),15000.0,100
+OPP-1419,AG-01,Prospect Industrie-420,2025-01-08,Gagnée (Signée),30000.0,100
+OPP-1420,AG-12,Prospect Tech-421,2026-01-29,Négociation,30000.0,25
+OPP-1421,AG-12,Prospect Industrie-422,2025-07-31,Gagnée (Signée),30000.0,100
+OPP-1422,AG-13,Prospect Services-423,2024-04-27,Gagnée (Signée),30000.0,100
+OPP-1423,AG-05,Prospect Services-424,2024-01-25,Proposition Envoyée,75000.0,50
+OPP-1424,AG-13,Prospect Tech-425,2024-12-08,Proposition Envoyée,30000.0,75
+OPP-1425,AG-15,Prospect Services-426,2025-02-18,Gagnée (Signée),15000.0,100
+OPP-1426,AG-17,Prospect Industrie-427,2024-10-12,Proposition Envoyée,30000.0,25
+OPP-1427,AG-19,Prospect Tech-428,2024-07-17,Lead Qualifié,75000.0,25
+OPP-1428,AG-14,Prospect Services-429,2026-01-01,Perdue,150000.0,0
+OPP-1429,AG-08,Prospect Tech-430,2025-09-19,Proposition Envoyée,300000.0,50
+OPP-1430,AG-02,Prospect Industrie-431,2024-06-04,Perdue,30000.0,0
+OPP-1431,AG-06,Prospect Services-432,2025-07-26,Négociation,15000.0,25
+OPP-1432,AG-07,Prospect Tech-433,2025-05-31,Gagnée (Signée),75000.0,100
+OPP-1433,AG-04,Prospect Services-434,2024-09-16,Négociation,30000.0,75
+OPP-1434,AG-10,Prospect Industrie-435,2025-07-27,Perdue,15000.0,0
+OPP-1435,AG-20,Prospect Industrie-436,2025-10-03,Gagnée (Signée),15000.0,100
+OPP-1436,AG-19,Prospect Industrie-437,2024-01-18,Négociation,75000.0,50
+OPP-1437,AG-04,Prospect Industrie-438,2025-05-29,Gagnée (Signée),15000.0,100
+OPP-1438,AG-07,Prospect Services-439,2024-04-15,Proposition Envoyée,30000.0,50
+OPP-1439,AG-22,Prospect Services-440,2024-10-30,Gagnée (Signée),30000.0,100
+OPP-1440,AG-20,Prospect Tech-441,2024-02-25,Négociation,75000.0,50
+OPP-1441,AG-02,Prospect Tech-442,2024-10-05,Négociation,15000.0,50
+OPP-1442,AG-17,Prospect Industrie-443,2025-10-14,Gagnée (Signée),300000.0,100
+OPP-1443,AG-19,Prospect Services-444,2026-01-08,Gagnée (Signée),75000.0,100
+OPP-1444,AG-11,Prospect Services-445,2024-05-26,Lead Qualifié,30000.0,25
+OPP-1445,AG-15,Prospect Industrie-446,2024-01-13,Gagnée (Signée),15000.0,100
+OPP-1446,AG-11,Prospect Tech-447,2024-04-25,Proposition Envoyée,15000.0,25
+OPP-1447,AG-21,Prospect Services-448,2024-03-09,Négociation,30000.0,50
+OPP-1448,AG-01,Prospect Tech-449,2026-05-23,Négociation,30000.0,25
+OPP-1449,AG-12,Prospect Services-450,2025-06-21,Négociation,30000.0,75
+OPP-1450,AG-11,Prospect Industrie-451,2025-10-12,Gagnée (Signée),30000.0,100
+OPP-1451,AG-07,Prospect Services-452,2025-10-27,Gagnée (Signée),75000.0,100
+OPP-1452,AG-15,Prospect Industrie-453,2025-10-15,Gagnée (Signée),15000.0,100
+OPP-1453,AG-11,Prospect Industrie-454,2024-08-28,Lead Qualifié,15000.0,75
+OPP-1454,AG-19,Prospect Tech-455,2026-06-01,Proposition Envoyée,150000.0,50
+OPP-1455,AG-17,Prospect Industrie-456,2025-02-15,Gagnée (Signée),30000.0,100
+OPP-1456,AG-13,Prospect Industrie-457,2025-02-25,Négociation,30000.0,50
+OPP-1457,AG-11,Prospect Services-458,2025-12-23,Proposition Envoyée,75000.0,75
+OPP-1458,AG-22,Prospect Services-459,2026-03-24,Négociation,15000.0,50
+OPP-1459,AG-15,Prospect Industrie-460,2024-02-28,Négociation,30000.0,50
+OPP-1460,AG-01,Prospect Tech-461,2026-07-21,Négociation,300000.0,25
+OPP-1461,AG-01,Prospect Services-462,2024-05-21,Proposition Envoyée,75000.0,75
+OPP-1462,AG-15,Prospect Tech-463,2024-03-25,Gagnée (Signée),75000.0,100
+OPP-1463,AG-19,Prospect Tech-464,2025-12-09,Proposition Envoyée,30000.0,25
+OPP-1464,AG-20,Prospect Industrie-465,2024-09-21,Lead Qualifié,300000.0,75
+OPP-1465,AG-06,Prospect Tech-466,2024-03-10,Lead Qualifié,75000.0,25
+OPP-1466,AG-06,Prospect Services-467,2025-11-19,Négociation,30000.0,75
+OPP-1467,AG-20,Prospect Tech-468,2024-10-17,Proposition Envoyée,30000.0,25
+OPP-1468,AG-18,Prospect Tech-469,2024-03-27,Proposition Envoyée,150000.0,25
+OPP-1469,AG-20,Prospect Services-470,2026-05-25,Perdue,30000.0,0
+OPP-1470,AG-02,Prospect Services-471,2025-10-11,Gagnée (Signée),30000.0,100
+OPP-1471,AG-11,Prospect Industrie-472,2024-12-05,Proposition Envoyée,30000.0,50
+OPP-1472,AG-05,Prospect Industrie-473,2024-01-12,Gagnée (Signée),30000.0,100
+OPP-1473,AG-10,Prospect Services-474,2024-04-09,Gagnée (Signée),15000.0,100
+OPP-1474,AG-05,Prospect Tech-475,2026-06-03,Proposition Envoyée,15000.0,50
+OPP-1475,AG-04,Prospect Industrie-476,2024-06-29,Lead Qualifié,75000.0,25
+OPP-1476,AG-19,Prospect Tech-477,2026-02-28,Gagnée (Signée),15000.0,100
+OPP-1477,AG-20,Prospect Services-478,2025-03-28,Gagnée (Signée),150000.0,100
+OPP-1478,AG-21,Prospect Tech-479,2026-05-13,Perdue,75000.0,0
+OPP-1479,AG-06,Prospect Services-480,2025-12-03,Proposition Envoyée,75000.0,75
+OPP-1480,AG-01,Prospect Services-481,2025-11-03,Gagnée (Signée),75000.0,100
+OPP-1481,AG-17,Prospect Tech-482,2025-01-05,Lead Qualifié,15000.0,25
+OPP-1482,AG-11,Prospect Services-483,2025-05-07,Négociation,30000.0,50
+OPP-1483,AG-05,Prospect Industrie-484,2026-02-06,Lead Qualifié,15000.0,25
+OPP-1484,AG-15,Prospect Tech-485,2025-07-02,Gagnée (Signée),15000.0,100
+OPP-1485,AG-12,Prospect Industrie-486,2024-03-09,Négociation,30000.0,50
+OPP-1486,AG-13,Prospect Tech-487,2024-09-12,Négociation,75000.0,75
+OPP-1487,AG-01,Prospect Industrie-488,2026-02-11,Lead Qualifié,75000.0,25
+OPP-1488,AG-02,Prospect Services-489,2025-01-26,Négociation,30000.0,50
+OPP-1489,AG-16,Prospect Tech-490,2025-08-02,Lead Qualifié,15000.0,50
+OPP-1490,AG-02,Prospect Services-491,2024-12-15,Gagnée (Signée),30000.0,100
+OPP-1491,AG-20,Prospect Services-492,2026-01-25,Proposition Envoyée,15000.0,50
+OPP-1492,AG-08,Prospect Services-493,2024-02-07,Perdue,75000.0,0
+OPP-1493,AG-19,Prospect Services-494,2024-11-21,Lead Qualifié,300000.0,25
+OPP-1494,AG-10,Prospect Services-495,2025-10-03,Gagnée (Signée),75000.0,100
+OPP-1495,AG-20,Prospect Services-496,2026-07-19,Proposition Envoyée,15000.0,75
+OPP-1496,AG-11,Prospect Industrie-497,2024-11-06,Gagnée (Signée),150000.0,100
+OPP-1497,AG-01,Prospect Industrie-498,2024-10-01,Proposition Envoyée,30000.0,25
+OPP-1498,AG-03,Prospect Industrie-499,2026-02-24,Gagnée (Signée),75000.0,100
+OPP-1499,AG-09,Prospect Tech-500,2025-01-28,Perdue,30000.0,0
+OPP-1500,AG-19,Prospect Tech-501,2024-09-09,Négociation,150000.0,50
+OPP-1501,AG-11,Prospect Tech-502,2026-07-18,Gagnée (Signée),30000.0,100
+OPP-1502,AG-09,Prospect Industrie-503,2025-03-15,Proposition Envoyée,30000.0,75
+OPP-1503,AG-02,Prospect Industrie-504,2025-10-11,Lead Qualifié,75000.0,25
+OPP-1504,AG-06,Prospect Industrie-505,2025-11-02,Gagnée (Signée),30000.0,100
+OPP-1505,AG-12,Prospect Industrie-506,2025-12-17,Gagnée (Signée),75000.0,100
+OPP-1506,AG-18,Prospect Industrie-507,2025-04-06,Lead Qualifié,150000.0,25
+OPP-1507,AG-02,Prospect Tech-508,2025-08-15,Négociation,300000.0,25
+OPP-1508,AG-02,Prospect Tech-509,2026-01-24,Lead Qualifié,15000.0,50
+OPP-1509,AG-03,Prospect Tech-510,2026-04-10,Proposition Envoyée,15000.0,75
+OPP-1510,AG-18,Prospect Tech-511,2024-12-02,Proposition Envoyée,30000.0,75
+OPP-1511,AG-12,Prospect Industrie-512,2024-05-14,Négociation,150000.0,25
+OPP-1512,AG-16,Prospect Industrie-513,2025-07-27,Proposition Envoyée,15000.0,25
+OPP-1513,AG-03,Prospect Industrie-514,2025-03-11,Lead Qualifié,30000.0,75
+OPP-1514,AG-12,Prospect Industrie-515,2025-01-08,Négociation,150000.0,75
+OPP-1515,AG-05,Prospect Industrie-516,2026-03-15,Gagnée (Signée),150000.0,100
+OPP-1516,AG-15,Prospect Services-517,2026-05-25,Perdue,150000.0,0
+OPP-1517,AG-06,Prospect Services-518,2024-02-05,Négociation,300000.0,50
+OPP-1518,AG-21,Prospect Industrie-519,2026-06-25,Négociation,75000.0,50
+OPP-1519,AG-18,Prospect Tech-520,2025-01-24,Proposition Envoyée,30000.0,25
+OPP-1520,AG-05,Prospect Industrie-521,2025-04-08,Proposition Envoyée,15000.0,25
+OPP-1521,AG-05,Prospect Tech-522,2025-06-04,Lead Qualifié,30000.0,75
+OPP-1522,AG-07,Prospect Services-523,2026-02-06,Négociation,150000.0,75
+OPP-1523,AG-18,Prospect Services-524,2024-07-19,Proposition Envoyée,15000.0,25
+OPP-1524,AG-04,Prospect Industrie-525,2024-05-12,Proposition Envoyée,15000.0,25
+OPP-1525,AG-14,Prospect Industrie-526,2025-05-30,Gagnée (Signée),15000.0,100
+OPP-1526,AG-02,Prospect Tech-527,2024-07-23,Gagnée (Signée),300000.0,100
+OPP-1527,AG-13,Prospect Services-528,2025-05-25,Lead Qualifié,30000.0,50
+OPP-1528,AG-22,Prospect Services-529,2024-04-15,Proposition Envoyée,30000.0,25
+OPP-1529,AG-04,Prospect Services-530,2026-03-15,Gagnée (Signée),15000.0,100
+OPP-1530,AG-19,Prospect Industrie-531,2025-12-02,Négociation,300000.0,50
+OPP-1531,AG-01,Prospect Tech-532,2026-07-05,Lead Qualifié,30000.0,75
+OPP-1532,AG-14,Prospect Tech-533,2026-08-04,Négociation,30000.0,50
+OPP-1533,AG-03,Prospect Services-534,2026-01-14,Gagnée (Signée),150000.0,100
+OPP-1534,AG-18,Prospect Services-535,2026-02-07,Proposition Envoyée,15000.0,50
+OPP-1535,AG-20,Prospect Services-536,2025-07-24,Gagnée (Signée),30000.0,100
+OPP-1536,AG-18,Prospect Services-537,2025-05-28,Proposition Envoyée,15000.0,50
+OPP-1537,AG-07,Prospect Tech-538,2025-09-16,Négociation,15000.0,50
+OPP-1538,AG-12,Prospect Industrie-539,2025-12-05,Gagnée (Signée),75000.0,100
+OPP-1539,AG-11,Prospect Industrie-540,2024-11-02,Proposition Envoyée,150000.0,50
+OPP-1540,AG-05,Prospect Industrie-541,2025-03-05,Lead Qualifié,300000.0,75
+OPP-1541,AG-08,Prospect Services-542,2025-04-24,Gagnée (Signée),75000.0,100
+OPP-1542,AG-09,Prospect Tech-543,2025-11-20,Gagnée (Signée),30000.0,100
+OPP-1543,AG-02,Prospect Services-544,2025-03-27,Perdue,30000.0,0
+OPP-1544,AG-09,Prospect Industrie-545,2024-09-25,Proposition Envoyée,15000.0,25
+OPP-1545,AG-21,Prospect Services-546,2025-02-03,Proposition Envoyée,30000.0,50
+OPP-1546,AG-08,Prospect Tech-547,2025-07-28,Négociation,15000.0,75
+OPP-1547,AG-15,Prospect Services-548,2024-08-18,Proposition Envoyée,75000.0,50
+OPP-1548,AG-02,Prospect Services-549,2025-12-30,Négociation,30000.0,25
+OPP-1549,AG-10,Prospect Industrie-550,2026-01-16,Gagnée (Signée),30000.0,100
+OPP-1550,AG-10,Prospect Tech-551,2024-01-12,Perdue,30000.0,0
+OPP-1551,AG-17,Prospect Tech-552,2026-05-03,Proposition Envoyée,150000.0,50
+OPP-1552,AG-02,Prospect Tech-553,2024-10-29,Lead Qualifié,300000.0,25
+OPP-1553,AG-11,Prospect Industrie-554,2026-07-12,Négociation,300000.0,75
+OPP-1554,AG-04,Prospect Industrie-555,2025-11-21,Proposition Envoyée,300000.0,25
+OPP-1555,AG-11,Prospect Services-556,2026-06-13,Proposition Envoyée,15000.0,25
+OPP-1556,AG-14,Prospect Services-557,2026-06-09,Proposition Envoyée,15000.0,25
+OPP-1557,AG-19,Prospect Services-558,2024-08-05,Lead Qualifié,300000.0,75
+OPP-1558,AG-06,Prospect Services-559,2025-06-06,Lead Qualifié,30000.0,75
+OPP-1559,AG-22,Prospect Industrie-560,2025-03-13,Lead Qualifié,30000.0,75
+OPP-1560,AG-11,Prospect Industrie-561,2025-04-18,Perdue,30000.0,0
+OPP-1561,AG-05,Prospect Industrie-562,2025-04-27,Gagnée (Signée),150000.0,100
+OPP-1562,AG-08,Prospect Industrie-563,2024-08-03,Proposition Envoyée,150000.0,50
+OPP-1563,AG-03,Prospect Industrie-564,2025-12-03,Proposition Envoyée,30000.0,50
+OPP-1564,AG-15,Prospect Industrie-565,2026-01-22,Proposition Envoyée,15000.0,50
+OPP-1565,AG-02,Prospect Industrie-566,2026-03-16,Gagnée (Signée),30000.0,100
+OPP-1566,AG-01,Prospect Industrie-567,2024-03-06,Lead Qualifié,30000.0,50
+OPP-1567,AG-12,Prospect Tech-568,2024-12-21,Perdue,15000.0,0
+OPP-1568,AG-05,Prospect Services-569,2026-06-04,Gagnée (Signée),150000.0,100
+OPP-1569,AG-18,Prospect Services-570,2025-10-05,Gagnée (Signée),15000.0,100
+OPP-1570,AG-10,Prospect Tech-571,2026-06-28,Perdue,30000.0,0
+OPP-1571,AG-18,Prospect Tech-572,2025-06-29,Négociation,15000.0,25
+OPP-1572,AG-10,Prospect Tech-573,2024-12-05,Négociation,15000.0,25
+OPP-1573,AG-05,Prospect Tech-574,2026-02-09,Lead Qualifié,15000.0,25
+OPP-1574,AG-19,Prospect Industrie-575,2026-02-02,Lead Qualifié,30000.0,50
+OPP-1575,AG-07,Prospect Services-576,2025-11-27,Gagnée (Signée),15000.0,100
+OPP-1576,AG-10,Prospect Tech-577,2025-08-23,Gagnée (Signée),30000.0,100
+OPP-1577,AG-16,Prospect Services-578,2026-04-08,Gagnée (Signée),75000.0,100
+OPP-1578,AG-18,Prospect Tech-579,2024-10-21,Lead Qualifié,15000.0,50
+OPP-1579,AG-08,Prospect Services-580,2026-07-02,Proposition Envoyée,30000.0,50
+OPP-1580,AG-11,Prospect Services-581,2026-03-01,Perdue,15000.0,0
+OPP-1581,AG-09,Prospect Services-582,2026-06-14,Proposition Envoyée,75000.0,25
+OPP-1582,AG-01,Prospect Industrie-583,2024-01-19,Lead Qualifié,300000.0,25
+OPP-1583,AG-05,Prospect Services-584,2024-11-12,Lead Qualifié,30000.0,25
+OPP-1584,AG-22,Prospect Industrie-585,2025-04-07,Négociation,150000.0,50
+OPP-1585,AG-04,Prospect Tech-586,2026-08-06,Lead Qualifié,15000.0,25
+OPP-1586,AG-03,Prospect Tech-587,2026-05-05,Perdue,15000.0,0
+OPP-1587,AG-17,Prospect Tech-588,2025-11-08,Perdue,150000.0,0
+OPP-1588,AG-09,Prospect Services-589,2024-09-26,Proposition Envoyée,150000.0,75
+OPP-1589,AG-22,Prospect Tech-590,2026-03-17,Proposition Envoyée,300000.0,50
+OPP-1590,AG-20,Prospect Services-591,2024-09-19,Proposition Envoyée,30000.0,50
+OPP-1591,AG-05,Prospect Industrie-592,2025-05-18,Négociation,30000.0,50
+OPP-1592,AG-06,Prospect Services-593,2024-10-15,Perdue,30000.0,0
+OPP-1593,AG-19,Prospect Industrie-594,2026-02-15,Gagnée (Signée),75000.0,100
+OPP-1594,AG-10,Prospect Industrie-595,2024-05-01,Proposition Envoyée,75000.0,50
+OPP-1595,AG-07,Prospect Industrie-596,2025-04-01,Négociation,15000.0,50
+OPP-1596,AG-02,Prospect Tech-597,2024-05-12,Proposition Envoyée,15000.0,75
+OPP-1597,AG-14,Prospect Tech-598,2025-07-08,Lead Qualifié,75000.0,50
+OPP-1598,AG-02,Prospect Tech-599,2024-02-04,Proposition Envoyée,30000.0,50
+OPP-1599,AG-02,Prospect Industrie-600,2024-12-22,Proposition Envoyée,75000.0,75
+OPP-1600,AG-22,Prospect Industrie-601,2025-01-18,Lead Qualifié,15000.0,25
+OPP-1601,AG-10,Prospect Industrie-602,2025-07-19,Perdue,30000.0,0
+OPP-1602,AG-20,Prospect Industrie-603,2025-02-04,Négociation,75000.0,25
+OPP-1603,AG-02,Prospect Services-604,2026-06-14,Lead Qualifié,30000.0,75
+OPP-1604,AG-12,Prospect Industrie-605,2025-04-08,Négociation,15000.0,25
+OPP-1605,AG-15,Prospect Industrie-606,2024-04-19,Négociation,75000.0,75
+OPP-1606,AG-14,Prospect Industrie-607,2024-04-10,Proposition Envoyée,15000.0,50
+OPP-1607,AG-02,Prospect Tech-608,2026-05-16,Lead Qualifié,300000.0,25
+OPP-1608,AG-18,Prospect Industrie-609,2026-07-08,Lead Qualifié,15000.0,75
+OPP-1609,AG-03,Prospect Tech-610,2026-07-07,Proposition Envoyée,300000.0,25
+OPP-1610,AG-09,Prospect Tech-611,2025-02-04,Négociation,75000.0,25
+OPP-1611,AG-17,Prospect Services-612,2026-05-18,Lead Qualifié,75000.0,75
+OPP-1612,AG-02,Prospect Industrie-613,2026-06-18,Proposition Envoyée,15000.0,25
+OPP-1613,AG-03,Prospect Services-614,2026-03-11,Proposition Envoyée,30000.0,25
+OPP-1614,AG-18,Prospect Tech-615,2024-11-17,Négociation,300000.0,50
+OPP-1615,AG-21,Prospect Services-616,2026-02-20,Lead Qualifié,75000.0,25
+OPP-1616,AG-17,Prospect Services-617,2024-12-26,Proposition Envoyée,300000.0,25
+OPP-1617,AG-19,Prospect Services-618,2025-03-15,Gagnée (Signée),30000.0,100
+OPP-1618,AG-15,Prospect Tech-619,2024-03-11,Gagnée (Signée),15000.0,100
+OPP-1619,AG-06,Prospect Industrie-620,2024-05-08,Gagnée (Signée),15000.0,100
+OPP-1620,AG-06,Prospect Services-621,2024-09-30,Négociation,15000.0,25
+OPP-1621,AG-03,Prospect Services-622,2024-09-15,Négociation,75000.0,75
+OPP-1622,AG-07,Prospect Services-623,2024-12-19,Négociation,30000.0,75
+OPP-1623,AG-21,Prospect Industrie-624,2026-06-15,Lead Qualifié,15000.0,75
+OPP-1624,AG-11,Prospect Industrie-625,2025-02-19,Gagnée (Signée),75000.0,100
+OPP-1625,AG-02,Prospect Industrie-626,2025-12-13,Proposition Envoyée,75000.0,50
+OPP-1626,AG-05,Prospect Tech-627,2024-01-23,Gagnée (Signée),30000.0,100
+OPP-1627,AG-01,Prospect Services-628,2025-11-02,Proposition Envoyée,75000.0,50
+OPP-1628,AG-18,Prospect Tech-629,2025-07-24,Gagnée (Signée),15000.0,100
+OPP-1629,AG-02,Prospect Industrie-630,2024-11-03,Lead Qualifié,15000.0,50
+OPP-1630,AG-13,Prospect Industrie-631,2025-10-22,Gagnée (Signée),30000.0,100
+OPP-1631,AG-08,Prospect Industrie-632,2026-01-27,Négociation,150000.0,75
+OPP-1632,AG-12,Prospect Tech-633,2024-04-21,Lead Qualifié,15000.0,75
+OPP-1633,AG-21,Prospect Tech-634,2025-05-31,Lead Qualifié,75000.0,25
+OPP-1634,AG-11,Prospect Tech-635,2025-09-22,Proposition Envoyée,30000.0,75
+OPP-1635,AG-22,Prospect Tech-636,2025-05-16,Proposition Envoyée,150000.0,75
+OPP-1636,AG-03,Prospect Services-637,2025-12-29,Proposition Envoyée,75000.0,50
+OPP-1637,AG-16,Prospect Industrie-638,2026-01-07,Négociation,15000.0,25
+OPP-1638,AG-15,Prospect Tech-639,2024-04-20,Négociation,75000.0,25
+OPP-1639,AG-08,Prospect Industrie-640,2024-10-03,Négociation,30000.0,75
+OPP-1640,AG-21,Prospect Industrie-641,2026-05-07,Proposition Envoyée,30000.0,50
+OPP-1641,AG-04,Prospect Tech-642,2024-12-18,Gagnée (Signée),75000.0,100
+OPP-1642,AG-11,Prospect Industrie-643,2024-09-11,Négociation,30000.0,75
+OPP-1643,AG-15,Prospect Industrie-644,2025-06-09,Proposition Envoyée,15000.0,25
+OPP-1644,AG-06,Prospect Services-645,2025-04-27,Gagnée (Signée),15000.0,100
+OPP-1645,AG-20,Prospect Tech-646,2024-08-30,Proposition Envoyée,150000.0,25
+OPP-1646,AG-12,Prospect Industrie-647,2024-09-29,Négociation,15000.0,25
+OPP-1647,AG-22,Prospect Tech-648,2026-07-21,Gagnée (Signée),30000.0,100
+OPP-1648,AG-16,Prospect Tech-649,2026-06-30,Lead Qualifié,30000.0,50
+OPP-1649,AG-03,Prospect Tech-650,2026-07-21,Négociation,75000.0,50
+OPP-1650,AG-19,Prospect Industrie-651,2026-06-24,Proposition Envoyée,15000.0,50
+OPP-1651,AG-11,Prospect Industrie-652,2024-10-15,Négociation,150000.0,25
+OPP-1652,AG-19,Prospect Services-653,2024-06-28,Gagnée (Signée),150000.0,100
+OPP-1653,AG-05,Prospect Industrie-654,2026-04-07,Proposition Envoyée,30000.0,75
+OPP-1654,AG-08,Prospect Industrie-655,2025-09-25,Proposition Envoyée,15000.0,75
+OPP-1655,AG-16,Prospect Services-656,2026-07-06,Proposition Envoyée,15000.0,75
+OPP-1656,AG-21,Prospect Tech-657,2026-02-22,Gagnée (Signée),150000.0,100
+OPP-1657,AG-04,Prospect Services-658,2025-09-29,Gagnée (Signée),75000.0,100
+OPP-1658,AG-07,Prospect Services-659,2025-08-19,Négociation,30000.0,25
+OPP-1659,AG-03,Prospect Tech-660,2026-05-29,Négociation,30000.0,75
+OPP-1660,AG-17,Prospect Tech-661,2024-07-06,Lead Qualifié,30000.0,50
+OPP-1661,AG-02,Prospect Services-662,2024-07-31,Négociation,15000.0,25
+OPP-1662,AG-01,Prospect Industrie-663,2025-05-20,Proposition Envoyée,30000.0,50
+OPP-1663,AG-21,Prospect Services-664,2024-06-11,Gagnée (Signée),15000.0,100
+OPP-1664,AG-21,Prospect Tech-665,2024-09-20,Perdue,75000.0,0
+OPP-1665,AG-11,Prospect Tech-666,2024-11-14,Proposition Envoyée,150000.0,25
+OPP-1666,AG-10,Prospect Services-667,2024-03-14,Négociation,30000.0,50
+OPP-1667,AG-10,Prospect Tech-668,2025-04-26,Gagnée (Signée),75000.0,100
+OPP-1668,AG-09,Prospect Tech-669,2025-03-29,Négociation,300000.0,25
+OPP-1669,AG-18,Prospect Tech-670,2024-10-20,Négociation,15000.0,25
+OPP-1670,AG-13,Prospect Tech-671,2024-01-31,Perdue,75000.0,0
+OPP-1671,AG-07,Prospect Industrie-672,2025-10-17,Gagnée (Signée),30000.0,100
+OPP-1672,AG-21,Prospect Services-673,2026-08-01,Proposition Envoyée,75000.0,25
+OPP-1673,AG-15,Prospect Services-674,2024-07-31,Perdue,75000.0,0
+OPP-1674,AG-06,Prospect Industrie-675,2025-10-08,Proposition Envoyée,30000.0,75
+OPP-1675,AG-04,Prospect Tech-676,2025-06-27,Proposition Envoyée,75000.0,50
+OPP-1676,AG-12,Prospect Services-677,2025-10-03,Perdue,75000.0,0
+OPP-1677,AG-10,Prospect Industrie-678,2024-02-21,Gagnée (Signée),15000.0,100
+OPP-1678,AG-05,Prospect Tech-679,2025-01-26,Négociation,30000.0,25
+OPP-1679,AG-21,Prospect Services-680,2026-02-16,Proposition Envoyée,15000.0,50
+OPP-1680,AG-15,Prospect Industrie-681,2024-07-23,Perdue,15000.0,0
+OPP-1681,AG-06,Prospect Tech-682,2024-03-23,Proposition Envoyée,15000.0,50
+OPP-1682,AG-11,Prospect Services-683,2026-02-07,Gagnée (Signée),300000.0,100
+OPP-1683,AG-17,Prospect Services-684,2025-05-04,Lead Qualifié,75000.0,25
+OPP-1684,AG-13,Prospect Services-685,2025-09-08,Perdue,300000.0,0
+OPP-1685,AG-08,Prospect Services-686,2024-11-16,Négociation,75000.0,75
+OPP-1686,AG-07,Prospect Tech-687,2025-08-14,Proposition Envoyée,15000.0,50
+OPP-1687,AG-14,Prospect Services-688,2026-03-25,Négociation,30000.0,75
+OPP-1688,AG-08,Prospect Tech-689,2024-02-11,Gagnée (Signée),30000.0,100
+OPP-1689,AG-10,Prospect Tech-690,2026-06-19,Gagnée (Signée),30000.0,100
+OPP-1690,AG-14,Prospect Services-691,2024-09-04,Gagnée (Signée),150000.0,100
+OPP-1691,AG-13,Prospect Tech-692,2025-12-21,Lead Qualifié,15000.0,50
+OPP-1692,AG-13,Prospect Industrie-693,2024-01-03,Perdue,300000.0,0
+OPP-1693,AG-22,Prospect Services-694,2024-05-26,Gagnée (Signée),30000.0,100
+OPP-1694,AG-12,Prospect Tech-695,2025-05-20,Proposition Envoyée,75000.0,25
+OPP-1695,AG-03,Prospect Services-696,2024-12-13,Gagnée (Signée),75000.0,100
+OPP-1696,AG-02,Prospect Industrie-697,2025-04-10,Proposition Envoyée,15000.0,50
+OPP-1697,AG-22,Prospect Tech-698,2026-08-03,Proposition Envoyée,75000.0,25
+OPP-1698,AG-16,Prospect Industrie-699,2024-09-01,Gagnée (Signée),15000.0,100
+OPP-1699,AG-06,Prospect Tech-700,2024-09-10,Lead Qualifié,75000.0,50
+OPP-1700,AG-19,Prospect Services-701,2025-04-23,Négociation,30000.0,25
+OPP-1701,AG-13,Prospect Services-702,2026-04-15,Perdue,15000.0,0
+OPP-1702,AG-18,Prospect Industrie-703,2025-01-08,Lead Qualifié,30000.0,75
+OPP-1703,AG-15,Prospect Industrie-704,2026-02-16,Négociation,15000.0,50
+OPP-1704,AG-01,Prospect Services-705,2025-09-06,Perdue,30000.0,0
+OPP-1705,AG-02,Prospect Tech-706,2026-03-28,Négociation,30000.0,50
+OPP-1706,AG-01,Prospect Tech-707,2026-01-11,Perdue,15000.0,0
+OPP-1707,AG-12,Prospect Industrie-708,2026-03-17,Gagnée (Signée),75000.0,100
+OPP-1708,AG-06,Prospect Services-709,2024-05-02,Négociation,15000.0,25
+OPP-1709,AG-22,Prospect Tech-710,2025-10-05,Proposition Envoyée,75000.0,75
+OPP-1710,AG-17,Prospect Industrie-711,2026-06-16,Gagnée (Signée),30000.0,100
+OPP-1711,AG-16,Prospect Services-712,2025-07-08,Proposition Envoyée,15000.0,75
+OPP-1712,AG-07,Prospect Industrie-713,2025-01-08,Perdue,15000.0,0
+OPP-1713,AG-03,Prospect Services-714,2026-07-29,Lead Qualifié,15000.0,75
+OPP-1714,AG-12,Prospect Industrie-715,2026-07-05,Proposition Envoyée,75000.0,25
+OPP-1715,AG-20,Prospect Tech-716,2025-09-25,Lead Qualifié,30000.0,75
+OPP-1716,AG-08,Prospect Industrie-717,2024-03-22,Perdue,75000.0,0
+OPP-1717,AG-05,Prospect Services-718,2026-07-28,Gagnée (Signée),15000.0,100
+OPP-1718,AG-10,Prospect Industrie-719,2024-10-07,Négociation,75000.0,50
+OPP-1719,AG-14,Prospect Tech-720,2024-08-07,Gagnée (Signée),15000.0,100
+OPP-1720,AG-15,Prospect Services-721,2026-05-22,Gagnée (Signée),300000.0,100
+OPP-1721,AG-01,Prospect Services-722,2026-07-03,Lead Qualifié,150000.0,25
+OPP-1722,AG-15,Prospect Industrie-723,2026-08-07,Proposition Envoyée,15000.0,50
+OPP-1723,AG-10,Prospect Services-724,2026-07-08,Proposition Envoyée,75000.0,75
+OPP-1724,AG-08,Prospect Tech-725,2024-09-27,Lead Qualifié,75000.0,25
+OPP-1725,AG-04,Prospect Tech-726,2024-06-03,Perdue,75000.0,0
+OPP-1726,AG-02,Prospect Tech-727,2025-03-02,Négociation,300000.0,25
+OPP-1727,AG-04,Prospect Services-728,2025-04-26,Négociation,30000.0,25
+OPP-1728,AG-21,Prospect Industrie-729,2024-10-16,Gagnée (Signée),15000.0,100
+OPP-1729,AG-11,Prospect Tech-730,2026-01-30,Négociation,15000.0,75
+OPP-1730,AG-03,Prospect Tech-731,2024-05-24,Proposition Envoyée,150000.0,25
+OPP-1731,AG-18,Prospect Services-732,2025-10-08,Perdue,75000.0,0
+OPP-1732,AG-01,Prospect Industrie-733,2025-10-26,Perdue,75000.0,0
+OPP-1733,AG-08,Prospect Tech-734,2025-02-24,Négociation,30000.0,25
+OPP-1734,AG-02,Prospect Services-735,2024-06-23,Négociation,15000.0,50
+OPP-1735,AG-17,Prospect Industrie-736,2025-08-28,Gagnée (Signée),150000.0,100
+OPP-1736,AG-19,Prospect Industrie-737,2024-10-17,Lead Qualifié,300000.0,50
+OPP-1737,AG-20,Prospect Services-738,2024-09-18,Gagnée (Signée),150000.0,100
+OPP-1738,AG-15,Prospect Services-739,2026-07-02,Proposition Envoyée,300000.0,75
+OPP-1739,AG-13,Prospect Tech-740,2024-03-14,Gagnée (Signée),30000.0,100
+OPP-1740,AG-13,Prospect Services-741,2026-06-19,Négociation,300000.0,50
+OPP-1741,AG-19,Prospect Industrie-742,2025-01-06,Proposition Envoyée,75000.0,50
+OPP-1742,AG-19,Prospect Tech-743,2025-07-26,Lead Qualifié,30000.0,50
+OPP-1743,AG-13,Prospect Services-744,2025-07-22,Négociation,30000.0,50
+OPP-1744,AG-03,Prospect Tech-745,2026-05-18,Gagnée (Signée),15000.0,100
+OPP-1745,AG-16,Prospect Tech-746,2024-01-20,Négociation,15000.0,25
+OPP-1746,AG-12,Prospect Industrie-747,2025-01-23,Proposition Envoyée,15000.0,25
+OPP-1747,AG-21,Prospect Services-748,2026-02-12,Gagnée (Signée),30000.0,100
+OPP-1748,AG-15,Prospect Industrie-749,2024-12-29,Négociation,150000.0,75
+OPP-1749,AG-12,Prospect Industrie-750,2025-08-22,Négociation,150000.0,75
+OPP-1750,AG-04,Prospect Services-751,2024-06-25,Proposition Envoyée,75000.0,50
+OPP-1751,AG-04,Prospect Services-752,2026-02-17,Perdue,15000.0,0
+OPP-1752,AG-07,Prospect Tech-753,2024-02-15,Lead Qualifié,75000.0,25
+OPP-1753,AG-03,Prospect Tech-754,2024-11-23,Gagnée (Signée),15000.0,100
+OPP-1754,AG-11,Prospect Services-755,2026-06-29,Gagnée (Signée),75000.0,100
+OPP-1755,AG-02,Prospect Services-756,2024-03-05,Gagnée (Signée),75000.0,100
+OPP-1756,AG-03,Prospect Industrie-757,2024-02-26,Lead Qualifié,30000.0,50
+OPP-1757,AG-12,Prospect Tech-758,2025-03-04,Lead Qualifié,300000.0,75
+OPP-1758,AG-19,Prospect Tech-759,2025-06-30,Proposition Envoyée,300000.0,75
+OPP-1759,AG-08,Prospect Services-760,2024-07-09,Négociation,15000.0,25
+OPP-1760,AG-18,Prospect Tech-761,2025-12-08,Gagnée (Signée),15000.0,100
+OPP-1761,AG-22,Prospect Industrie-762,2025-03-20,Proposition Envoyée,75000.0,75
+OPP-1762,AG-02,Prospect Industrie-763,2024-12-04,Gagnée (Signée),30000.0,100
+OPP-1763,AG-17,Prospect Services-764,2025-08-31,Gagnée (Signée),30000.0,100
+OPP-1764,AG-11,Prospect Tech-765,2024-02-02,Lead Qualifié,15000.0,50
+OPP-1765,AG-09,Prospect Tech-766,2025-11-25,Lead Qualifié,75000.0,75
+OPP-1766,AG-08,Prospect Industrie-767,2024-07-30,Lead Qualifié,75000.0,25
+OPP-1767,AG-05,Prospect Tech-768,2025-05-17,Proposition Envoyée,150000.0,50
+OPP-1768,AG-16,Prospect Industrie-769,2026-03-02,Perdue,15000.0,0
+OPP-1769,AG-02,Prospect Industrie-770,2026-06-27,Proposition Envoyée,30000.0,25
+OPP-1770,AG-15,Prospect Industrie-771,2025-11-04,Proposition Envoyée,30000.0,75
+OPP-1771,AG-07,Prospect Industrie-772,2024-06-13,Proposition Envoyée,300000.0,50
+OPP-1772,AG-01,Prospect Industrie-773,2024-09-06,Proposition Envoyée,300000.0,75
+OPP-1773,AG-17,Prospect Services-774,2025-03-09,Négociation,30000.0,50
+OPP-1774,AG-17,Prospect Tech-775,2024-10-09,Gagnée (Signée),30000.0,100
+OPP-1775,AG-12,Prospect Industrie-776,2024-02-07,Gagnée (Signée),30000.0,100
+OPP-1776,AG-20,Prospect Tech-777,2026-07-30,Lead Qualifié,15000.0,25
+OPP-1777,AG-04,Prospect Services-778,2025-04-27,Négociation,75000.0,25
+OPP-1778,AG-20,Prospect Tech-779,2025-02-16,Gagnée (Signée),15000.0,100
+OPP-1779,AG-13,Prospect Tech-780,2025-09-08,Proposition Envoyée,30000.0,25
+OPP-1780,AG-13,Prospect Services-781,2025-10-07,Perdue,300000.0,0
+OPP-1781,AG-11,Prospect Services-782,2025-10-27,Gagnée (Signée),15000.0,100
+OPP-1782,AG-07,Prospect Tech-783,2025-09-16,Gagnée (Signée),30000.0,100
+OPP-1783,AG-19,Prospect Services-784,2024-09-16,Lead Qualifié,150000.0,75
+OPP-1784,AG-09,Prospect Tech-785,2025-05-22,Négociation,75000.0,25
+OPP-1785,AG-15,Prospect Industrie-786,2024-02-15,Gagnée (Signée),75000.0,100
+OPP-1786,AG-18,Prospect Tech-787,2025-09-04,Lead Qualifié,30000.0,25
+OPP-1787,AG-09,Prospect Tech-788,2025-12-17,Proposition Envoyée,300000.0,75
+OPP-1788,AG-14,Prospect Tech-789,2025-07-02,Proposition Envoyée,300000.0,75
+OPP-1789,AG-06,Prospect Services-790,2026-08-02,Proposition Envoyée,15000.0,25
+OPP-1790,AG-05,Prospect Tech-791,2025-07-24,Perdue,30000.0,0
+OPP-1791,AG-01,Prospect Services-792,2026-08-01,Lead Qualifié,15000.0,25
+OPP-1792,AG-18,Prospect Tech-793,2024-05-21,Lead Qualifié,75000.0,50
+OPP-1793,AG-10,Prospect Industrie-794,2025-01-21,Lead Qualifié,15000.0,25
+OPP-1794,AG-07,Prospect Services-795,2025-12-11,Négociation,30000.0,75
+OPP-1795,AG-01,Prospect Industrie-796,2024-05-12,Perdue,15000.0,0
+OPP-1796,AG-02,Prospect Industrie-797,2025-01-31,Lead Qualifié,150000.0,75
+OPP-1797,AG-11,Prospect Services-798,2026-05-22,Gagnée (Signée),30000.0,100
+OPP-1798,AG-13,Prospect Tech-799,2025-07-12,Gagnée (Signée),15000.0,100
+OPP-1799,AG-03,Prospect Tech-800,2025-06-19,Gagnée (Signée),300000.0,100
+OPP-1800,AG-16,Prospect Industrie-801,2026-02-11,Perdue,30000.0,0
+OPP-1801,AG-14,Prospect Services-802,2026-02-26,Perdue,150000.0,0
+OPP-1802,AG-12,Prospect Tech-803,2024-04-04,Gagnée (Signée),15000.0,100
+OPP-1803,AG-14,Prospect Industrie-804,2025-06-22,Lead Qualifié,15000.0,25
+OPP-1804,AG-12,Prospect Industrie-805,2026-01-31,Proposition Envoyée,75000.0,75
+OPP-1805,AG-19,Prospect Industrie-806,2024-07-28,Négociation,30000.0,50
+OPP-1806,AG-08,Prospect Services-807,2024-09-03,Lead Qualifié,30000.0,50
+OPP-1807,AG-02,Prospect Services-808,2026-06-21,Lead Qualifié,30000.0,75
+OPP-1808,AG-06,Prospect Services-809,2026-05-25,Proposition Envoyée,30000.0,50
+OPP-1809,AG-11,Prospect Services-810,2025-08-23,Proposition Envoyée,75000.0,50
+OPP-1810,AG-21,Prospect Tech-811,2024-09-16,Proposition Envoyée,15000.0,50
+OPP-1811,AG-20,Prospect Services-812,2026-03-21,Lead Qualifié,15000.0,50
+OPP-1812,AG-15,Prospect Services-813,2024-10-19,Perdue,15000.0,0
+OPP-1813,AG-11,Prospect Industrie-814,2024-09-29,Négociation,300000.0,50
+OPP-1814,AG-19,Prospect Industrie-815,2024-03-28,Perdue,15000.0,0
+OPP-1815,AG-10,Prospect Industrie-816,2024-09-07,Négociation,15000.0,50
+OPP-1816,AG-08,Prospect Services-817,2024-12-26,Proposition Envoyée,30000.0,50
+OPP-1817,AG-15,Prospect Tech-818,2026-05-06,Lead Qualifié,75000.0,75
+OPP-1818,AG-05,Prospect Industrie-819,2025-07-08,Lead Qualifié,15000.0,25
+OPP-1819,AG-04,Prospect Services-820,2025-02-12,Proposition Envoyée,15000.0,25
+OPP-1820,AG-20,Prospect Tech-821,2024-12-30,Perdue,300000.0,0
+OPP-1821,AG-20,Prospect Tech-822,2024-06-05,Négociation,15000.0,25
+OPP-1822,AG-16,Prospect Tech-823,2024-11-30,Proposition Envoyée,15000.0,50
+OPP-1823,AG-10,Prospect Tech-824,2025-09-21,Proposition Envoyée,15000.0,50
+OPP-1824,AG-16,Prospect Services-825,2024-01-28,Gagnée (Signée),30000.0,100
+OPP-1825,AG-20,Prospect Tech-826,2025-01-31,Proposition Envoyée,15000.0,75
+OPP-1826,AG-09,Prospect Tech-827,2024-06-04,Proposition Envoyée,150000.0,25
+OPP-1827,AG-17,Prospect Services-828,2024-05-02,Perdue,150000.0,0
+OPP-1828,AG-12,Prospect Industrie-829,2026-01-30,Proposition Envoyée,15000.0,50
+OPP-1829,AG-13,Prospect Tech-830,2025-12-08,Gagnée (Signée),30000.0,100
+OPP-1830,AG-21,Prospect Tech-831,2025-08-26,Gagnée (Signée),30000.0,100
+OPP-1831,AG-18,Prospect Services-832,2024-04-26,Lead Qualifié,150000.0,25
+OPP-1832,AG-05,Prospect Services-833,2025-05-07,Perdue,75000.0,0
+OPP-1833,AG-17,Prospect Services-834,2024-02-14,Négociation,30000.0,75
+OPP-1834,AG-07,Prospect Industrie-835,2024-12-14,Gagnée (Signée),15000.0,100
+OPP-1835,AG-08,Prospect Tech-836,2025-02-09,Proposition Envoyée,15000.0,25
+OPP-1836,AG-01,Prospect Tech-837,2024-07-28,Lead Qualifié,75000.0,25
+OPP-1837,AG-15,Prospect Tech-838,2025-05-30,Perdue,150000.0,0
+OPP-1838,AG-13,Prospect Industrie-839,2024-04-01,Proposition Envoyée,15000.0,75
+OPP-1839,AG-02,Prospect Services-840,2024-02-24,Perdue,300000.0,0
+OPP-1840,AG-18,Prospect Industrie-841,2025-04-30,Lead Qualifié,75000.0,75
+OPP-1841,AG-12,Prospect Services-842,2024-03-30,Perdue,15000.0,0
+OPP-1842,AG-05,Prospect Tech-843,2024-04-19,Gagnée (Signée),150000.0,100
+OPP-1843,AG-01,Prospect Industrie-844,2024-04-03,Proposition Envoyée,15000.0,50
+OPP-1844,AG-08,Prospect Services-845,2025-02-27,Gagnée (Signée),30000.0,100
+OPP-1845,AG-04,Prospect Industrie-846,2024-01-26,Proposition Envoyée,15000.0,50
+OPP-1846,AG-03,Prospect Tech-847,2024-11-27,Négociation,15000.0,75
+OPP-1847,AG-06,Prospect Industrie-848,2025-01-09,Proposition Envoyée,75000.0,25
+OPP-1848,AG-01,Prospect Services-849,2024-12-29,Négociation,150000.0,25
+OPP-1849,AG-12,Prospect Industrie-850,2026-06-19,Perdue,150000.0,0
+OPP-1850,AG-06,Prospect Services-851,2026-04-20,Perdue,15000.0,0
+OPP-1851,AG-20,Prospect Services-852,2025-03-31,Négociation,30000.0,50
+OPP-1852,AG-15,Prospect Industrie-853,2025-08-10,Gagnée (Signée),15000.0,100
+OPP-1853,AG-06,Prospect Services-854,2024-03-25,Négociation,15000.0,50
+OPP-1854,AG-05,Prospect Industrie-855,2024-09-29,Perdue,75000.0,0
+OPP-1855,AG-12,Prospect Tech-856,2026-02-18,Proposition Envoyée,30000.0,75
+OPP-1856,AG-06,Prospect Services-857,2024-04-09,Négociation,30000.0,50
+OPP-1857,AG-11,Prospect Industrie-858,2024-01-23,Proposition Envoyée,150000.0,25
+OPP-1858,AG-16,Prospect Tech-859,2025-03-31,Lead Qualifié,75000.0,75
+OPP-1859,AG-01,Prospect Industrie-860,2026-07-22,Lead Qualifié,30000.0,75
+OPP-1860,AG-21,Prospect Tech-861,2025-05-15,Lead Qualifié,15000.0,25
+OPP-1861,AG-20,Prospect Tech-862,2024-12-30,Gagnée (Signée),150000.0,100
+OPP-1862,AG-07,Prospect Tech-863,2024-03-07,Perdue,75000.0,0
+OPP-1863,AG-04,Prospect Industrie-864,2024-12-08,Gagnée (Signée),30000.0,100
+OPP-1864,AG-16,Prospect Tech-865,2026-07-16,Négociation,15000.0,75
+OPP-1865,AG-15,Prospect Industrie-866,2024-11-02,Gagnée (Signée),75000.0,100
+OPP-1866,AG-01,Prospect Services-867,2025-07-30,Gagnée (Signée),75000.0,100
+OPP-1867,AG-06,Prospect Tech-868,2025-09-15,Proposition Envoyée,30000.0,75
+OPP-1868,AG-07,Prospect Services-869,2024-03-24,Perdue,300000.0,0
+OPP-1869,AG-13,Prospect Industrie-870,2026-03-08,Négociation,30000.0,50
+OPP-1870,AG-13,Prospect Tech-871,2025-03-02,Perdue,300000.0,0
+OPP-1871,AG-20,Prospect Tech-872,2024-07-05,Proposition Envoyée,30000.0,25
+OPP-1872,AG-01,Prospect Services-873,2025-02-06,Lead Qualifié,15000.0,75
+OPP-1873,AG-04,Prospect Services-874,2024-12-13,Gagnée (Signée),300000.0,100
+OPP-1874,AG-01,Prospect Tech-875,2026-07-14,Lead Qualifié,75000.0,50
+OPP-1875,AG-19,Prospect Services-876,2024-11-28,Négociation,75000.0,75
+OPP-1876,AG-21,Prospect Industrie-877,2024-08-20,Négociation,150000.0,50
+OPP-1877,AG-04,Prospect Services-878,2024-05-20,Proposition Envoyée,300000.0,25
+OPP-1878,AG-21,Prospect Industrie-879,2025-11-18,Gagnée (Signée),75000.0,100
+OPP-1879,AG-20,Prospect Tech-880,2026-06-10,Négociation,15000.0,50
+OPP-1880,AG-15,Prospect Services-881,2024-06-04,Gagnée (Signée),300000.0,100
+OPP-1881,AG-09,Prospect Industrie-882,2025-07-02,Proposition Envoyée,30000.0,50
+OPP-1882,AG-21,Prospect Industrie-883,2024-01-29,Lead Qualifié,75000.0,25
+OPP-1883,AG-05,Prospect Tech-884,2026-04-29,Proposition Envoyée,150000.0,25
+OPP-1884,AG-18,Prospect Tech-885,2025-02-27,Gagnée (Signée),30000.0,100
+OPP-1885,AG-15,Prospect Services-886,2024-10-07,Lead Qualifié,15000.0,50
+OPP-1886,AG-06,Prospect Industrie-887,2026-02-22,Lead Qualifié,300000.0,25
+OPP-1887,AG-18,Prospect Tech-888,2024-01-02,Négociation,15000.0,50
+OPP-1888,AG-12,Prospect Industrie-889,2026-04-05,Proposition Envoyée,15000.0,50
+OPP-1889,AG-01,Prospect Tech-890,2025-09-24,Négociation,75000.0,75
+OPP-1890,AG-21,Prospect Industrie-891,2026-07-19,Négociation,15000.0,75
+OPP-1891,AG-05,Prospect Services-892,2025-12-28,Gagnée (Signée),15000.0,100
+OPP-1892,AG-05,Prospect Industrie-893,2025-04-29,Lead Qualifié,75000.0,75
+OPP-1893,AG-08,Prospect Services-894,2026-03-12,Négociation,150000.0,25
+OPP-1894,AG-10,Prospect Tech-895,2025-05-13,Lead Qualifié,15000.0,25
+OPP-1895,AG-20,Prospect Tech-896,2024-03-29,Négociation,150000.0,75
+OPP-1896,AG-19,Prospect Industrie-897,2024-01-10,Proposition Envoyée,15000.0,75
+OPP-1897,AG-17,Prospect Tech-898,2024-07-26,Gagnée (Signée),300000.0,100
+OPP-1898,AG-02,Prospect Tech-899,2024-06-16,Lead Qualifié,15000.0,50
+OPP-1899,AG-01,Prospect Industrie-900,2026-01-12,Perdue,15000.0,0
+OPP-1900,AG-08,Prospect Industrie-901,2025-01-21,Négociation,300000.0,75
+OPP-1901,AG-02,Prospect Services-902,2025-09-17,Proposition Envoyée,75000.0,75
+OPP-1902,AG-04,Prospect Services-903,2026-05-06,Proposition Envoyée,15000.0,25
+OPP-1903,AG-03,Prospect Industrie-904,2024-03-23,Gagnée (Signée),15000.0,100
+OPP-1904,AG-20,Prospect Industrie-905,2025-04-19,Proposition Envoyée,30000.0,50
+OPP-1905,AG-07,Prospect Tech-906,2025-08-11,Négociation,30000.0,50
+OPP-1906,AG-15,Prospect Tech-907,2026-01-25,Proposition Envoyée,30000.0,75
+OPP-1907,AG-08,Prospect Industrie-908,2024-10-11,Gagnée (Signée),30000.0,100
+OPP-1908,AG-15,Prospect Industrie-909,2025-09-16,Lead Qualifié,75000.0,25
+OPP-1909,AG-08,Prospect Tech-910,2025-12-21,Gagnée (Signée),30000.0,100
+OPP-1910,AG-12,Prospect Industrie-911,2025-03-18,Négociation,30000.0,75
+OPP-1911,AG-07,Prospect Tech-912,2024-12-21,Proposition Envoyée,75000.0,50
+OPP-1912,AG-18,Prospect Tech-913,2024-04-14,Proposition Envoyée,75000.0,75
+OPP-1913,AG-07,Prospect Tech-914,2025-08-22,Perdue,30000.0,0
+OPP-1914,AG-19,Prospect Industrie-915,2026-04-08,Proposition Envoyée,15000.0,50
+OPP-1915,AG-20,Prospect Tech-916,2026-04-09,Gagnée (Signée),30000.0,100
+OPP-1916,AG-12,Prospect Tech-917,2025-11-14,Lead Qualifié,75000.0,25
+OPP-1917,AG-15,Prospect Tech-918,2025-04-02,Proposition Envoyée,15000.0,50
+OPP-1918,AG-14,Prospect Industrie-919,2025-12-24,Lead Qualifié,75000.0,50
+OPP-1919,AG-21,Prospect Tech-920,2024-07-30,Gagnée (Signée),15000.0,100
+OPP-1920,AG-02,Prospect Tech-921,2024-11-29,Gagnée (Signée),75000.0,100
+OPP-1921,AG-13,Prospect Industrie-922,2026-07-28,Négociation,15000.0,75
+OPP-1922,AG-06,Prospect Services-923,2025-05-30,Perdue,300000.0,0
+OPP-1923,AG-09,Prospect Services-924,2024-09-24,Gagnée (Signée),30000.0,100
+OPP-1924,AG-07,Prospect Tech-925,2024-07-09,Proposition Envoyée,300000.0,75
+OPP-1925,AG-02,Prospect Industrie-926,2025-09-14,Négociation,30000.0,75
+OPP-1926,AG-02,Prospect Industrie-927,2026-08-01,Perdue,15000.0,0
+OPP-1927,AG-15,Prospect Tech-928,2024-03-27,Lead Qualifié,15000.0,50
+OPP-1928,AG-13,Prospect Tech-929,2025-07-12,Négociation,30000.0,25
+OPP-1929,AG-11,Prospect Industrie-930,2024-08-26,Gagnée (Signée),15000.0,100
+OPP-1930,AG-03,Prospect Tech-931,2025-08-21,Proposition Envoyée,30000.0,75
+OPP-1931,AG-19,Prospect Tech-932,2024-10-19,Lead Qualifié,15000.0,25
+OPP-1932,AG-20,Prospect Tech-933,2024-01-04,Proposition Envoyée,30000.0,25
+OPP-1933,AG-05,Prospect Tech-934,2025-01-25,Perdue,75000.0,0
+OPP-1934,AG-20,Prospect Services-935,2024-03-03,Gagnée (Signée),150000.0,100
+OPP-1935,AG-22,Prospect Tech-936,2024-09-14,Lead Qualifié,300000.0,25
+OPP-1936,AG-20,Prospect Tech-937,2026-06-14,Perdue,30000.0,0
+OPP-1937,AG-18,Prospect Tech-938,2024-12-22,Gagnée (Signée),15000.0,100
+OPP-1938,AG-12,Prospect Services-939,2026-04-29,Négociation,30000.0,25
+OPP-1939,AG-18,Prospect Industrie-940,2026-02-22,Lead Qualifié,75000.0,75
+OPP-1940,AG-04,Prospect Services-941,2026-06-29,Lead Qualifié,15000.0,25
+OPP-1941,AG-13,Prospect Industrie-942,2026-06-02,Gagnée (Signée),75000.0,100
+OPP-1942,AG-11,Prospect Industrie-943,2024-11-08,Perdue,150000.0,0
+OPP-1943,AG-18,Prospect Industrie-944,2025-11-28,Proposition Envoyée,30000.0,25
+OPP-1944,AG-10,Prospect Tech-945,2025-09-12,Proposition Envoyée,30000.0,50
+OPP-1945,AG-16,Prospect Industrie-946,2026-02-14,Lead Qualifié,30000.0,75
+OPP-1946,AG-01,Prospect Services-947,2025-12-14,Gagnée (Signée),150000.0,100
+OPP-1947,AG-18,Prospect Services-948,2024-08-07,Gagnée (Signée),30000.0,100
+OPP-1948,AG-22,Prospect Services-949,2024-11-20,Gagnée (Signée),15000.0,100
+OPP-1949,AG-03,Prospect Services-950,2026-04-18,Perdue,15000.0,0
+OPP-1950,AG-09,Prospect Tech-951,2026-03-04,Gagnée (Signée),15000.0,100
+OPP-1951,AG-08,Prospect Industrie-952,2024-06-13,Proposition Envoyée,300000.0,75
+OPP-1952,AG-14,Prospect Industrie-953,2026-01-17,Proposition Envoyée,30000.0,50
+OPP-1953,AG-10,Prospect Industrie-954,2025-01-16,Proposition Envoyée,30000.0,25
+OPP-1954,AG-20,Prospect Industrie-955,2025-03-01,Négociation,150000.0,75
+OPP-1955,AG-03,Prospect Services-956,2026-02-13,Lead Qualifié,300000.0,75
+OPP-1956,AG-11,Prospect Tech-957,2025-04-05,Gagnée (Signée),75000.0,100
+OPP-1957,AG-22,Prospect Tech-958,2024-07-17,Négociation,30000.0,75
+OPP-1958,AG-13,Prospect Services-959,2024-03-24,Gagnée (Signée),300000.0,100
+OPP-1959,AG-05,Prospect Industrie-960,2025-09-24,Proposition Envoyée,30000.0,75
+OPP-1960,AG-01,Prospect Tech-961,2025-10-03,Lead Qualifié,75000.0,50
+OPP-1961,AG-04,Prospect Industrie-962,2025-06-30,Proposition Envoyée,15000.0,25
+OPP-1962,AG-07,Prospect Tech-963,2024-08-11,Proposition Envoyée,15000.0,75
+OPP-1963,AG-05,Prospect Industrie-964,2024-08-06,Négociation,30000.0,50
+OPP-1964,AG-19,Prospect Tech-965,2024-07-20,Gagnée (Signée),30000.0,100
+OPP-1965,AG-17,Prospect Tech-966,2024-12-31,Négociation,75000.0,75
+OPP-1966,AG-14,Prospect Industrie-967,2024-07-09,Proposition Envoyée,75000.0,75
+OPP-1967,AG-14,Prospect Industrie-968,2024-02-26,Négociation,15000.0,50
+OPP-1968,AG-20,Prospect Industrie-969,2024-12-24,Proposition Envoyée,30000.0,50
+OPP-1969,AG-17,Prospect Industrie-970,2026-04-30,Lead Qualifié,300000.0,50
+OPP-1970,AG-04,Prospect Industrie-971,2025-08-12,Lead Qualifié,75000.0,25
+OPP-1971,AG-12,Prospect Services-972,2026-06-27,Lead Qualifié,15000.0,25
+OPP-1972,AG-09,Prospect Tech-973,2026-05-28,Perdue,30000.0,0
+OPP-1973,AG-19,Prospect Services-974,2024-10-27,Lead Qualifié,15000.0,25
+OPP-1974,AG-11,Prospect Tech-975,2025-05-12,Proposition Envoyée,30000.0,75
+OPP-1975,AG-11,Prospect Industrie-976,2026-07-19,Perdue,15000.0,0
+OPP-1976,AG-13,Prospect Services-977,2026-07-14,Gagnée (Signée),15000.0,100
+OPP-1977,AG-19,Prospect Services-978,2024-07-04,Gagnée (Signée),75000.0,100
+OPP-1978,AG-21,Prospect Tech-979,2024-08-13,Perdue,30000.0,0
+OPP-1979,AG-05,Prospect Industrie-980,2024-12-10,Négociation,15000.0,50
+OPP-1980,AG-11,Prospect Tech-981,2026-06-03,Proposition Envoyée,30000.0,75
+OPP-1981,AG-16,Prospect Services-982,2026-01-20,Gagnée (Signée),15000.0,100
+OPP-1982,AG-08,Prospect Industrie-983,2024-12-12,Proposition Envoyée,75000.0,25
+OPP-1983,AG-04,Prospect Industrie-984,2026-04-27,Proposition Envoyée,150000.0,25
+OPP-1984,AG-08,Prospect Industrie-985,2025-04-17,Lead Qualifié,15000.0,50
+OPP-1985,AG-13,Prospect Tech-986,2025-08-31,Proposition Envoyée,150000.0,50
+OPP-1986,AG-15,Prospect Services-987,2026-04-23,Gagnée (Signée),30000.0,100
+OPP-1987,AG-22,Prospect Services-988,2025-11-11,Gagnée (Signée),15000.0,100
+OPP-1988,AG-12,Prospect Industrie-989,2025-03-22,Négociation,300000.0,75
+OPP-1989,AG-14,Prospect Industrie-990,2025-07-27,Lead Qualifié,30000.0,50
+OPP-1990,AG-08,Prospect Tech-991,2025-03-23,Gagnée (Signée),150000.0,100
+OPP-1991,AG-18,Prospect Tech-992,2025-05-05,Proposition Envoyée,150000.0,75
+OPP-1992,AG-17,Prospect Tech-993,2024-11-15,Gagnée (Signée),150000.0,100
+OPP-1993,AG-05,Prospect Services-994,2026-07-01,Gagnée (Signée),15000.0,100
+OPP-1994,AG-19,Prospect Services-995,2025-06-16,Gagnée (Signée),15000.0,100
+OPP-1995,AG-22,Prospect Tech-996,2025-12-10,Gagnée (Signée),15000.0,100
+OPP-1996,AG-06,Prospect Industrie-997,2024-09-30,Proposition Envoyée,30000.0,50
+OPP-1997,AG-17,Prospect Industrie-998,2024-10-24,Lead Qualifié,15000.0,25
+OPP-1998,AG-04,Prospect Services-999,2025-06-24,Proposition Envoyée,150000.0,50
+OPP-1999,AG-22,Prospect Services-1000,2025-09-22,Gagnée (Signée),75000.0,100
+OPP-2000,AG-13,Prospect Services-1001,2025-05-23,Gagnée (Signée),15000.0,100
+OPP-2001,AG-17,Prospect Tech-1002,2024-05-21,Lead Qualifié,15000.0,50
+OPP-2002,AG-07,Prospect Tech-1003,2026-08-05,Gagnée (Signée),300000.0,100
+OPP-2003,AG-03,Prospect Services-1004,2025-03-16,Gagnée (Signée),30000.0,100
+OPP-2004,AG-19,Prospect Services-1005,2024-04-25,Gagnée (Signée),15000.0,100
+OPP-2005,AG-03,Prospect Tech-1006,2026-04-02,Négociation,30000.0,75
+OPP-2006,AG-15,Prospect Tech-1007,2024-01-22,Proposition Envoyée,30000.0,50
+OPP-2007,AG-19,Prospect Industrie-1008,2024-09-24,Lead Qualifié,30000.0,25
+OPP-2008,AG-21,Prospect Industrie-1009,2024-11-22,Gagnée (Signée),30000.0,100
+OPP-2009,AG-22,Prospect Services-1010,2024-02-18,Négociation,300000.0,50
+OPP-2010,AG-05,Prospect Services-1011,2025-01-31,Gagnée (Signée),150000.0,100
+OPP-2011,AG-01,Prospect Industrie-1012,2024-01-08,Négociation,30000.0,50
+OPP-2012,AG-15,Prospect Services-1013,2024-01-31,Gagnée (Signée),75000.0,100
+OPP-2013,AG-04,Prospect Services-1014,2025-09-02,Lead Qualifié,150000.0,50
+OPP-2014,AG-03,Prospect Services-1015,2024-08-28,Gagnée (Signée),30000.0,100
+OPP-2015,AG-03,Prospect Industrie-1016,2024-05-14,Lead Qualifié,30000.0,75
+OPP-2016,AG-19,Prospect Services-1017,2024-01-20,Gagnée (Signée),15000.0,100
+OPP-2017,AG-09,Prospect Services-1018,2026-05-12,Proposition Envoyée,150000.0,75
+OPP-2018,AG-07,Prospect Tech-1019,2026-07-02,Proposition Envoyée,30000.0,25
+OPP-2019,AG-08,Prospect Services-1020,2024-03-04,Gagnée (Signée),15000.0,100
+OPP-2020,AG-05,Prospect Industrie-1021,2024-06-16,Lead Qualifié,75000.0,75
+OPP-2021,AG-01,Prospect Tech-1022,2025-04-05,Lead Qualifié,75000.0,75
+OPP-2022,AG-15,Prospect Industrie-1023,2025-07-29,Gagnée (Signée),30000.0,100
+OPP-2023,AG-12,Prospect Tech-1024,2025-09-15,Proposition Envoyée,30000.0,25
+OPP-2024,AG-01,Prospect Tech-1025,2026-01-13,Proposition Envoyée,75000.0,25
+OPP-2025,AG-04,Prospect Services-1026,2025-01-24,Négociation,300000.0,50
+OPP-2026,AG-08,Prospect Tech-1027,2026-05-03,Négociation,300000.0,25
+OPP-2027,AG-17,Prospect Industrie-1028,2026-03-11,Proposition Envoyée,15000.0,50
+OPP-2028,AG-09,Prospect Services-1029,2026-05-29,Lead Qualifié,15000.0,75
+OPP-2029,AG-11,Prospect Tech-1030,2026-05-04,Gagnée (Signée),75000.0,100
+OPP-2030,AG-04,Prospect Industrie-1031,2025-07-30,Gagnée (Signée),150000.0,100
+OPP-2031,AG-12,Prospect Tech-1032,2024-01-20,Gagnée (Signée),150000.0,100
+OPP-2032,AG-05,Prospect Industrie-1033,2025-01-05,Gagnée (Signée),15000.0,100
+OPP-2033,AG-22,Prospect Industrie-1034,2025-10-02,Proposition Envoyée,75000.0,75
+OPP-2034,AG-17,Prospect Services-1035,2026-03-11,Perdue,30000.0,0
+OPP-2035,AG-06,Prospect Industrie-1036,2026-06-23,Proposition Envoyée,150000.0,25
+OPP-2036,AG-12,Prospect Tech-1037,2025-05-12,Proposition Envoyée,150000.0,25
+OPP-2037,AG-02,Prospect Tech-1038,2024-09-14,Perdue,300000.0,0
+OPP-2038,AG-05,Prospect Tech-1039,2024-05-16,Négociation,30000.0,25
+OPP-2039,AG-09,Prospect Industrie-1040,2026-07-09,Lead Qualifié,75000.0,75
+OPP-2040,AG-13,Prospect Tech-1041,2026-07-27,Négociation,15000.0,75
+OPP-2041,AG-04,Prospect Services-1042,2026-06-05,Gagnée (Signée),15000.0,100
+OPP-2042,AG-21,Prospect Tech-1043,2026-05-05,Gagnée (Signée),75000.0,100
+OPP-2043,AG-17,Prospect Tech-1044,2025-09-12,Lead Qualifié,30000.0,75
+OPP-2044,AG-08,Prospect Industrie-1045,2024-05-22,Proposition Envoyée,300000.0,75
+OPP-2045,AG-16,Prospect Services-1046,2026-04-19,Lead Qualifié,75000.0,75
+OPP-2046,AG-11,Prospect Services-1047,2025-03-23,Gagnée (Signée),30000.0,100
+OPP-2047,AG-10,Prospect Tech-1048,2024-08-28,Proposition Envoyée,15000.0,75
+OPP-2048,AG-12,Prospect Services-1049,2024-09-21,Proposition Envoyée,30000.0,50
+OPP-2049,AG-09,Prospect Tech-1050,2026-01-04,Lead Qualifié,15000.0,75
+OPP-2050,AG-17,Prospect Tech-1051,2024-04-12,Négociation,150000.0,75
+OPP-2051,AG-19,Prospect Industrie-1052,2024-01-02,Perdue,75000.0,0
+OPP-2052,AG-01,Prospect Industrie-1053,2025-05-14,Négociation,15000.0,25
+OPP-2053,AG-16,Prospect Industrie-1054,2025-01-23,Proposition Envoyée,15000.0,50
+OPP-2054,AG-15,Prospect Tech-1055,2026-06-08,Négociation,75000.0,50
+OPP-2055,AG-08,Prospect Tech-1056,2025-11-10,Proposition Envoyée,75000.0,25
+OPP-2056,AG-02,Prospect Tech-1057,2025-06-14,Lead Qualifié,30000.0,25
+OPP-2057,AG-15,Prospect Tech-1058,2024-04-10,Proposition Envoyée,15000.0,75
+OPP-2058,AG-04,Prospect Services-1059,2024-07-11,Gagnée (Signée),75000.0,100
+OPP-2059,AG-19,Prospect Services-1060,2025-05-11,Lead Qualifié,300000.0,25
+OPP-2060,AG-12,Prospect Tech-1061,2026-02-25,Proposition Envoyée,75000.0,75
+OPP-2061,AG-16,Prospect Services-1062,2025-04-10,Négociation,30000.0,75
+OPP-2062,AG-13,Prospect Services-1063,2024-05-30,Proposition Envoyée,30000.0,75
+OPP-2063,AG-01,Prospect Industrie-1064,2025-01-21,Gagnée (Signée),15000.0,100
+OPP-2064,AG-03,Prospect Services-1065,2024-07-23,Négociation,75000.0,25
+OPP-2065,AG-13,Prospect Industrie-1066,2026-04-27,Proposition Envoyée,15000.0,50
+OPP-2066,AG-15,Prospect Industrie-1067,2024-01-30,Lead Qualifié,15000.0,75
+OPP-2067,AG-22,Prospect Tech-1068,2026-07-24,Gagnée (Signée),30000.0,100
+OPP-2068,AG-06,Prospect Industrie-1069,2024-05-22,Proposition Envoyée,15000.0,25
+OPP-2069,AG-16,Prospect Tech-1070,2025-01-01,Proposition Envoyée,15000.0,75
+OPP-2070,AG-19,Prospect Services-1071,2024-12-16,Gagnée (Signée),75000.0,100
+OPP-2071,AG-16,Prospect Tech-1072,2025-03-20,Gagnée (Signée),300000.0,100
+OPP-2072,AG-06,Prospect Industrie-1073,2024-07-15,Proposition Envoyée,15000.0,50
+OPP-2073,AG-13,Prospect Services-1074,2024-08-27,Proposition Envoyée,30000.0,25
+OPP-2074,AG-13,Prospect Industrie-1075,2024-10-06,Proposition Envoyée,30000.0,50
+OPP-2075,AG-08,Prospect Services-1076,2025-08-27,Proposition Envoyée,75000.0,25
+OPP-2076,AG-06,Prospect Industrie-1077,2025-08-01,Négociation,15000.0,50
+OPP-2077,AG-18,Prospect Tech-1078,2025-06-18,Proposition Envoyée,30000.0,50
+OPP-2078,AG-13,Prospect Industrie-1079,2025-12-20,Proposition Envoyée,15000.0,75
+OPP-2079,AG-06,Prospect Services-1080,2026-07-22,Proposition Envoyée,15000.0,75
+OPP-2080,AG-05,Prospect Tech-1081,2024-02-15,Proposition Envoyée,300000.0,50
+OPP-2081,AG-16,Prospect Services-1082,2024-05-21,Négociation,75000.0,75
+OPP-2082,AG-15,Prospect Services-1083,2026-03-25,Lead Qualifié,30000.0,75
+OPP-2083,AG-11,Prospect Services-1084,2024-09-28,Lead Qualifié,15000.0,75
+OPP-2084,AG-12,Prospect Industrie-1085,2025-02-12,Gagnée (Signée),15000.0,100
+OPP-2085,AG-19,Prospect Tech-1086,2025-08-29,Gagnée (Signée),15000.0,100
+OPP-2086,AG-12,Prospect Industrie-1087,2026-07-24,Proposition Envoyée,300000.0,75
+OPP-2087,AG-09,Prospect Services-1088,2025-02-27,Négociation,30000.0,50
+OPP-2088,AG-05,Prospect Services-1089,2025-07-04,Perdue,15000.0,0
+OPP-2089,AG-04,Prospect Tech-1090,2026-05-11,Négociation,75000.0,75
+OPP-2090,AG-16,Prospect Tech-1091,2025-08-08,Gagnée (Signée),75000.0,100
+OPP-2091,AG-13,Prospect Tech-1092,2025-01-23,Gagnée (Signée),15000.0,100
+OPP-2092,AG-21,Prospect Services-1093,2024-07-25,Lead Qualifié,300000.0,50
+OPP-2093,AG-03,Prospect Industrie-1094,2026-02-24,Proposition Envoyée,15000.0,75
+OPP-2094,AG-03,Prospect Services-1095,2024-10-09,Gagnée (Signée),30000.0,100
+OPP-2095,AG-10,Prospect Industrie-1096,2026-02-26,Négociation,15000.0,50
+OPP-2096,AG-10,Prospect Industrie-1097,2025-11-01,Négociation,15000.0,25
+OPP-2097,AG-11,Prospect Industrie-1098,2025-02-02,Négociation,30000.0,50
+OPP-2098,AG-16,Prospect Tech-1099,2026-02-03,Proposition Envoyée,30000.0,50
+OPP-2099,AG-08,Prospect Tech-1100,2026-04-10,Gagnée (Signée),30000.0,100
+OPP-2100,AG-16,Prospect Tech-1101,2024-01-18,Proposition Envoyée,15000.0,25
+OPP-2101,AG-09,Prospect Tech-1102,2024-07-22,Négociation,150000.0,50
+OPP-2102,AG-20,Prospect Services-1103,2025-07-05,Lead Qualifié,150000.0,25
+OPP-2103,AG-08,Prospect Services-1104,2024-09-13,Proposition Envoyée,15000.0,75
+OPP-2104,AG-05,Prospect Tech-1105,2026-04-09,Proposition Envoyée,150000.0,25
+OPP-2105,AG-02,Prospect Tech-1106,2024-10-14,Proposition Envoyée,150000.0,75
+OPP-2106,AG-19,Prospect Services-1107,2026-02-07,Gagnée (Signée),150000.0,100
+OPP-2107,AG-16,Prospect Industrie-1108,2024-07-06,Proposition Envoyée,15000.0,50
+OPP-2108,AG-12,Prospect Services-1109,2026-05-23,Gagnée (Signée),150000.0,100
+OPP-2109,AG-13,Prospect Industrie-1110,2024-10-21,Gagnée (Signée),30000.0,100
+OPP-2110,AG-10,Prospect Tech-1111,2026-05-17,Gagnée (Signée),30000.0,100
+OPP-2111,AG-22,Prospect Tech-1112,2026-03-24,Gagnée (Signée),15000.0,100
+OPP-2112,AG-18,Prospect Tech-1113,2026-01-01,Gagnée (Signée),15000.0,100
+OPP-2113,AG-04,Prospect Services-1114,2024-07-25,Lead Qualifié,300000.0,50
+OPP-2114,AG-21,Prospect Industrie-1115,2024-05-15,Négociation,30000.0,75
+OPP-2115,AG-20,Prospect Services-1116,2024-09-15,Gagnée (Signée),30000.0,100
+OPP-2116,AG-14,Prospect Industrie-1117,2024-04-16,Perdue,75000.0,0
+OPP-2117,AG-02,Prospect Tech-1118,2025-12-08,Perdue,15000.0,0
+OPP-2118,AG-04,Prospect Services-1119,2024-12-22,Lead Qualifié,15000.0,75
+OPP-2119,AG-14,Prospect Tech-1120,2025-04-13,Gagnée (Signée),150000.0,100
+OPP-2120,AG-18,Prospect Industrie-1121,2025-10-26,Lead Qualifié,30000.0,75
+OPP-2121,AG-02,Prospect Services-1122,2026-04-11,Négociation,15000.0,25
+OPP-2122,AG-02,Prospect Industrie-1123,2025-06-26,Lead Qualifié,30000.0,50
+OPP-2123,AG-04,Prospect Tech-1124,2026-04-01,Négociation,150000.0,25
+OPP-2124,AG-15,Prospect Industrie-1125,2025-11-03,Lead Qualifié,15000.0,25
+OPP-2125,AG-15,Prospect Tech-1126,2025-12-03,Gagnée (Signée),75000.0,100
+OPP-2126,AG-06,Prospect Services-1127,2026-03-31,Lead Qualifié,15000.0,75
+OPP-2127,AG-14,Prospect Services-1128,2025-08-29,Lead Qualifié,15000.0,25
+OPP-2128,AG-05,Prospect Industrie-1129,2025-05-27,Proposition Envoyée,15000.0,25
+OPP-2129,AG-06,Prospect Tech-1130,2025-05-04,Perdue,30000.0,0
+OPP-2130,AG-20,Prospect Tech-1131,2024-05-10,Gagnée (Signée),15000.0,100
+OPP-2131,AG-22,Prospect Services-1132,2025-12-17,Proposition Envoyée,300000.0,50
+OPP-2132,AG-01,Prospect Services-1133,2025-06-08,Gagnée (Signée),30000.0,100
+OPP-2133,AG-09,Prospect Tech-1134,2026-02-07,Proposition Envoyée,30000.0,25
+OPP-2134,AG-10,Prospect Tech-1135,2024-03-11,Perdue,15000.0,0
+OPP-2135,AG-17,Prospect Services-1136,2024-06-06,Négociation,75000.0,75
+OPP-2136,AG-09,Prospect Industrie-1137,2025-11-26,Gagnée (Signée),30000.0,100
+OPP-2137,AG-12,Prospect Industrie-1138,2024-04-02,Négociation,15000.0,75
+OPP-2138,AG-10,Prospect Services-1139,2025-12-02,Lead Qualifié,30000.0,75
+OPP-2139,AG-18,Prospect Industrie-1140,2024-10-24,Gagnée (Signée),75000.0,100
+OPP-2140,AG-17,Prospect Services-1141,2024-10-13,Proposition Envoyée,75000.0,75
+OPP-2141,AG-03,Prospect Tech-1142,2024-11-29,Gagnée (Signée),15000.0,100
+OPP-2142,AG-15,Prospect Services-1143,2025-02-24,Proposition Envoyée,15000.0,25
+OPP-2143,AG-11,Prospect Industrie-1144,2025-02-20,Perdue,75000.0,0
+OPP-2144,AG-18,Prospect Services-1145,2026-07-29,Gagnée (Signée),15000.0,100
+OPP-2145,AG-19,Prospect Tech-1146,2026-01-19,Proposition Envoyée,150000.0,50
+OPP-2146,AG-19,Prospect Tech-1147,2024-01-26,Gagnée (Signée),75000.0,100
+OPP-2147,AG-15,Prospect Industrie-1148,2025-04-23,Gagnée (Signée),30000.0,100
+OPP-2148,AG-11,Prospect Tech-1149,2026-03-21,Perdue,150000.0,0
+OPP-2149,AG-14,Prospect Industrie-1150,2024-05-04,Perdue,30000.0,0
+OPP-2150,AG-01,Prospect Services-1151,2024-06-21,Gagnée (Signée),75000.0,100
+OPP-2151,AG-04,Prospect Industrie-1152,2026-07-08,Lead Qualifié,30000.0,25
+OPP-2152,AG-20,Prospect Services-1153,2024-02-13,Proposition Envoyée,15000.0,75
+OPP-2153,AG-05,Prospect Tech-1154,2026-05-12,Gagnée (Signée),75000.0,100
+OPP-2154,AG-06,Prospect Industrie-1155,2026-02-19,Lead Qualifié,150000.0,50
+OPP-2155,AG-22,Prospect Industrie-1156,2025-07-09,Proposition Envoyée,30000.0,75
+OPP-2156,AG-06,Prospect Tech-1157,2024-09-10,Gagnée (Signée),75000.0,100
+OPP-2157,AG-06,Prospect Tech-1158,2025-07-10,Négociation,75000.0,50
+OPP-2158,AG-12,Prospect Services-1159,2024-04-24,Lead Qualifié,30000.0,25
+OPP-2159,AG-21,Prospect Industrie-1160,2025-02-13,Perdue,30000.0,0
+OPP-2160,AG-06,Prospect Tech-1161,2025-08-10,Perdue,15000.0,0
+OPP-2161,AG-01,Prospect Industrie-1162,2026-06-03,Perdue,150000.0,0
+OPP-2162,AG-12,Prospect Tech-1163,2025-11-04,Lead Qualifié,15000.0,50
+OPP-2163,AG-18,Prospect Industrie-1164,2026-01-02,Gagnée (Signée),30000.0,100
+OPP-2164,AG-13,Prospect Tech-1165,2026-01-14,Négociation,300000.0,75
+OPP-2165,AG-06,Prospect Services-1166,2025-11-02,Négociation,75000.0,25
+OPP-2166,AG-22,Prospect Services-1167,2024-01-13,Gagnée (Signée),75000.0,100
+OPP-2167,AG-07,Prospect Tech-1168,2025-05-06,Gagnée (Signée),15000.0,100
+OPP-2168,AG-17,Prospect Tech-1169,2026-06-23,Proposition Envoyée,15000.0,75
+OPP-2169,AG-14,Prospect Tech-1170,2024-03-08,Gagnée (Signée),30000.0,100
+OPP-2170,AG-01,Prospect Industrie-1171,2024-07-30,Proposition Envoyée,75000.0,75
+OPP-2171,AG-20,Prospect Tech-1172,2025-12-17,Proposition Envoyée,75000.0,25
+OPP-2172,AG-14,Prospect Tech-1173,2026-04-21,Perdue,150000.0,0
+OPP-2173,AG-10,Prospect Services-1174,2024-06-09,Gagnée (Signée),75000.0,100
+OPP-2174,AG-01,Prospect Industrie-1175,2024-01-31,Gagnée (Signée),75000.0,100
+OPP-2175,AG-12,Prospect Industrie-1176,2025-11-17,Négociation,75000.0,50
+OPP-2176,AG-21,Prospect Industrie-1177,2025-02-16,Gagnée (Signée),30000.0,100
+OPP-2177,AG-01,Prospect Industrie-1178,2024-03-09,Gagnée (Signée),30000.0,100
+OPP-2178,AG-03,Prospect Services-1179,2024-10-21,Lead Qualifié,75000.0,75
+OPP-2179,AG-08,Prospect Services-1180,2025-10-05,Lead Qualifié,300000.0,50
+OPP-2180,AG-18,Prospect Services-1181,2024-01-02,Négociation,15000.0,75
+OPP-2181,AG-20,Prospect Tech-1182,2024-03-18,Négociation,75000.0,50
+OPP-2182,AG-04,Prospect Industrie-1183,2025-04-07,Négociation,15000.0,25
+OPP-2183,AG-12,Prospect Services-1184,2024-01-19,Proposition Envoyée,30000.0,25
+OPP-2184,AG-06,Prospect Services-1185,2026-05-25,Gagnée (Signée),150000.0,100
+OPP-2185,AG-10,Prospect Tech-1186,2024-12-05,Gagnée (Signée),30000.0,100
+OPP-2186,AG-11,Prospect Tech-1187,2025-05-25,Gagnée (Signée),75000.0,100
+OPP-2187,AG-17,Prospect Services-1188,2024-10-16,Perdue,75000.0,0
+OPP-2188,AG-07,Prospect Tech-1189,2024-04-28,Négociation,30000.0,50
+OPP-2189,AG-22,Prospect Tech-1190,2024-03-09,Lead Qualifié,30000.0,50
+OPP-2190,AG-17,Prospect Tech-1191,2025-10-19,Lead Qualifié,15000.0,50
+OPP-2191,AG-14,Prospect Services-1192,2024-11-19,Perdue,30000.0,0
+OPP-2192,AG-15,Prospect Tech-1193,2024-07-31,Négociation,75000.0,75
+OPP-2193,AG-12,Prospect Industrie-1194,2025-11-12,Proposition Envoyée,15000.0,75
+OPP-2194,AG-13,Prospect Industrie-1195,2024-04-27,Lead Qualifié,15000.0,75
+OPP-2195,AG-13,Prospect Tech-1196,2025-05-30,Gagnée (Signée),75000.0,100
+OPP-2196,AG-16,Prospect Services-1197,2025-10-26,Proposition Envoyée,30000.0,25
+OPP-2197,AG-15,Prospect Services-1198,2025-11-29,Gagnée (Signée),150000.0,100
+OPP-2198,AG-10,Prospect Industrie-1199,2024-06-03,Proposition Envoyée,15000.0,25
+OPP-2199,AG-07,Prospect Tech-1200,2026-03-14,Lead Qualifié,30000.0,25
