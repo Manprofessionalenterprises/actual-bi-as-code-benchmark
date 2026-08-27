@@ -1,0 +1,51 @@
+import os
+
+base_dir = "/tmp/actual_dbt_clean/lightdash/spaces/shared"
+os.makedirs(base_dir, exist_ok=True)
+
+dashboard = """version: 1
+contentType: dashboard
+slug: groupe-actual-pilotage-comex
+name: "GROUPE ACTUAL — PILOTAGE STRATÉGIQUE COMEX"
+spaceSlug: shared
+description: "Dashboard de pilotage exécutif connecté en direct à Snowflake pour la Direction Générale du Groupe Actual."
+tabs: []
+tiles:
+  - type: saved_chart
+    properties:
+      savedChartSlug: performance-par-agence
+    x: 0
+    y: 0
+    w: 12
+    h: 9
+  - type: saved_chart
+    properties:
+      savedChartSlug: ca-par-secteur-client
+    x: 12
+    y: 0
+    w: 12
+    h: 9
+  - type: saved_chart
+    properties:
+      savedChartSlug: ca-par-region
+    x: 0
+    y: 9
+    w: 12
+    h: 9
+  - type: saved_chart
+    properties:
+      savedChartSlug: detail-des-placements
+    x: 12
+    y: 9
+    w: 12
+    h: 9
+filters:
+  dimensions: []
+  metrics: []
+  tableCalculations: []
+"""
+
+with open(os.path.join(base_dir, "groupe-actual-pilotage-comex.dashboard.yml"), "w") as f:
+    f.write(dashboard)
+
+print("🎉 Dashboard YML mis à jour avec tabs: [] !")

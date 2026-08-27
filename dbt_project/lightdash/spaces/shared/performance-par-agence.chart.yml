@@ -1,0 +1,27 @@
+version: 1
+contentType: chart
+slug: performance-par-agence
+name: "1. Performance par Agence (CA & Marge)"
+spaceSlug: shared
+tableName: fct_placements
+metricQuery:
+  exploreName: fct_placements
+  dimensions:
+    - fct_placements_nom_agence
+  metrics:
+    - fct_placements_total_chiffre_affaires
+    - fct_placements_total_marge_brute
+  tableCalculations: []
+  filters: {}
+  sorts:
+    - fieldId: fct_placements_total_chiffre_affaires
+      descending: true
+  limit: 500
+chartConfig:
+  type: cartesian
+  config:
+    layout:
+      xField: fct_placements_nom_agence
+      yField:
+        - fct_placements_total_chiffre_affaires
+        - fct_placements_total_marge_brute

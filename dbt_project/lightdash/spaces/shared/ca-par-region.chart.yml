@@ -1,0 +1,27 @@
+version: 1
+contentType: chart
+slug: ca-par-region
+name: "3. CA & Rentabilité par Région"
+spaceSlug: shared
+tableName: fct_placements
+metricQuery:
+  exploreName: fct_placements
+  dimensions:
+    - fct_placements_agence_region
+  metrics:
+    - fct_placements_total_chiffre_affaires
+    - fct_placements_total_marge_brute
+  tableCalculations: []
+  filters: {}
+  sorts:
+    - fieldId: fct_placements_total_chiffre_affaires
+      descending: true
+  limit: 500
+chartConfig:
+  type: cartesian
+  config:
+    layout:
+      xField: fct_placements_agence_region
+      yField:
+        - fct_placements_total_chiffre_affaires
+        - fct_placements_total_marge_brute

@@ -1,0 +1,23 @@
+version: 1
+contentType: chart
+slug: ca-par-secteur-client
+name: "2. CA par Secteur Client"
+spaceSlug: shared
+tableName: fct_placements
+metricQuery:
+  exploreName: fct_placements
+  dimensions:
+    - fct_placements_client_secteur
+  metrics:
+    - fct_placements_total_chiffre_affaires
+  tableCalculations: []
+  filters: {}
+  sorts:
+    - fieldId: fct_placements_total_chiffre_affaires
+      descending: true
+  limit: 500
+chartConfig:
+  type: pie
+  config:
+    groupFieldId: fct_placements_client_secteur
+    metricId: fct_placements_total_chiffre_affaires

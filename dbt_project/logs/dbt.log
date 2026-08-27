@@ -1,0 +1,18 @@
+[0m11:48:46.681565 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c745b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d7c5a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d7c58b0>]}
+
+
+============================== 11:48:46.685445 | 9d925966-6358-4c31-b18c-c7665e05f3f1 ==============================
+[0m11:48:46.685445 [info ] [MainThread]: Running with dbt=1.10.23
+[0m11:48:46.685948 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'fail_fast': 'False', 'target_path': 'None', 'no_print': 'None', 'log_path': 'logs', 'introspect': 'True', 'empty': 'False', 'printer_width': '80', 'indirect_selection': 'eager', 'log_format': 'default', 'log_cache_events': 'False', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'debug': 'False', 'use_experimental_parser': 'False', 'static_parser': 'True', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'invocation_command': 'dbt compile --profiles-dir .', 'partial_parse': 'True', 'quiet': 'False', 'profiles_dir': '.'}
+[0m11:48:46.686296 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m11:48:46.686557 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': '9d925966-6358-4c31-b18c-c7665e05f3f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c745b20>]}
+[0m11:48:46.687104 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/mohammedamine/AI engineer projects (freelance Bicode)/actual_bi_as_code_benchmark/dbt_project/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:48:46.690990 [debug] [MainThread]: Resource report: {"command_name": "compile", "command_success": false, "command_wall_clock_time": 0.06909904, "process_in_blocks": "0", "process_kernel_time": 0.128105, "process_mem_max_rss": "99893248", "process_out_blocks": "0", "process_user_time": 1.170569}
+[0m11:48:46.691412 [debug] [MainThread]: Command `dbt compile` failed at 11:48:46.691325 after 0.07 seconds
+[0m11:48:46.691712 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c745b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d7c5310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d7c50d0>]}
+[0m11:48:46.692003 [debug] [MainThread]: Flushing usage events
+[0m11:48:47.529509 [debug] [MainThread]: An error was encountered while trying to flush usage events

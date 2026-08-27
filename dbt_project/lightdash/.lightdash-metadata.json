@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "charts": {
+    "ca-par-region": "2026-08-27T10:07:19.366Z",
+    "detail-des-placements": "2026-08-27T10:07:19.366Z",
+    "ca-par-secteur-client": "2026-08-27T10:07:19.366Z",
+    "performance-par-agence": "2026-08-27T10:07:19.366Z"
+  },
+  "dashboards": {}
+}

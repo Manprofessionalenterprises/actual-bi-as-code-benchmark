@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    database: BENCHMARK_DB
+    schema: RAW
+    tables:
+      - name: raw_agences
+      - name: raw_clients
+      - name: raw_candidats
+      - name: raw_missions

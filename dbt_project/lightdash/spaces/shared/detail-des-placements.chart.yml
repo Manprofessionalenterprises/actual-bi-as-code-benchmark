@@ -1,0 +1,23 @@
+version: 1
+contentType: chart
+slug: detail-des-placements
+name: "4. Détail des Placements & Clients"
+spaceSlug: shared
+tableName: fct_placements
+metricQuery:
+  exploreName: fct_placements
+  dimensions:
+    - fct_placements_nom_agence
+    - fct_placements_client_nom
+    - fct_placements_candidat_metier
+  metrics:
+    - fct_placements_total_chiffre_affaires
+    - fct_placements_total_marge_brute
+  tableCalculations: []
+  filters: {}
+  sorts:
+    - fieldId: fct_placements_total_chiffre_affaires
+      descending: true
+  limit: 500
+chartConfig:
+  type: table

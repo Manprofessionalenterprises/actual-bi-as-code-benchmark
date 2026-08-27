@@ -1,0 +1,38 @@
+chartConfig:
+  config:
+    layout:
+      xField: fct_placements_agence_region
+      yField:
+        - fct_placements_total_chiffre_affaires
+        - fct_placements_total_marge_brute
+  type: cartesian
+contentType: chart
+description: null
+metricQuery:
+  additionalMetrics: []
+  customDimensions: []
+  dimensions:
+    - fct_placements_agence_region
+  exploreName: fct_placements
+  filters: {}
+  limit: 500
+  metricOverrides: {}
+  metrics:
+    - fct_placements_total_chiffre_affaires
+    - fct_placements_total_marge_brute
+  sorts:
+    - descending: true
+      fieldId: fct_placements_total_chiffre_affaires
+  tableCalculations: []
+  timezone: project_timezone
+name: 3. CA & Rentabilité par Région
+slug: ca-par-region
+spaceSlug: shared
+tableConfig:
+  columnOrder:
+    - fct_placements_agence_region
+    - fct_placements_total_chiffre_affaires
+    - fct_placements_total_marge_brute
+tableName: fct_placements
+verification: null
+version: 1
