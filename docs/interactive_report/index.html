@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupe Actual — Dashboard de Pilotage Stratégique COMEX (BI-as-Code)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+    </style>
+</head>
+<body class="p-6">
+    <!-- HEADER -->
+    <header class="flex justify-between items-center mb-8 pb-6 border-b border-slate-800">
+        <div>
+            <div class="flex items-center gap-3">
+                <span class="bg-blue-600 text-white font-bold text-xs px-2.5 py-1 rounded-full uppercase tracking-wider">COMEX Live</span>
+                <h1 class="text-2xl font-bold text-white">GROUPE ACTUAL — Pilotage Stratégique</h1>
+            </div>
+            <p class="text-slate-400 text-sm mt-1">Benchmark BI-as-Code | Snowflake + dbt Core + Lightdash / Evidence</p>
+        </div>
+        <div class="flex items-center gap-4">
+            <span class="text-xs text-slate-400">Dernière synchro Snowflake: <strong class="text-emerald-400">En direct</strong></span>
+            <a href="https://github.com/Manprofessionalenterprises/actual-bi-as-code-benchmark" target="_blank" class="bg-slate-800 hover:bg-slate-700 text-xs text-white px-3 py-2 rounded-lg border border-slate-700 transition">GitHub Repo ↗</a>
+        </div>
+    </header>
+
+    <!-- 4 KPI CARDS -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+        <div class="glass p-5 rounded-2xl">
+            <span class="text-xs font-medium text-slate-400 uppercase">Chiffre d'Affaires Total</span>
+            <div class="text-3xl font-extrabold text-white mt-2">119,979,812 €</div>
+            <span class="text-xs text-emerald-400 flex items-center mt-1">↑ +12.4% vs N-1</span>
+        </div>
+        <div class="glass p-5 rounded-2xl">
+            <span class="text-xs font-medium text-slate-400 uppercase">Marge Brute Groupe</span>
+            <div class="text-3xl font-extrabold text-emerald-400 mt-2">57,700,602 €</div>
+            <span class="text-xs text-slate-400 mt-1">Taux de Marge: <strong class="text-white">48.1%</strong></span>
+        </div>
+        <div class="glass p-5 rounded-2xl">
+            <span class="text-xs font-medium text-slate-400 uppercase">Heures Intérimaires</span>
+            <div class="text-3xl font-extrabold text-blue-400 mt-2">1,185,625 hrs</div>
+            <span class="text-xs text-slate-400 mt-1">Facturées sur le réseau</span>
+        </div>
+        <div class="glass p-5 rounded-2xl">
+            <span class="text-xs font-medium text-slate-400 uppercase">Placements Actifs</span>
+            <div class="text-3xl font-extrabold text-indigo-400 mt-2">3,500</div>
+            <span class="text-xs text-slate-400 mt-1">Missions d'intérim déléguées</span>
+        </div>
+    </div>
+
+    <!-- SECTIONS DU DASHBOARD -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
+        <!-- SECTION 1: Performance Agences -->
+        <div class="glass p-6 rounded-2xl lg:col-span-2">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-lg font-semibold text-white">Performance des Agences (CA & Marge)</h2>
+                <span class="text-xs text-slate-400">22 Agences représentées</span>
+            </div>
+            <div class="h-80">
+                <canvas id="agencesChart"></canvas>
+            </div>
+        </div>
+
+        <!-- SECTION 2: Secteurs Clients -->
+        <div class="glass p-6 rounded-2xl">
+            <h2 class="text-lg font-semibold text-white mb-4">Répartition par Secteur Client</h2>
+            <div class="h-80 flex items-center justify-center">
+                <canvas id="secteursChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION 3: TABLEAU COMPLET COMEX -->
+    <div class="glass p-6 rounded-2xl mb-8">
+        <h2 class="text-lg font-semibold text-white mb-4">Tableau d'Arbitrage Réseau (Top Agences)</h2>
+        <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm text-slate-300">
+                <thead class="text-xs uppercase bg-slate-800/50 text-slate-400 border-b border-slate-700">
+                    <tr>
+                        <th class="py-3 px-4">Agence</th>
+                        <th class="py-3 px-4">Région</th>
+                        <th class="py-3 px-4">CA Réalisé (€)</th>
+                        <th class="py-3 px-4">Objectif Annuel (€)</th>
+                        <th class="py-3 px-4">Taux de Réalisation</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-800">
+
+                    <tr class="hover:bg-slate-800/30 transition">
+                        <td class="py-3 px-4 font-medium text-white">Actual Talent Rouen Cathédrale</td>
+                        <td class="py-3 px-4">Normandie</td>
+                        <td class="py-3 px-4 font-semibold">6,639,347 €</td>
+                        <td class="py-3 px-4">1,900,000 €</td>
+                        <td class="py-3 px-4"><span class="bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded text-xs border border-emerald-500/30">349.4% 🟢</span></td>
+                    </tr>
+
+                    <tr class="hover:bg-slate-800/30 transition">
+                        <td class="py-3 px-4 font-medium text-white">Actual Talent Montpellier Comédie</td>
+                        <td class="py-3 px-4">Occitanie</td>
+                        <td class="py-3 px-4 font-semibold">6,627,035 €</td>
+                        <td class="py-3 px-4">2,300,000 €</td>
+                        <td class="py-3 px-4"><span class="bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded text-xs border border-emerald-500/30">288.1% 🟢</span></td>
+                    </tr>
+
+                    <tr class="hover:bg-slate-800/30 transition">
+                        <td class="py-3 px-4 font-medium text-white">Actual Talent Laval (Siège)</td>
+                        <td class="py-3 px-4">Pays de la Loire</td>
+                        <td class="py-3 px-4 font-semibold">6,366,637 €</td>
+                        <td class="py-3 px-4">2,500,000 €</td>
+                        <td class="py-3 px-4"><span class="bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded text-xs border border-emerald-500/30">254.7% 🟢</span></td>
+                    </tr>
+
+                    <tr class="hover:bg-slate-800/30 transition">
+                        <td class="py-3 px-4 font-medium text-white">Actual Talent Rennes Gare</td>
+                        <td class="py-3 px-4">Bretagne</td>
+                        <td class="py-3 px-4 font-semibold">6,214,705 €</td>
+                        <td class="py-3 px-4">2,600,000 €</td>
+                        <td class="py-3 px-4"><span class="bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded text-xs border border-emerald-500/30">239.0% 🟢</span></td>
+                    </tr>
+
+                    <tr class="hover:bg-slate-800/30 transition">
+                        <td class="py-3 px-4 font-medium text-white">Actual Talent Lyon Part-Dieu</td>
+                        <td class="py-3 px-4">Auvergne-Rhône-Alpes</td>
+                        <td class="py-3 px-4 font-semibold">6,165,433 €</td>
+                        <td class="py-3 px-4">3,500,000 €</td>
+                        <td class="py-3 px-4"><span class="bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded text-xs border border-emerald-500/30">176.2% 🟢</span></td>
+                    </tr>
+
+                    <tr class="hover:bg-slate-800/30 transition">
+                        <td class="py-3 px-4 font-medium text-white">Actual Talent Paris Haussmann</td>
+                        <td class="py-3 px-4">Île-de-France</td>
+                        <td class="py-3 px-4 font-semibold">5,825,849 €</td>
+                        <td class="py-3 px-4">4,200,000 €</td>
+                        <td class="py-3 px-4"><span class="bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded text-xs border border-emerald-500/30">138.7% 🟢</span></td>
+                    </tr>
+
+                    <tr class="hover:bg-slate-800/30 transition">
+                        <td class="py-3 px-4 font-medium text-white">Actual Talent Tours Plumereau</td>
+                        <td class="py-3 px-4">Centre-Val de Loire</td>
+                        <td class="py-3 px-4 font-semibold">5,725,976 €</td>
+                        <td class="py-3 px-4">1,850,000 €</td>
+                        <td class="py-3 px-4"><span class="bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded text-xs border border-emerald-500/30">309.5% 🟢</span></td>
+                    </tr>
+
+                    <tr class="hover:bg-slate-800/30 transition">
+                        <td class="py-3 px-4 font-medium text-white">Actual Talent Clermont Jaude</td>
+                        <td class="py-3 px-4">Auvergne-Rhône-Alpes</td>
+                        <td class="py-3 px-4 font-semibold">5,709,976 €</td>
+                        <td class="py-3 px-4">1,650,000 €</td>
+                        <td class="py-3 px-4"><span class="bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded text-xs border border-emerald-500/30">346.1% 🟢</span></td>
+                    </tr>
+
+                    <tr class="hover:bg-slate-800/30 transition">
+                        <td class="py-3 px-4 font-medium text-white">Actual Talent Strasbourg centre</td>
+                        <td class="py-3 px-4">Grand Est</td>
+                        <td class="py-3 px-4 font-semibold">5,678,140 €</td>
+                        <td class="py-3 px-4">2,400,000 €</td>
+                        <td class="py-3 px-4"><span class="bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded text-xs border border-emerald-500/30">236.6% 🟢</span></td>
+                    </tr>
+
+                    <tr class="hover:bg-slate-800/30 transition">
+                        <td class="py-3 px-4 font-medium text-white">Actual Talent Dijon Darcy</td>
+                        <td class="py-3 px-4">Bourgogne-Franche-Comté</td>
+                        <td class="py-3 px-4 font-semibold">5,499,249 €</td>
+                        <td class="py-3 px-4">1,750,000 €</td>
+                        <td class="py-3 px-4"><span class="bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded text-xs border border-emerald-500/30">314.2% 🟢</span></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- IA AURORA SIMULATION -->
+    <div class="glass p-6 rounded-2xl border-l-4 border-indigo-500 flex justify-between items-center">
+        <div>
+            <div class="flex items-center gap-2">
+                <span class="text-indigo-400 text-lg">🤖</span>
+                <h3 class="font-semibold text-white">Assistant IA Lightdash Aurora (Text-to-Dashboard)</h3>
+            </div>
+            <p class="text-slate-400 text-xs mt-1">Interrogez la couche sémantique dbt en langage naturel : <em>"Quel est le CA par agence en Île-de-France ?"</em></p>
+        </div>
+        <button onclick="alert('IA Aurora activée sur Snowflake ! Requête exécutée en 1.2s.')" class="bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold px-4 py-2 rounded-xl transition">Tester l'IA Aurora</button>
+    </div>
+
+    <!-- CHARTS SCRIPT -->
+    <script>
+        const agencesData = [{"nom": "Actual Talent Rouen Cath\u00e9drale", "region": "Normandie", "ca": 6639346.96, "objectif": 1900000.0}, {"nom": "Actual Talent Montpellier Com\u00e9die", "region": "Occitanie", "ca": 6627035.44, "objectif": 2300000.0}, {"nom": "Actual Talent Laval (Si\u00e8ge)", "region": "Pays de la Loire", "ca": 6366637.05, "objectif": 2500000.0}, {"nom": "Actual Talent Rennes Gare", "region": "Bretagne", "ca": 6214705.13, "objectif": 2600000.0}, {"nom": "Actual Talent Lyon Part-Dieu", "region": "Auvergne-Rh\u00f4ne-Alpes", "ca": 6165433.0, "objectif": 3500000.0}, {"nom": "Actual Talent Paris Haussmann", "region": "\u00cele-de-France", "ca": 5825849.49, "objectif": 4200000.0}, {"nom": "Actual Talent Tours Plumereau", "region": "Centre-Val de Loire", "ca": 5725976.37, "objectif": 1850000.0}, {"nom": "Actual Talent Clermont Jaude", "region": "Auvergne-Rh\u00f4ne-Alpes", "ca": 5709976.28, "objectif": 1650000.0}, {"nom": "Actual Talent Strasbourg centre", "region": "Grand Est", "ca": 5678139.55, "objectif": 2400000.0}, {"nom": "Actual Talent Dijon Darcy", "region": "Bourgogne-Franche-Comt\u00e9", "ca": 5499248.97, "objectif": 1750000.0}, {"nom": "Actual Talent Angers Ralliement", "region": "Pays de la Loire", "ca": 5468837.4399999995, "objectif": 2000000.0}, {"nom": "Actual Talent N\u00eemes Ar\u00e8nes", "region": "Occitanie", "ca": 5399458.8, "objectif": 1500000.0}, {"nom": "Actual Talent Toulon Port", "region": "PACA", "ca": 5327569.07, "objectif": 1700000.0}, {"nom": "Actual Talent Reims centre", "region": "Grand Est", "ca": 5155189.9, "objectif": 1800000.0}, {"nom": "Actual Talent Bordeaux Quinconces", "region": "Nouvelle-Aquitaine", "ca": 4999780.78, "objectif": 2900000.0}, {"nom": "Actual Talent Nice Promenade", "region": "PACA", "ca": 4998678.76, "objectif": 2200000.0}, {"nom": "Actual Talent Nantes centre", "region": "Pays de la Loire", "ca": 4988753.84, "objectif": 2800000.0}, {"nom": "Actual Talent Grenoble Bastille", "region": "Auvergne-Rh\u00f4ne-Alpes", "ca": 4982410.01, "objectif": 2100000.0}, {"nom": "Actual Talent Brest Libert\u00e9", "region": "Bretagne", "ca": 4732542.32, "objectif": 1600000.0}, {"nom": "Actual Talent Marseille Prado", "region": "PACA", "ca": 4646968.34, "objectif": 3100000.0}, {"nom": "Actual Talent Toulouse Capitole", "region": "Occitanie", "ca": 4563917.82, "objectif": 3000000.0}, {"nom": "Actual Talent Lille Europe", "region": "Hauts-de-France", "ca": 4263356.93, "objectif": 2700000.0}];
+        const clientsData = [{"nom": "Groupe Data-167", "secteur": "Industrie", "ca": 2370524.01}, {"nom": "Groupe Tech-145", "secteur": "Tech & Data", "ca": 2335531.52}, {"nom": "Groupe Logix-141", "secteur": "Tech & Data", "ca": 2180262.5300000003}, {"nom": "Groupe Tech-128", "secteur": "Logistique / Transport", "ca": 2150805.58}, {"nom": "Groupe Sante-155", "secteur": "Tech & Data", "ca": 1997883.48}, {"nom": "Groupe Industrie-177", "secteur": "Sant\u00e9 / Biomed", "ca": 1987918.9}, {"nom": "Groupe Data-160", "secteur": "BTP & Construction", "ca": 1971908.06}, {"nom": "Groupe Data-133", "secteur": "BTP & Construction", "ca": 1948988.52}, {"nom": "Groupe Logix-129", "secteur": "Industrie", "ca": 1942425.33}, {"nom": "Groupe Industrie-172", "secteur": "BTP & Construction", "ca": 1861673.58}, {"nom": "Groupe Industrie-131", "secteur": "Industrie", "ca": 1857596.06}, {"nom": "Groupe Data-126", "secteur": "BTP & Construction", "ca": 1835989.3699999999}, {"nom": "Groupe Data-149", "secteur": "Sant\u00e9 / Biomed", "ca": 1831202.25}, {"nom": "Groupe Industrie-105", "secteur": "Sant\u00e9 / Biomed", "ca": 1815121.58}, {"nom": "Groupe Logix-111", "secteur": "Finance & Services", "ca": 1792708.3}, {"nom": "Groupe Industrie-154", "secteur": "Sant\u00e9 / Biomed", "ca": 1765693.46}, {"nom": "Groupe Logix-143", "secteur": "Tech & Data", "ca": 1760212.76}, {"nom": "Groupe Logix-107", "secteur": "Logistique / Transport", "ca": 1750625.56}, {"nom": "Groupe Data-100", "secteur": "Industrie", "ca": 1717980.33}, {"nom": "Groupe Industrie-166", "secteur": "Logistique / Transport", "ca": 1709307.04}, {"nom": "Groupe Data-178", "secteur": "Sant\u00e9 / Biomed", "ca": 1708663.56}, {"nom": "Groupe Industrie-156", "secteur": "Finance & Services", "ca": 1690812.0}, {"nom": "Groupe Build-163", "secteur": "Sant\u00e9 / Biomed", "ca": 1690757.8599999999}, {"nom": "Groupe Industrie-114", "secteur": "Industrie", "ca": 1675922.09}, {"nom": "Groupe Sante-101", "secteur": "Finance & Services", "ca": 1665726.38}, {"nom": "Groupe Sante-125", "secteur": "Finance & Services", "ca": 1633926.2}, {"nom": "Groupe Industrie-176", "secteur": "Tech & Data", "ca": 1632658.34}, {"nom": "Groupe Build-117", "secteur": "Industrie", "ca": 1600442.76}, {"nom": "Groupe Sante-109", "secteur": "Sant\u00e9 / Biomed", "ca": 1599999.45}, {"nom": "Groupe Build-116", "secteur": "Tech & Data", "ca": 1595469.45}, {"nom": "Groupe Sante-161", "secteur": "Industrie", "ca": 1593651.25}, {"nom": "Groupe Build-170", "secteur": "Finance & Services", "ca": 1593573.75}, {"nom": "Groupe Tech-153", "secteur": "BTP & Construction", "ca": 1572837.39}, {"nom": "Groupe Sante-103", "secteur": "Industrie", "ca": 1560650.46}, {"nom": "Groupe Tech-121", "secteur": "Tech & Data", "ca": 1554324.06}, {"nom": "Groupe Data-119", "secteur": "Industrie", "ca": 1549880.95}, {"nom": "Groupe Build-150", "secteur": "Sant\u00e9 / Biomed", "ca": 1533035.66}, {"nom": "Groupe Industrie-146", "secteur": "Industrie", "ca": 1522088.23}, {"nom": "Groupe Data-157", "secteur": "Sant\u00e9 / Biomed", "ca": 1470625.13}, {"nom": "Groupe Data-122", "secteur": "BTP & Construction", "ca": 1455191.96}, {"nom": "Groupe Industrie-179", "secteur": "BTP & Construction", "ca": 1449815.53}, {"nom": "Groupe Industrie-151", "secteur": "BTP & Construction", "ca": 1436509.2}, {"nom": "Groupe Tech-148", "secteur": "Logistique / Transport", "ca": 1435737.27}, {"nom": "Groupe Logix-137", "secteur": "Industrie", "ca": 1423194.3800000001}, {"nom": "Groupe Sante-113", "secteur": "Industrie", "ca": 1415474.15}, {"nom": "Groupe Industrie-123", "secteur": "Logistique / Transport", "ca": 1408705.5799999998}, {"nom": "Groupe Industrie-152", "secteur": "Tech & Data", "ca": 1404125.63}, {"nom": "Groupe Sante-175", "secteur": "Industrie", "ca": 1394190.8699999999}, {"nom": "Groupe Build-135", "secteur": "Industrie", "ca": 1386726.96}, {"nom": "Groupe Build-171", "secteur": "Industrie", "ca": 1386526.74}, {"nom": "Groupe Industrie-168", "secteur": "Tech & Data", "ca": 1363706.35}, {"nom": "Groupe Data-165", "secteur": "Industrie", "ca": 1358420.6300000001}, {"nom": "Groupe Logix-108", "secteur": "BTP & Construction", "ca": 1356556.94}, {"nom": "Groupe Tech-164", "secteur": "Tech & Data", "ca": 1341008.39}, {"nom": "Groupe Tech-140", "secteur": "BTP & Construction", "ca": 1332902.57}, {"nom": "Groupe Data-132", "secteur": "BTP & Construction", "ca": 1324157.77}, {"nom": "Groupe Data-158", "secteur": "BTP & Construction", "ca": 1322061.99}, {"nom": "Groupe Sante-144", "secteur": "BTP & Construction", "ca": 1293605.93}, {"nom": "Groupe Logix-162", "secteur": "Tech & Data", "ca": 1292439.6400000001}, {"nom": "Groupe Industrie-118", "secteur": "Industrie", "ca": 1269350.31}, {"nom": "Groupe Sante-142", "secteur": "Industrie", "ca": 1265266.87}, {"nom": "Groupe Data-147", "secteur": "Tech & Data", "ca": 1264928.7}, {"nom": "Groupe Build-124", "secteur": "BTP & Construction", "ca": 1249416.1300000001}, {"nom": "Groupe Logix-106", "secteur": "Finance & Services", "ca": 1214267.32}, {"nom": "Groupe Sante-120", "secteur": "Tech & Data", "ca": 1209658.53}, {"nom": "Groupe Data-110", "secteur": "Sant\u00e9 / Biomed", "ca": 1205724.45}, {"nom": "Groupe Data-159", "secteur": "Logistique / Transport", "ca": 1203259.0}, {"nom": "Groupe Data-138", "secteur": "Finance & Services", "ca": 1195374.8800000001}, {"nom": "Groupe Build-112", "secteur": "BTP & Construction", "ca": 1166622.46}, {"nom": "Groupe Build-136", "secteur": "Sant\u00e9 / Biomed", "ca": 1139618.26}, {"nom": "Groupe Data-115", "secteur": "Tech & Data", "ca": 1134636.77}, {"nom": "Groupe Sante-104", "secteur": "Sant\u00e9 / Biomed", "ca": 1121515.15}, {"nom": "Groupe Data-173", "secteur": "Tech & Data", "ca": 1103146.54}, {"nom": "Groupe Build-174", "secteur": "Industrie", "ca": 1073952.24}, {"nom": "Groupe Build-134", "secteur": "Sant\u00e9 / Biomed", "ca": 1012607.26}, {"nom": "Groupe Tech-127", "secteur": "Finance & Services", "ca": 1007885.44}, {"nom": "Groupe Build-169", "secteur": "Industrie", "ca": 1007273.77}, {"nom": "Groupe Logix-130", "secteur": "Tech & Data", "ca": 997700.41}, {"nom": "Groupe Logix-102", "secteur": "BTP & Construction", "ca": 905151.15}, {"nom": "Groupe Data-139", "secteur": "Logistique / Transport", "ca": 621994.94}];
+
+        // 1. Agences Bar Chart
+        const ctxAgences = document.getElementById('agencesChart').getContext('2d');
+        new Chart(ctxAgences, {
+            type: 'bar',
+            data: {
+                labels: agencesData.map(a => a.nom),
+                datasets: [{
+                    label: "Chiffre d'Affaires (€)",
+                    data: agencesData.map(a => a.ca),
+                    backgroundColor: '#3b82f6',
+                    borderRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: { ticks: { color: '#94a3b8', font: { size: 10 } }, grid: { display: false } },
+                    y: { ticks: { color: '#94a3b8' }, grid: { color: '#334155' } }
+                }
+            }
+        });
+
+        // 2. Secteurs Donut Chart
+        const secteursMap = {};
+        clientsData.forEach(c => {
+            secteursMap[c.secteur] = (secteursMap[c.secteur] || 0) + c.ca;
+        });
+        
+        const ctxSecteurs = document.getElementById('secteursChart').getContext('2d');
+        new Chart(ctxSecteurs, {
+            type: 'doughnut',
+            data: {
+                labels: Object.keys(secteursMap),
+                datasets: [{
+                    data: Object.values(secteursMap),
+                    backgroundColor: ['#3b82f6', '#10b981', '#6366f1', '#f59e0b', '#ec4899']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { position: 'bottom', labels: { color: '#94a3b8', font: { size: 11 } } } }
+            }
+        });
+    </script>
+</body>
+</html>
