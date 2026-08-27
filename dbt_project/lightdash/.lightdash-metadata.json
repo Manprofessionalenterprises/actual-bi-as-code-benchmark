@@ -1,10 +1,12 @@
 {
   "version": 1,
   "charts": {
-    "ca-par-region": "2026-08-27T10:07:19.366Z",
-    "detail-des-placements": "2026-08-27T10:07:19.366Z",
-    "ca-par-secteur-client": "2026-08-27T10:07:19.366Z",
-    "performance-par-agence": "2026-08-27T10:07:19.366Z"
+    "ca-par-region": "2026-08-27T10:10:32.770Z",
+    "detail-des-placements": "2026-08-27T10:10:32.770Z",
+    "ca-par-secteur-client": "2026-08-27T10:10:32.770Z",
+    "performance-par-agence": "2026-08-27T10:10:32.770Z"
   },
-  "dashboards": {}
+  "dashboards": {
+    "groupe-actual-pilotage-comex": "2026-08-27T10:10:33.463Z"
+  }
 }

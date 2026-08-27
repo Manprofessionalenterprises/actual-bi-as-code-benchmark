@@ -25,3 +25,17 @@ chartConfig:
       yField:
         - fct_placements_total_chiffre_affaires
         - fct_placements_total_marge_brute
+    eChartsConfig:
+      series:
+        - type: bar
+          encode:
+            xRef:
+              fieldId: fct_placements_agence_region
+            yRef:
+              fieldId: fct_placements_total_chiffre_affaires
+        - type: bar
+          encode:
+            xRef:
+              fieldId: fct_placements_agence_region
+            yRef:
+              fieldId: fct_placements_total_marge_brute

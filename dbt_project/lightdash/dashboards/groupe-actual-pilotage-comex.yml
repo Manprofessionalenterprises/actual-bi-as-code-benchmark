@@ -1,0 +1,55 @@
+contentType: dashboard
+description: >-
+  Dashboard de pilotage exécutif connecté en direct à Snowflake pour la
+  Direction Générale du Groupe Actual.
+filters:
+  dimensions: []
+  metrics: []
+  tableCalculations: []
+name: GROUPE ACTUAL — PILOTAGE STRATÉGIQUE COMEX
+slug: groupe-actual-pilotage-comex
+spaceSlug: shared
+tabs: []
+tiles:
+  - h: 9
+    properties:
+      chartSlug: null
+      hideTitle: false
+      title: ""
+    tabSlug: null
+    type: saved_chart
+    w: 12
+    x: 0
+    "y": 0
+  - h: 9
+    properties:
+      chartSlug: null
+      hideTitle: false
+      title: ""
+    tabSlug: null
+    type: saved_chart
+    w: 12
+    x: 12
+    "y": 0
+  - h: 9
+    properties:
+      chartSlug: null
+      hideTitle: false
+      title: ""
+    tabSlug: null
+    type: saved_chart
+    w: 12
+    x: 0
+    "y": 9
+  - h: 9
+    properties:
+      chartSlug: null
+      hideTitle: false
+      title: ""
+    tabSlug: null
+    type: saved_chart
+    w: 12
+    x: 12
+    "y": 9
+verification: null
+version: 1
